@@ -1,5 +1,5 @@
 <template lang="">
-    <div class="background" style="background-image: url(images/cybersecurity_topbanner_1021_3840x1536.jpg);">
+    <div class="background" style="background-image: url('images/cybersecurity_topbanner_1021_3840x1536.jpg');">
     <header class="header">
         <div class="header-top">
             <div class="header-left">
@@ -48,7 +48,7 @@
                 </button>
 
                 <a href="index.html" class="logo">
-                    <img src="assets/images/Logo2.png" alt="Molla Logo" width="110" height="25">
+                    <img src="images/Logo2.png" alt="Molla Logo" width="110" height="25">
                 </a>
             </div><!-- End .header-left -->
 
@@ -56,22 +56,23 @@
                 <nav class="main-nav">
                     <ul class="menu sf-arrows">
                         <li class="megamenu-container active">
-                            <a href="index.html" class="sf-with-ul">Home</a>
+                            <router-link to="/" class="sf-with-ul">Home</router-link>
+
 
                             
                         </li>
                         <li>
-                            <a href="category.html" class="sf-with-ul">Services</a>
+                            <router-link to="/about" class="sf-with-ul">About</router-link>
 
                             
                         </li>
                         <li>
-                            <a href="product.html" class="sf-with-ul">Product</a>
+                            <router-link to="/contact" class="sf-with-ul">Contact</router-link>
 
                             
                         </li>
                         <li>
-                            <a href="#" class="sf-with-ul">Pages</a>
+                            <router-link to="/faqs" class="sf-with-ul">Faqs</router-link>
 
                             
                         </li>
