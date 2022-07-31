@@ -80,7 +80,7 @@
                         <li >
                             <router-link class="sf-with-ul" :to="{name:'About'}">Securelabs</router-link>
                             <ul>
-                                <li><a href="#">Securelabs 1</a></li>
+                                <li><a href="#">Securelabs</a></li>
                                 <li><a href="#">Securelabs 2</a></li>
                                 <li><a href="#">Securelabs 3</a></li>
                                 <li><a href="#">Securelabs 4</a></li>
