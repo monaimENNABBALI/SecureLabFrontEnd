@@ -1,0 +1,115 @@
+<template lang="">
+	<Intro bgUrl="background-image: url('images/homeIntro.jpg');">
+             <!-- we will get this using -->
+            <div class="title">
+                <h3>Faites appel à des spécialistes</h3>
+            </div>
+            <div class="content">
+                <h4><i>Pour votre conformité RGPD</i></h4>
+            </div>
+            <div class="action">
+                <a href="category.html">discover now</a>
+            </div>
+    </Intro>
+    <main class="main mt-6">
+        	<div class="page-header text-center" style="background-image: url('assets/images/page-header-bg.jpg')">
+        		<div class="container">
+        			<h1 class="page-title">F.A.Q<span>Pages</span></h1>
+        		</div><!-- End .container -->
+        	</div><!-- End .page-header -->
+            <nav aria-label="breadcrumb" class="breadcrumb-nav">
+                <div class="container">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">FAQ</li>
+                    </ol>
+                </div><!-- End .container -->
+            </nav><!-- End .breadcrumb-nav -->
+
+            <div class="page-content">
+                <div class="container">
+                	<h2 class="title text-center mb-3">Faq number 1</h2><!-- End .title -->
+        			<div class="accordion accordion-rounded" id="accordion-1">
+					    <div class="card card-box card-sm bg-light">
+					        <div class="card-header" id="heading-1">
+					            <h2 class="card-title">
+					                <a role="button" data-toggle="collapse" href="#collapse-1" aria-expanded="true" aria-controls="collapse-1">
+					                    This is the number question 1?
+					                </a>
+					            </h2>
+					        </div><!-- End .card-header -->
+					        <div id="collapse-1" class="collapse show" aria-labelledby="heading-1" data-parent="#accordion-1">
+					            <div class="card-body">
+					                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis. Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi. 
+					            </div><!-- End .card-body -->
+					        </div><!-- End .collapse -->
+					    </div><!-- End .card -->
+
+					    <div class="card card-box card-sm bg-light">
+					        <div class="card-header" id="heading-2">
+					            <h2 class="card-title">
+					                <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
+					                    This is the number question 2?
+					                </a>
+					            </h2>
+					        </div><!-- End .card-header -->
+					        <div id="collapse-2" class="collapse" aria-labelledby="heading-2" data-parent="#accordion-1">
+					            <div class="card-body">
+					                Ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. 
+					            </div><!-- End .card-body -->
+					        </div><!-- End .collapse -->
+					    </div><!-- End .card -->
+
+					    <div class="card card-box card-sm bg-light">
+					        <div class="card-header" id="heading-3">
+					            <h2 class="card-title">
+					                <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-3" aria-expanded="false" aria-controls="collapse-3">
+					                    This is the number question 3?
+					                </a>
+					            </h2>
+					        </div><!-- End .card-header -->
+					        <div id="collapse-3" class="collapse" aria-labelledby="heading-3" data-parent="#accordion-1">
+					            <div class="card-body">
+					                Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. 
+					            </div><!-- End .card-body -->
+					        </div><!-- End .collapse -->
+					    </div><!-- End .card -->
+
+					    
+					</div><!-- End .accordion -->
+                </div><!-- End .container -->
+            </div><!-- End .page-content -->
+
+            <div class="cta cta-display bg-image pt-4 pb-4" style="background-image: url(assets/images/backgrounds/cta/bg-7.jpg);">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-10 col-lg-9 col-xl-7">
+                            <div class="row no-gutters flex-column flex-sm-row align-items-sm-center">
+                                <div class="col">
+                                    <h3 class="cta-title text-white">If You Have More Questions</h3><!-- End .cta-title -->
+                                    <p class="cta-desc text-white">Quisque volutpat mattis eros</p><!-- End .cta-desc -->
+                                </div><!-- End .col -->
+
+                                <div class="col-auto">
+                                    <a href="contact.html" class="btn btn-outline-white"><span>CONTACT US</span><i class="icon-long-arrow-right"></i></a>
+                                </div><!-- End .col-auto -->
+                            </div><!-- End .row no-gutters -->
+                        </div><!-- End .col-md-10 col-lg-9 -->
+                    </div><!-- End .row -->
+                </div><!-- End .container -->
+            </div><!-- End .cta -->
+        </main><!-- End .main -->
+</template>
+<script>
+import Intro from '../common/Intro'
+export default {
+    components:{
+        Intro
+    }
+    
+}
+</script>
+<style lang="">
+    
+</style>

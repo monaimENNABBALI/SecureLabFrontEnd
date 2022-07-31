@@ -1,17 +1,19 @@
 <template>
-  <Header></Header>
-  <router-view></router-view>
-  <Footer></Footer>
+  <div  class="page-wrapper">
+    <router-view></router-view>
+    <Footer></Footer>
+    <NavMobile></NavMobile>
+  </div>
 </template>
 
 
 <script>
-import Header from './views/Header.vue';
-import Footer from './views/Footer.vue';
+import Footer from './views/common/Footer';
+import NavMobile from './views/common/NavMobile';
 export default {
     components:{
       Footer,
-      Header
+      NavMobile
     }
 }
 </script>
@@ -32,8 +34,14 @@ nav a {
   font-weight: bold;
   color: #2c3e50;
 }
-
+/*
 nav a.router-link-exact-active {
   color: #42b983;
+}*/
+.main-nav a.router-link-active{
+  color: #8386ff !important;
+}
+.megamenu-container a{
+  color: #fff !important;
 }
 </style>
