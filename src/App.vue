@@ -12,9 +12,10 @@ import Footer from './views/common/Footer';
 import NavMobile from './views/common/NavMobile';
 export default {
     components:{
-      Footer,
-      NavMobile
-    }
+    Footer,
+    NavMobile,
+    
+}
 }
 </script>
 <style>
