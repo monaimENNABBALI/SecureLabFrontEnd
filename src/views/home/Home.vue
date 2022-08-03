@@ -8,13 +8,63 @@
                 <h4><i>Pour votre conformité RGPD</i></h4>
             </div>
             <div class="action">
-                <a href="category.html">discover now</a>
+                <a href="#choiceUs">discover now</a>
             </div>
     </Intro>
 
 
-     <main class="mt-6">
+     <main id="main" style="background-color: #f5f5f5;">
+                <div id="choiceUs" class="container mt-6" style="height: 100vh;">
+                    <div class="heading pt-4">
+            			<h3 class="heading-title">Pourquoi choisir nos experts RGPD ?</h3>
+            			<p class="heading-cat">La société Securelabs est reconnue comme experte dans le domaine de la protection des données à caractère personnel.
+                            Depuis son origine, elle conseille les responsables de traitement et les DPO dans leur stratégie de mise en conformité RGPD.</p>
+            		</div>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="icon-box icon-box-sm text-center p-5" style="background-color: #fff;    border-bottom: 3px solid #000;">
+                                <span class="icon-box-icon mb-5">
+                                    <i class="icon-puzzle-piece" style="font-size: 10rem;"></i>
+                                </span>
+                                <div class="icon-box-content">
+                                    <h3 class="icon-box-title" style="font-size: 3.5rem;">Notre Expertise</h3><!-- End .icon-box-title -->
+                                    <p style="font-size: 1.6rem;">en protection des données personnelles et en cybersécurité
+                                         <br>+ de 15 ans</p>
+                                </div><!-- End .icon-box-content -->
+                            </div><!-- End .icon-box -->
+                        </div><!-- End .col-lg-4 col-sm-6 -->
 
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="icon-box icon-box-sm text-center p-5" style="background-color: #fff;    border-bottom: 3px solid #000;">
+                                <span class="icon-box-icon mb-5">
+                                    <i class="icon-star-o" style="font-size: 10rem;"></i>
+                                </span>
+                                <div class="icon-box-content">
+                                    <h3 class="icon-box-title" style="font-size: 3.5rem;">Nos spécialistes</h3><!-- End .icon-box-title -->
+                                    <p style="font-size: 1.6rem;">Juristes en protection des données et experts en cybersécurité
+                                         <br>+ de 15 ans</p>
+                                </div><!-- End .icon-box-content -->
+                            </div><!-- End .icon-box -->
+                        </div><!-- End .col-lg-4 col-sm-6 -->
+
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="icon-box icon-box-sm text-center p-5" style="background-color: #fff;    border-bottom: 3px solid #000;">
+                                <span class="icon-box-icon mb-5">
+                                    <i class="icon-info-circle" style="font-size: 10rem;"></i>
+                                </span>
+                                <div class="icon-box-content">
+                                    <h3 class="icon-box-title" style="font-size: 3.5rem;">Notre Assistance</h3><!-- End .icon-box-title -->
+                                    <p style="font-size: 1.6rem;">Endurance et réactivité sont au coeur de notre ADN
+                                         <br>Service Externe DPO (SEDPO)
+                                        </p> 
+                                </div><!-- End .icon-box-content -->
+                            </div><!-- End .icon-box -->
+                        </div><!-- End .col-lg-4 col-sm-6 -->
+                    </div>
+                    <!-- first -->
+                	
+                    
+                </div>
             <div class="bg-light-2 pt-6 pb-5 mb-6 mb-lg-8">
                 <div class="container">
                     <div class="row">

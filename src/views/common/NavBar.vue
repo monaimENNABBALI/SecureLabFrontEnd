@@ -33,7 +33,7 @@
                 <nav class="main-nav">
                     <ul class="menu sf-arrows" style="max-width: 90%;display: inline-flex;">
                         <li class="megamenu-container">
-                            <router-link :to="{name: 'Home'}" class="sf-with-ul">Home</router-link>
+                            <router-link :to="{name: 'Home'}">Home</router-link>
                         </li>
                             <!-- Cybersécurité -->
                             <li>
@@ -43,10 +43,10 @@
                         <li>
                             <router-link :to="{name: 'CyberSecurity'}" class="sf-with-ul">Cybersécurité</router-link>
                             <ul>
-                                <li><a href="#">Cybersécurité 1</a></li>
-                                <li><a href="#">Cybersécurité 2</a></li>
-                                <li><a href="#">Cybersécurité 3</a></li>
-                                <li><a href="#">Cybersécurité 4</a></li>
+                                <li><router-link :to="{name: 'CyberSecurity'}">PIA / AIPD</router-link></li>
+                                <li><router-link :to="{name: 'Audit'}">Audits de Sécurité</router-link></li>
+
+                                
                             </ul>
                         </li>
                         <!-- Services -->
@@ -66,9 +66,9 @@
                             
                         </li>
                         <!-- Formation -->
-                        <li>
+                        <li class="megamenu-container">
                             
-                             <router-link to="/logiciel" class="sf-with-ul">Logiciel</router-link>
+                             <router-link to="/logiciel">Logiciel</router-link>
                         </li>
                         <!-- Expertise -->
                         <li>
