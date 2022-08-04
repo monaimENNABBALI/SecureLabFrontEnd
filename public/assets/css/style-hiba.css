@@ -10,6 +10,11 @@ body {
     transform: translateX(0);
 }
 
+.mobile-menu-container {
+    background-color: var(--color-primary-1);
+    box-shadow: -20px 0 50px 0 var(--color-primary-2);
+}
+
 #page-nav {
     background-color: var(--color-primary-1);
 }
@@ -140,4 +145,5 @@ body {
 #page-nav .header-middle.fixed {
     height: 60px;
     background-color: var(--color-primary-1);
+    box-shadow: 0 -20px 50px 0 var(--color-primary-2);
 }
