@@ -15,6 +15,10 @@ body {
     box-shadow: -20px 0 50px 0 var(--color-primary-2);
 }
 
+#app .mobile-menu-container::-webkit-scrollbar {
+    width: 0px;
+}
+
 #page-nav {
     background-color: var(--color-primary-1);
 }
