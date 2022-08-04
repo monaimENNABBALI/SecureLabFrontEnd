@@ -5,7 +5,7 @@
                 <h3>Le logiciel par excelence</h3>
             </div>
             <div class="content">
-                <h4><i>Conçue Cpécialement Pour les DPO</i></h4>
+                <h4>Conçue Cpécialement Pour les DPO</h4>
             </div>
             <div class="action">
                 <a href="#main">discover now</a>
