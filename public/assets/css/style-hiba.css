@@ -18,14 +18,36 @@ body {
 
 #page-nav .header-middle {
     height: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#page-nav .header-left,
+#page-nav .header-left .logo {
+    height: 100%;
+}
+
+#page-nav .header-left .logo {
+    margin: 0;
+    padding: 10px 0;
 }
 
 #page-nav .header-left .logo img {
-    width: 70px;
+    width: auto;
+    height: 100%;
+}
+
+#page-nav .header-center {
+    display: flex;
+    justify-content: flex-end;
 }
 
 #page-nav .header-center .main-nav {
     padding: 0;
+}
+
+#page-nav .header-center .main-nav .menu {
+    justify-content: flex-end;
 }
 
 #page-nav .megamenu-container,
