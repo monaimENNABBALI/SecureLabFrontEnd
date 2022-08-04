@@ -1,7 +1,7 @@
 <template lang="">
     <div class="background" :style="bgUrl">
     
-    <div class="slider" style="height:75vh;">
+    <div class="slider">
         <div class="intro">
             <slot></slot>
         </div>
