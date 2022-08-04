@@ -1,7 +1,7 @@
 <template lang="">
     <Intro bgUrl="background-image: url('images/intro-rgpdaudit.jpg');">
       <div class="title">
-          <h3>SecureLabs vous offre</h3>
+          <h3>By SecureLabs</h3>
       </div>
       <div class="content">
           <h4><i>Les audits de conformité RGPD</i></h4>
