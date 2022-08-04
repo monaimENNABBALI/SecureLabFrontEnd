@@ -5,11 +5,12 @@ import Contact from '../views/home/Contact';
 import Faqs from '../views/home/Faqs';
 import Blog from '../views/blog/blog.vue';
 import Formation from '../views/formation/formation.vue';
-import Logiciel from '../views/logiciel/Logiciel';
-import CyberSecurity from '../views/cybersecurity/CyberSecurity';
+import Logiciel from '../views/logiciel/logiciel';
+import CyberSecurity from '../views/cybersecurity/cybersecurity';
 import Audit from '../views/cybersecurity/Audit';
 import Expertise from '../views/expertise/expertise.vue';
 import Services from '../views/services/services.vue';
+import rgpdaudit from '../views/services/rgpdaudit.vue';
 
 const routes = [
   {
@@ -67,6 +68,11 @@ const routes = [
     path:'/Audit',
     name:'Audit',
     component:Audit
+  },
+  {
+    path:'/rgpd-audit',
+    name:'rgpdaudit',
+    component: rgpdaudit
   }
   
 ]
