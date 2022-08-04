@@ -4,7 +4,7 @@
           <h3>By SecureLabs</h3>
       </div>
       <div class="content">
-          <h4><i>PIA/AIPD</i></h4>
+          <h4>PIA/AIPD</h4>
       </div>
       <div class="action">
           <a href="#choiceUs">discover now</a>
