@@ -6,6 +6,10 @@ body {
     --color-primary-1-overlay-2: #0d0d32df;
 }
 
+.mmenu-active #app .page-wrapper {
+    transform: translateX(0);
+}
+
 #page-nav {
     background-color: var(--color-primary-1);
 }
