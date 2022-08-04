@@ -10,7 +10,7 @@ import CyberSecurity from '../views/cybersecurity/cybersecurity';
 import Audit from '../views/cybersecurity/Audit';
 import Expertise from '../views/expertise/expertise.vue';
 import Services from '../views/services/services.vue';
-import rgpdaudit from '../views/services/rgpdaudit.vue';
+import rgpdaudit from '../views/rgpd/rgpdaudit.vue';
 
 const routes = [
   {
