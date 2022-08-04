@@ -80,7 +80,7 @@
                             </ul>
                         </li>
                         <!-- about -->
-                        <li >
+                        <li>
                             <router-link class="sf-with-ul" :to="{name:'About'}">Securelabs</router-link>
                             <ul>
                                 <li><a href="#">Securelabs</a></li>
@@ -90,7 +90,7 @@
                             </ul>
                         </li>
                         <!-- Blog -->
-                        <li  class="megamenu-container">
+                        <li>
                             <router-link class="sf-with-ul" :to="{name:'Blog'}">Blog</router-link>
                            
                         </li>
