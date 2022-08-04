@@ -24,30 +24,24 @@
                     <i class="icon-bars"></i>
                 </button>
 
-                <a href="index.html" class="logo">
+                <router-link :to="{name: 'Home'}" class="logo">
                     <img src="images/Logo2.png" alt="Molla Logo" width="110" height="25">
-                </a>
+                </router-link>
             </div><!-- End .header-left -->
 
             <div class="header-center">
                 <nav class="main-nav">
                     <ul class="menu sf-arrows" style="max-width: 90%;display: inline-flex;">
-                        <li class="megamenu-container">
-                            <router-link :to="{name: 'Home'}">Home</router-link>
-                        </li>
-                            <!-- Cybersécurité -->
-                        <li>
-                            <router-link :to="{name: 'Services'}" class="sf-with-ul">Services</router-link>
-                        </li>
+                    
+                        <!-- Cybersécurité -->
                         <li>
                             <router-link :to="{name: 'CyberSecurity'}" class="sf-with-ul">Cybersécurité</router-link>
                             <ul>
                                 <li><router-link :to="{name: 'CyberSecurity'}">PIA / AIPD</router-link></li>
                                 <li><router-link :to="{name: 'Audit'}">Audits de Sécurité</router-link></li>
-
-                                
                             </ul>
                         </li>
+                        
                         <!-- Services -->
                         <li>
                             <a href="#" class="sf-with-ul">Rgpd</a>
@@ -59,16 +53,17 @@
                                 <li><router-link :to="{name: 'rgpdpia'}">PIA / AIPD</router-link></li>
                             </ul>
                         </li>
-                            <!-- Formation -->
-                        <li>
-                                <router-link :to="{name: 'Formation'}" class="sf-with-ul">Formation</router-link>
-                            
-                        </li>
+                        
                         <!-- Formation -->
+                        <li>
+                            <router-link :to="{name: 'Formation'}" class="sf-with-ul">Formation</router-link>
+                        </li>
+                        
+                        <!-- Logiciel -->
                         <li class="megamenu-container">
-                            
                              <router-link to="/logiciel">Logiciel</router-link>
                         </li>
+                        
                         <!-- Expertise -->
                         <li>
                              <router-link :to="{name: 'Expertise'}" class="sf-with-ul">Expertise</router-link>
@@ -79,6 +74,7 @@
                                 <li><a href="#">Expertise 4</a></li>
                             </ul>
                         </li>
+                        
                         <!-- about -->
                         <li>
                             <router-link class="sf-with-ul" :to="{name:'About'}">Securelabs</router-link>
@@ -89,17 +85,13 @@
                                 <li><a href="#">Securelabs 4</a></li>
                             </ul>
                         </li>
+                        
                         <!-- Blog -->
                         <li>
                             <router-link class="sf-with-ul" :to="{name:'Blog'}">Blog</router-link>
                            
                         </li>
-                        <!-- Faq -->
-                        <li  class="megamenu-container">
-                            <router-link :to="{name:'Faqs'}">Faqs</router-link>
 
-                            
-                        </li>
                     </ul><!-- End .menu -->
                 </nav><!-- End .main-nav -->
             </div>
