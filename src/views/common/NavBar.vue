@@ -53,10 +53,10 @@
                             <a href="#" class="sf-with-ul">Rgpd</a>
                             <ul>
                                 <li><router-link :to="{name: 'rgpdaudit'}">Audits de conformité RGPD</router-link></li>
-                                <li><a href="#">DPO / DPD externe</a></li>
-                                <li><a href="#">DPO / DPD externe et mutualisé</a></li>
-                                <li><a href="#">Accompagnement RGPD</a></li>
-                                <li><a href="#">PIA / AIPD</a></li>
+                                <li><router-link :to="{name: 'rgpddpoex'}">DPO / DPD externe</router-link></li>
+                                <li><router-link :to="{name: 'rgpddpoexmu'}">DPO / DPD externe et mutualisé</router-link></li>
+                                <li><router-link :to="{name: 'rgpdaccomp'}">Accompagnement RGPD</router-link></li>
+                                <li><router-link :to="{name: 'rgpdpia'}">PIA / AIPD</router-link></li>
                             </ul>
                         </li>
                             <!-- Formation -->
