@@ -65,8 +65,12 @@ body {
     align-items: center;
     letter-spacing: .05em;
     height: 100%;
-    padding-top: 0;
-    padding-bottom: 0;
+    padding: 0;
+    margin: 0 20px;
+}
+
+#page-nav .sf-with-ul {
+    padding-right: 20px;
 }
 
 #page-nav .megamenu-container a.router-link-active,
