@@ -1,5 +1,5 @@
 <template lang="">
-    <Intro bgUrl="background-image: url('images/homeIntro.jpg');">
+    <Intro bgUrl="background-image: url('images/intro-rgpdaudit.jpg');">
       <div class="title">
           <h3>SecureLabs vous offre</h3>
       </div>
