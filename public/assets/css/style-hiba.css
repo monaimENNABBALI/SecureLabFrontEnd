@@ -6,7 +6,7 @@ body {
     --color-primary-1-overlay-2: #0d0d32df;
 }
 
-.mmenu-active #app .page-wrapper {
+.mmenu-active .page-wrapper {
     transform: translateX(0);
 }
 
