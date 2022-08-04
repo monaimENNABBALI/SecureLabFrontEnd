@@ -38,11 +38,12 @@ body {
 }
 
 #page-nav .header-center {
-    display: flex;
-    justify-content: flex-end;
+    margin: 0;
 }
 
 #page-nav .header-center .main-nav {
+    display: flex;
+    justify-content: flex-end;
     padding: 0;
 }
 
