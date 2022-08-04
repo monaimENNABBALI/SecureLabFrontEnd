@@ -10,6 +10,12 @@ body {
     background-color: var(--color-primary-1);
 }
 
+#page-nav .header-top a {
+    padding: 5px;
+    letter-spacing: 0.05em;
+    font-size: 0.95em;
+}
+
 #page-nav .header-middle {
     height: 100px;
 }
@@ -22,8 +28,48 @@ body {
     padding: 0;
 }
 
+#page-nav .sf-with-ul,
+#page-nav .megamenu-container {
+    letter-spacing: .05em;
+}
+
+#page-nav .sf-with-ul:hover,
+#page-nav .sf-with-ul:focus,
+#page-nav .megamenu-container:hover,
+#page-nav .megamenu-container:focus,
+#page-nav .header-top a:hover,
+#page-nav .header-top a:focus,
+#page-nav .menu a:hover,
+#page-nav .menu a:focus{
+    color: var(--color-primary-2);
+}
+
 .slider {
     background-color: var(--color-primary-1-overlay-1);
+}
+
+.background {
+    background-position: center;
+}
+
+.action a {
+    color: var(--color-primary-1);
+    background-color: var(--color-primary-2);
+    font-weight: 600;
+}
+
+.action {
+    margin-top: 6rem;
+}
+
+.title {
+    margin-bottom: 0;
+}
+
+.title h3 {
+    color: var(--color-primary-2);
+    font-size: 1.6rem;
+    font-weight: 600;
 }
 
 #page-nav .header-middle.fixed {
