@@ -4,7 +4,7 @@
           <h3>By SecureLabs</h3>
       </div>
       <div class="content">
-          <h4><i>DPO/DPD externe mutualisé</i></h4>
+          <h4>DPO/DPD externe mutualisé</h4>
       </div>
       <div class="action">
           <a href="#choiceUs">discover now</a>
