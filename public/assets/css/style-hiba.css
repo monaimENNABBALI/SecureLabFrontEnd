@@ -52,21 +52,21 @@ body {
     background-position: center;
 }
 
-.action a {
+.intro .action a {
     color: var(--color-primary-1);
     background-color: var(--color-primary-2);
     font-weight: 600;
 }
 
-.action {
+.intro .action {
     margin-top: 6rem;
 }
 
-.title {
+.intro .title {
     margin-bottom: 0;
 }
 
-.title h3 {
+.intro .title h3 {
     color: var(--color-primary-2);
     font-size: 1.6rem;
     font-weight: 600;
