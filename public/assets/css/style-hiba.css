@@ -94,7 +94,12 @@ body {
     background-position: center;
 }
 
+.background .intro {
+    padding: 100px 0;
+}
+
 .intro .action a {
+    display: inline-block;
     color: var(--color-primary-1);
     background-color: var(--color-primary-2);
     font-weight: 600;
