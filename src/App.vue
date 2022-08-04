@@ -1,5 +1,6 @@
 <template>
   <div  class="page-wrapper">
+    <NavBar/>
     <router-view></router-view>
     <Footer></Footer>
     <NavMobile></NavMobile>
@@ -10,10 +11,12 @@
 <script>
 import Footer from './views/common/Footer';
 import NavMobile from './views/common/NavMobile';
+import NavBar from './views/common/NavBar';
 export default {
     components:{
     Footer,
     NavMobile,
+    NavBar
     
 }
 }
