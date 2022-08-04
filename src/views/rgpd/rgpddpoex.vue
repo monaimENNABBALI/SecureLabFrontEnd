@@ -4,7 +4,7 @@
           <h3>By SecureLabs</h3>
       </div>
       <div class="content">
-          <h4><i>DPO/DPD externe</i></h4>
+          <h4>DPO/DPD externe</h4>
       </div>
       <div class="action">
           <a href="#choiceUs">discover now</a>
