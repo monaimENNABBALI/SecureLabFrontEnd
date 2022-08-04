@@ -89,7 +89,7 @@
                                 <div class="card-header" id="heading-2">
                                     <h2 class="card-title">
                                         <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
-                                            method 3
+                                            method 2
                                         </a>
                                     </h2>
                                 </div><!-- End .card-header -->
