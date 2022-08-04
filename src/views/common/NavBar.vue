@@ -36,9 +36,11 @@
                             <router-link :to="{name: 'Home'}">Home</router-link>
                         </li>
                             <!-- Cybersécurité -->
-                            <li>
-                                <router-link :to="{name: 'Services'}" class="sf-with-ul">Services</router-link>
-                            
+                        <li>
+                            <router-link :to="{name: 'Services'}" class="sf-with-ul">Services</router-link>
+                            <ul>
+                                <li><router-link :to="{name: 'rgpdaudit'}">Audits de conformité RGPD</router-link></li>
+                            </ul>
                         </li>
                         <li>
                             <router-link :to="{name: 'CyberSecurity'}" class="sf-with-ul">Cybersécurité</router-link>
