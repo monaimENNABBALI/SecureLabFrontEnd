@@ -39,6 +39,7 @@ body {
 
 #page-nav .header-center {
     margin: 0;
+    height: 100%;
 }
 
 #page-nav .header-center .main-nav {
@@ -53,12 +54,15 @@ body {
 
 #page-nav .megamenu-container,
 #page-nav .menu,
-#page-nav .main-nav {
+#page-nav .main-nav,
+#page-nav .menu > li {
     height: 100%;
 }
 
 #page-nav .sf-with-ul,
 #page-nav .megamenu-container a {
+    display: flex;
+    align-items: center;
     letter-spacing: .05em;
     line-height: 100px;
     padding-top: 0;
@@ -120,5 +124,6 @@ body {
 }
 
 #page-nav .header-middle.fixed {
-    background-color: var(--color-primary-1-overlay-2);
+    height: 60px;
+    background-color: var(--color-primary-1);
 }
