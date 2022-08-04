@@ -28,20 +28,33 @@ body {
     padding: 0;
 }
 
+#page-nav .megamenu-container,
+#page-nav .menu,
+#page-nav .main-nav {
+    height: 100%;
+}
+
 #page-nav .sf-with-ul,
-#page-nav .megamenu-container {
+#page-nav .megamenu-container a {
     letter-spacing: .05em;
+    line-height: 100px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#page-nav .main-nav a.router-link-active {
+    color: var(--color-primary-2) !important;
 }
 
 #page-nav .sf-with-ul:hover,
 #page-nav .sf-with-ul:focus,
-#page-nav .megamenu-container:hover,
-#page-nav .megamenu-container:focus,
+#page-nav .megamenu-container a:hover,
+#page-nav .megamenu-container a:focus,
 #page-nav .header-top a:hover,
 #page-nav .header-top a:focus,
 #page-nav .menu a:hover,
-#page-nav .menu a:focus{
-    color: var(--color-primary-2);
+#page-nav .menu a:focus {
+    color: var(--color-primary-2) !important;
 }
 
 .slider {
