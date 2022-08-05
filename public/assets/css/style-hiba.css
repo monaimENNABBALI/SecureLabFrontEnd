@@ -193,3 +193,9 @@ body {
 #app .footer .social-icons {
     justify-content: center;
 }
+
+#app .footer .social-icons a:hover,
+#app .footer .social-icons a:focus {
+    color: var(--color-primary-2);
+    border-color: var(--color-primary-2);
+}
