@@ -49,7 +49,7 @@ body {
     padding: 0;
     display: flex;
     justify-content: flex-start;
-    align-atems: center;
+    align-items: center;
 }
 
 #page-nav .header-left .logo img {
