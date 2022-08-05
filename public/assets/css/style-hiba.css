@@ -104,6 +104,10 @@ body {
     font-weight: 500;
 }
 
+#page-nav .menu li:not(.megamenu-container) a:not(.sf-with-ul):hover {
+    color: var(--color-primary-2) !important;
+}
+
 #page-nav .sf-with-ul:hover,
 #page-nav .sf-with-ul:focus,
 #page-nav .megamenu-container a:hover,
