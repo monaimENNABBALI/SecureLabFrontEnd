@@ -102,6 +102,7 @@ body {
 #page-nav .menu li:not(.megamenu-container) a:not(.sf-with-ul) {
     color: var(--color-primary-1) !important;
     font-weight: 500;
+    text-align: left;
 }
 
 #page-nav .menu li:not(.megamenu-container) a:not(.sf-with-ul):hover,
@@ -111,6 +112,7 @@ body {
 
 #page-nav .menu li:not(.megamenu-container) a.router-link-active:not(.sf-with-ul) {
     color: var(--color-primary-2) !important;
+    box-shadow: inset 6px 0 0 -2px var(--color-primary-2);
 }
 
 #page-nav .sf-with-ul:hover,
