@@ -203,5 +203,5 @@ body {
 #app .footer a:hover,
 #app .footer a:focus {
     color: var(--color-primary-2);
-    border: solid 1px var(--color-primary-2);
+    border-bottom: solid 1px var(--color-primary-2);
 }
