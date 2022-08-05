@@ -100,7 +100,7 @@ body {
 }
 
 #page-nav .menu li:not(.megamenu-container) a:not(.sf-with-ul) {
-    color: var(--color-primary-1);
+    color: var(--color-primary-1) !important;
     font-weight: 500;
 }
 
