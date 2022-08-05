@@ -4,6 +4,7 @@ body {
     --color-primary-2: #00d3c5;
     --color-primary-1-overlay-1: #0d0d32a0;
     --color-primary-1-overlay-2: #0d0d32df;
+    min-height: 100vh;
 }
 
 .mmenu-active #app .page-wrapper {
