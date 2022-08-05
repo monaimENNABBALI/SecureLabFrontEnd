@@ -182,11 +182,11 @@ body {
     padding: 80px 0;
 }
 
-.footer-middle .container::before {
+#app .footer-middle .container::before {
     display: none;
 }
 
-.footer-bottom .container::before {
+#app .footer-bottom .container::before {
     background-color: #ffffff10;
 }
 
