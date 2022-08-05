@@ -111,7 +111,6 @@ body {
 }
 
 #page-nav .menu li:not(.megamenu-container) a.router-link-active:not(.sf-with-ul) {
-    color: var(--color-primary-2) !important;
     box-shadow: inset 6px 0 0 -2px var(--color-primary-2);
 }
 
