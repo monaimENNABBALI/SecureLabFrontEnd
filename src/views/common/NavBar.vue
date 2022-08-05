@@ -25,7 +25,7 @@
                 </button>
 
                 <router-link :to="{name: 'Home'}" class="logo">
-                    <img src="images/logo-redesign.png" alt="Molla Logo">
+                    <img src="images/sl-new-logo-horizontal.png" alt="Molla Logo">
                 </router-link>
             </div><!-- End .header-left -->
 
