@@ -6,10 +6,6 @@ body {
     --color-primary-1-overlay-2: #0d0d32df;
 }
 
-#app {
-    min-height: 100vh;
-}
-
 .mmenu-active #app .page-wrapper {
     transform: translateX(0);
 }
