@@ -46,12 +46,15 @@ body {
 
 #page-nav .header-left .logo {
     margin: 0;
-    padding: 20% 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-atems: center;
 }
 
 #page-nav .header-left .logo img {
     width: auto;
-    height: 100%;
+    height: 60%;
 }
 
 #page-nav .header-center {
