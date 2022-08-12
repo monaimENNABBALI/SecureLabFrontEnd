@@ -37,9 +37,6 @@
                         </li>
                             <!-- Cybersécurité -->
                         <li>
-                            <router-link :to="{name: 'Services'}" class="sf-with-ul">Services</router-link>
-                        </li>
-                        <li>
                             <router-link :to="{name: 'CyberSecurity'}" class="sf-with-ul">Cybersécurité</router-link>
                             <ul>
                                 <li><router-link :to="{name: 'CyberSecurity'}">PIA / AIPD</router-link></li>
@@ -60,8 +57,8 @@
                             </ul>
                         </li>
                             <!-- Formation -->
-                        <li>
-                                <router-link :to="{name: 'Formation'}" class="sf-with-ul">Formation</router-link>
+                        <li class="megamenu-container">
+                                <router-link :to="{name: 'Formation'}">Formation</router-link>
                             
                         </li>
                         <!-- Formation -->
@@ -91,7 +88,7 @@
                         </li>
                         <!-- Blog -->
                         <li  class="megamenu-container">
-                            <router-link class="sf-with-ul" :to="{name:'Blog'}">Blog</router-link>
+                            <router-link :to="{name:'Blog'}">Blog</router-link>
                            
                         </li>
                         <!-- Faq -->
