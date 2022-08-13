@@ -6,7 +6,7 @@
                 <h3>By Securelabs</h3>
             </div>
             <div class="content">
-                <h4><i>Service d'audits de sécurité</i></h4>
+                <h4>Service d'audits de sécurité</h4>
             </div>
             <div class="action">
                 <a href="#first">discover now</a>

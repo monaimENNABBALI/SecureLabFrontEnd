@@ -5,7 +5,7 @@
                 <h3>Faites appel à des spécialistes</h3>
             </div>
             <div class="content">
-                <h4><i>Pour votre conformité RGPD</i></h4>
+                <h4>Pour votre conformité RGPD</h4>
             </div>
             <div class="action">
                 <a href="category.html">discover now</a>

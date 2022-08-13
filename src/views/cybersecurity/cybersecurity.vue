@@ -6,7 +6,7 @@
                 <h3>By Securelabs</h3>
             </div>
             <div class="content">
-                <h4><i>Service de PIA / AIPD</i></h4>
+                <h4>Service de PIA / AIPD</h4>
             </div>
             <div class="action">
                 <a href="#first">discover now</a>

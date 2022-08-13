@@ -24,9 +24,9 @@
                     <i class="icon-bars"></i>
                 </button>
 
-                <a href="index.html" class="logo">
-                    <img src="images/Logo2.png" alt="Molla Logo" width="110" height="25">
-                </a>
+                <router-link :to="{name: 'Home'}" class="logo">
+                    <img src="images/sl-new-logo-horizontal.png" alt="Molla Logo">
+                </router-link>
             </div><!-- End .header-left -->
 
             <div class="header-center">
@@ -36,24 +36,25 @@
                             <router-link :to="{name: 'Home'}">Home</router-link>
                         </li>
                             <!-- Cybersécurité -->
+                    
+                        <!-- Cybersécurité -->
                         <li>
                             <router-link :to="{name: 'CyberSecurity'}" class="sf-with-ul">Cybersécurité</router-link>
                             <ul>
                                 <li><router-link :to="{name: 'CyberSecurity'}">PIA / AIPD</router-link></li>
                                 <li><router-link :to="{name: 'Audit'}">Audits de Sécurité</router-link></li>
-
-                                
                             </ul>
                         </li>
+                        
                         <!-- Services -->
                         <li>
                             <a href="#" class="sf-with-ul">Rgpd</a>
                             <ul>
                                 <li><router-link :to="{name: 'rgpdaudit'}">Audits de conformité RGPD</router-link></li>
-                                <li><a href="#">DPO / DPD externe</a></li>
-                                <li><a href="#">DPO / DPD externe et mutualisé</a></li>
-                                <li><a href="#">Accompagnement RGPD</a></li>
-                                <li><a href="#">PIA / AIPD</a></li>
+                                <li><router-link :to="{name: 'rgpddpoex'}">DPO / DPD externe</router-link></li>
+                                <li><router-link :to="{name: 'rgpddpoexmu'}">DPO / DPD externe et mutualisé</router-link></li>
+                                <li><router-link :to="{name: 'rgpdaccomp'}">Accompagnement RGPD</router-link></li>
+                                <li><router-link :to="{name: 'rgpdpia'}">PIA / AIPD</router-link></li>
                             </ul>
                         </li>
                             <!-- Formation -->
@@ -61,11 +62,17 @@
                                 <router-link :to="{name: 'Formation'}">Formation</router-link>
                             
                         </li>
+                        
                         <!-- Formation -->
+                        <li>
+                            <router-link :to="{name: 'Formation'}" class="sf-with-ul">Formation</router-link>
+                        </li>
+                        
+                        <!-- Logiciel -->
                         <li class="megamenu-container">
-                            
                              <router-link to="/logiciel">Logiciel</router-link>
                         </li>
+                        
                         <!-- Expertise -->
                         <li>
                              <router-link :to="{name: 'Expertise'}" class="sf-with-ul">Expertise</router-link>
@@ -76,8 +83,9 @@
                                 <li><a href="#">Expertise 4</a></li>
                             </ul>
                         </li>
+                        
                         <!-- about -->
-                        <li >
+                        <li>
                             <router-link class="sf-with-ul" :to="{name:'About'}">Securelabs</router-link>
                             <ul>
                                 <li><a href="#">Securelabs</a></li>
@@ -86,17 +94,12 @@
                                 <li><a href="#">Securelabs 4</a></li>
                             </ul>
                         </li>
+                        
                         <!-- Blog -->
                         <li  class="megamenu-container">
                             <router-link :to="{name:'Blog'}">Blog</router-link>
-                           
                         </li>
-                        <!-- Faq -->
-                        <li  class="megamenu-container">
-                            <router-link :to="{name:'Faqs'}">Faqs</router-link>
 
-                            
-                        </li>
                     </ul><!-- End .menu -->
                 </nav><!-- End .main-nav -->
             </div>

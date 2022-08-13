@@ -1,11 +1,11 @@
 <template lang="">
     <Intro bgUrl="background-image: url('images/homeIntro.jpg');">
              <!-- we will get this using -->
-            <div class="title">
-                <h3>Faites appel à des spécialistes</h3>
+            <div class="content mb-2 col-10 mx-auto">
+                <h4>Faites appels à des spécialistes pour vous accompagner dans vos stratégies cybersécurité et conformité</h4>
             </div>
-            <div class="content">
-                <h4><i>Pour votre conformité RGPD</i></h4>
+            <div class="title">
+                <h3>SECURELABS vous accompagne dans la sécurisation de votre système d’information contre les cybermenaces et vous garanti une consolidation de vos référentiels de conformité (RGPD, CCPA, Sapin 2, LPM, NIS, PCI-DSS, ISO 27001, Solvency, Bâle…). </h3>
             </div>
             <div class="action">
                 <a href="#choiceUs">discover now</a>
@@ -14,48 +14,46 @@
 
 
      <main id="main" style="background-color: #f5f5f5;">
-                <div id="choiceUs" class="container mt-6" style="height: 100vh;">
-                    <div class="heading pt-4">
-            			<h3 class="heading-title">Pourquoi choisir nos experts RGPD ?</h3>
-            			<p class="heading-cat">La société Securelabs est reconnue comme experte dans le domaine de la protection des données à caractère personnel.
+                <div id="choiceUs" class="pb-4" style="min-height: 90vh; background-image: url('images/homeIntro.jpg');">
+                    <div class="heading pt-4 mt-0">
+            			<h3 class="heading-title" style="color:#00d3c5" >NOTRE METHODOLOGIE </h3>
+            			<!-- <p class="heading-cat" style="color:#fff;" >La société Securelabs est reconnue comme experte dans le domaine de la protection des données à caractère personnel.
                             Depuis son origine, elle conseille les responsables de traitement et les DPO dans leur stratégie de mise en conformité RGPD.</p>
-            		</div>
-                    <div class="row justify-content-center">
+            		-->
+                    </div> 
+                    <div class="row p-5 col-12 col-md-10 mx-auto slider  justify-content-center">
                         <div class="col-lg-4 col-sm-6">
-                            <div class="icon-box icon-box-sm text-center p-5" style="background-color: #fff;    border-bottom: 3px solid #000;">
+                            <div class="icon-box icon-box-sm text-center p-5">
                                 <span class="icon-box-icon mb-5">
                                     <i class="icon-puzzle-piece" style="font-size: 10rem;"></i>
                                 </span>
                                 <div class="icon-box-content">
-                                    <h3 class="icon-box-title" style="font-size: 3.5rem;">Notre Expertise</h3><!-- End .icon-box-title -->
-                                    <p style="font-size: 1.6rem;">en protection des données personnelles et en cybersécurité
-                                         <br>+ de 15 ans</p>
+                                    <h3 class="icon-box-title" style="font-size: 3.5rem;color:#93b3ac;">Apprécier la réalité opérationnelle</h3><!-- End .icon-box-title -->
+                                    <p style="font-size: 1.6rem;color:#fff">et l’écosystème de chaque client pour déployer les meilleures stratégies et anticiper les besoins.</p>
                                 </div><!-- End .icon-box-content -->
                             </div><!-- End .icon-box -->
                         </div><!-- End .col-lg-4 col-sm-6 -->
 
                         <div class="col-lg-4 col-sm-6">
-                            <div class="icon-box icon-box-sm text-center p-5" style="background-color: #fff;    border-bottom: 3px solid #000;">
+                            <div class="icon-box icon-box-sm text-center p-5">
                                 <span class="icon-box-icon mb-5">
                                     <i class="icon-star-o" style="font-size: 10rem;"></i>
                                 </span>
                                 <div class="icon-box-content">
-                                    <h3 class="icon-box-title" style="font-size: 3.5rem;">Nos spécialistes</h3><!-- End .icon-box-title -->
-                                    <p style="font-size: 1.6rem;">Juristes en protection des données et experts en cybersécurité
-                                         <br>+ de 15 ans</p>
+                                    <h3 class="icon-box-title" style="font-size: 3.5rem;color:#93b3ac;">Être réaliste et pragmatique</h3><!-- End .icon-box-title -->
+                                    <p style="font-size: 1.6rem;color:#fff;">dans notre approche pour proposer des solutions opérationnelles adaptées aux clients via la combinaison de nos expertises juridiques, techniques et de notre expérience opérationnelle.</p>
                                 </div><!-- End .icon-box-content -->
                             </div><!-- End .icon-box -->
                         </div><!-- End .col-lg-4 col-sm-6 -->
 
                         <div class="col-lg-4 col-sm-6">
-                            <div class="icon-box icon-box-sm text-center p-5" style="background-color: #fff;    border-bottom: 3px solid #000;">
+                            <div class="icon-box icon-box-sm text-center p-5">
                                 <span class="icon-box-icon mb-5">
                                     <i class="icon-info-circle" style="font-size: 10rem;"></i>
                                 </span>
                                 <div class="icon-box-content">
-                                    <h3 class="icon-box-title" style="font-size: 3.5rem;">Notre Assistance</h3><!-- End .icon-box-title -->
-                                    <p style="font-size: 1.6rem;">Endurance et réactivité sont au coeur de notre ADN
-                                         <br>Service Externe DPO (SEDPO)
+                                    <h3 class="icon-box-title" style="font-size: 3.5rem;color:#93b3ac;">S’engager</h3><!-- End .icon-box-title -->
+                                    <p style="font-size: 1.6rem;color:#fff;">à sécuriser votre organisation en endossant pleinement notre rôle de conseil et d’interlocuteur tout en construisant une relation durable avec vous.
                                         </p> 
                                 </div><!-- End .icon-box-content -->
                             </div><!-- End .icon-box -->
@@ -270,6 +268,6 @@ export default {
     
 }
 </script>
-<style lang="">
+<style lang="" scoped>
     
 </style>
