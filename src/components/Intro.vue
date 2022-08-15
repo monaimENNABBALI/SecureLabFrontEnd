@@ -1,7 +1,7 @@
 <template lang="">
-    <div class="background" style="height:81vh;" :style="bgUrl">
+    <div class="background" style="min-height:81vh;" :style="bgUrl">
     
-    <div class="slider"  style="height:81vh;">
+    <div class="slider"  style="min-height:81vh;">
         <div class="intro col-8 mx-auto">
             <slot></slot>
         </div>

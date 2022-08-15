@@ -118,7 +118,7 @@ Complétez votre formation avec une vision à 360° sur le RGPD.<br>
    
 </template>
 <script>
-import Intro from '../common/Intro'
+import Intro from '@/components/Intro'
 export default {
   components:{
         Intro

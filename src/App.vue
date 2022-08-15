@@ -9,9 +9,9 @@
 
 
 <script>
-import Footer from './views/common/Footer';
-import NavMobile from './views/common/NavMobile';
-import NavBar from './views/common/NavBar';
+import Footer from '@/components/common/Footer';
+import NavMobile from '@/components/common/NavMobile';
+import NavBar from '@/components/common/NavBar';
 export default {
     components:{
     Footer,

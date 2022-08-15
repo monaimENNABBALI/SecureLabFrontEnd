@@ -15,27 +15,34 @@
 
      <main id="main" style="background-color: #f5f5f5;">
                 <div id="choiceUs" class="pb-4" style="min-height: 90vh; background-image: url('images/methodologie.jpg');">
-                    <div class="heading pt-4 mt-0">
+                    <div class="heading pt-4 pb-2 mt-0">
             			<h3 class="heading-title" >NOTRE METHODOLOGIE </h3>
             			<!-- <p class="heading-cat" style="color:#fff;" >La société Securelabs est reconnue comme experte dans le domaine de la protection des données à caractère personnel.
                             Depuis son origine, elle conseille les responsables de traitement et les DPO dans leur stratégie de mise en conformité RGPD.</p>
             		-->
-                    </div> 
-                    <div class="row p-5 col-12 col-md-10 mx-auto slider  justify-content-center">
-                        <div class="col-lg-4 col-sm-6" v-for="methodologie in methodologies">
-                            <div class="icon-box icon-box-sm text-center p-5">
-                                <span class="icon-box-icon mb-5">
-                                    <i class="icon-puzzle-piece" style="font-size: 10rem;"></i>
-                                </span>
-                                <div class="icon-box-content">
-                                    <h3 class="icon-box-title" style="font-size: 3.5rem;color:#93b3ac;">{{methodologie.title}}</h3><!-- End .icon-box-title -->
-                                    <p style="font-size: 1.6rem;color:#fff">{{methodologie.content}}</p>
-                                </div><!-- End .icon-box-content -->
-                            </div><!-- End .icon-box -->
-                        </div><!-- End .col-lg-4 col-sm-6 -->
                     </div>
-                	
-                    
+                    <div class="container mt-4 pt-4">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6 col-lg-4" v-for="methodologie in methodologies">
+                                <div class="activity-item">
+                                    <div class="row">
+                                        <a href="#" data-role="activity-box-link">
+                                            <div class="col-lg-12 p-0">
+                                                <!-- activity Image, Name & Subtitle (everyone) -->
+                                                <div class="activity-box-icon-container">
+                                                    <img class="activity-box-icon" :src="methodologie.image">
+                                                </div>
+                                                <div class="activity-item-title" role="heading" aria-level="2">
+                                                    {{methodologie.title}}
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="activity-listing-subtitle">{{methodologie.content}}</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
                 </div>
             
             <div class="row">
@@ -75,7 +82,7 @@
         </main>
 </template>
 <script>
-import Intro from '../common/Intro'
+import Intro from '@/components/Intro'
 export default {
     components:{
         Intro
@@ -120,19 +127,19 @@ export default {
                     id:1,
                     title:"Apprécier la réalité opérationnelle",
                     content:"et l’écosystème de chaque client pour déployer les meilleures stratégies et anticiper les besoins.",
-                    image:""
+                    image:"images/icon-test.png"
                 },
                 {
                     id:2,
                     title:"Être réaliste et pragmatique",
                     content:"dans notre approche pour proposer des solutions opérationnelles adaptées aux clients via la combinaison de nos expertises juridiques, techniques et de notre expérience opérationnelle.",
-                    image:""
+                    image:"images/icon-test.png"
                 },
                 {
                     id:3,
                     title:"S’engager",
                     content:"à sécuriser votre organisation en endossant pleinement notre rôle de conseil et d’interlocuteur tout en construisant une relation durable avec vous.",
-                    image:""
+                    image:"images/icon-test.png"
                 },
             ]
         }

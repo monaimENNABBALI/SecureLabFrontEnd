@@ -39,10 +39,13 @@
                     
                         <!-- Cybersécurité -->
                         <li>
-                            <router-link :to="{name: 'CyberSecurity'}" class="sf-with-ul">Cybersécurité</router-link>
+                            <router-link :to="{name: 'AuditOrganisationnel'}" class="sf-with-ul">Cybersécurité</router-link>
                             <ul>
-                                <li><router-link :to="{name: 'CyberSecurity'}">PIA / AIPD</router-link></li>
-                                <li><router-link :to="{name: 'Audit'}">Audits de Sécurité</router-link></li>
+                                <li><router-link :to="{name: 'AuditOrganisationnel'}">Audit organisationnel et physique </router-link></li>
+                                <li><router-link :to="{name: 'AnalyseRisque'}">Analyse de risques cybersécurité</router-link></li>
+                                <li><router-link :to="{name: 'GestionRisque'}"> Gestion des risques prestataires</router-link></li>
+                        
+                            
                             </ul>
                         </li>
                         

@@ -1,0 +1,89 @@
+<template lang="">
+
+    <Intro bgUrl="background-image: url('images/cyber.jpg');">
+             <!-- we will get this using -->
+            <div class="title">
+                <h3>By Securelabs</h3>
+            </div>
+            <div class="content">
+                <h4>Audit organisationnel et physique </h4>
+            </div>
+        
+    </Intro>
+    <main>
+        <div class="page-content" style="min-height: 90vh; background-image: url('images/methodologie.jpg');">
+
+                    <div  class="col-10 mx-auto" >
+                        <div id="first" class="heading pt-4 mt-0">
+                            <h1 class="mb-5" style="font-weight: 600;">Évaluation du niveau de maturité des prestataires en matière de cybersécurité et de conformité </h1>
+                            <p class="activity-listing-subtitle">
+                                Dans le cadre des relations contractuelles avec les prestataires sous-entendant souvent l’interconnexion des différents systèmes informatiques et le partage d’informations (parfois sensibles), il est important d’évaluer le niveau de maturité des prestataires ainsi que le respect des bonnes pratiques en matière de cybersécurité et de conformité pour éviter tout risque.
+                            </p>
+
+                        </div>
+                        
+                    </div>
+                <div class="pb-4">
+                    <div class="heading pt-4 pb-2 mt-0">
+            			<h3 class="heading-title" >SECURELABS vous accompagne dans la prévention et le pilotage des risques cyber que les prestataires peuvent incomber :   </h3>
+                    </div>
+                    <div class="container mt-4 pt-4">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6 col-lg-4" v-for="methodologie in methodologies">
+                                <div class="activity-item">
+                                    <div class="row">
+                                        <a href="#" data-role="activity-box-link">
+                                            <div class="col-lg-12 p-0">
+                                                <!-- activity Image, Name & Subtitle (everyone) -->
+                                                <div class="activity-box-icon-container">
+                                                    <img class="activity-box-icon" :src="methodologie.image">
+                                                </div>
+                                                <!-- <div class="activity-item-title" role="heading" aria-level="2">
+                                                    {{methodologie.title}}
+                                                </div> -->
+                                            </div>
+                                        </a>
+                                        <div class="activity-listing-subtitle">{{methodologie.content}}</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>                     
+            </div><!-- End .page-content -->
+    </main>
+</template>
+<script>
+import Intro from '@/components/Intro'
+export default {
+    components:{
+        Intro
+    },
+    data() {
+        return {
+            
+            methodologies:[
+                {
+                    id:1,
+                    content:"Identification de la nature et de la criticité du prestataire et des risques",
+                    image:"images/icon-test.png"
+                },
+                {
+                    id:2,
+                    content:"Elaboration d’un plan d’assurance sécurité",
+                    image:"images/icon-test.png"
+                },
+                {
+                    id:3,
+                    content:"Elaboration d’un plan de traitement des risques liés aux prestataires",
+                    image:"images/icon-test.png"
+                },
+            ]
+        }
+    },
+    
+}
+</script>
+<style lang="">
+    
+</style>

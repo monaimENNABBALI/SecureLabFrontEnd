@@ -256,7 +256,7 @@
     </main><!-- End .main -->
 </template>
 <script>
-import Intro from '../common/Intro'
+import Intro from '@/components/Intro'
 export default {
     components:{
         Intro

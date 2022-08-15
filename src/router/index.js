@@ -6,8 +6,9 @@ import Faqs from '../views/home/Faqs';
 import Blog from '../views/blog/blog.vue';
 import Formation from '../views/formation/formation.vue';
 import Logiciel from '../views/logiciel/logiciel';
-import CyberSecurity from '../views/cybersecurity/cybersecurity';
-import Audit from '../views/cybersecurity/Audit';
+import AuditOrganisationnel from '../views/cybersecurity/AuditOrganisationnel';
+import AnalyseRisque from '../views/cybersecurity/AnalyseRisque';
+import GestionRisque from '../views/cybersecurity/GestionRisque';
 import Expertise from '../views/expertise/expertise.vue';
 import Services from '../views/services/services.vue';
 import rgpdaudit from '../views/rgpd/rgpdaudit.vue';
@@ -15,6 +16,7 @@ import rgpddpoex from '../views/rgpd/rgpddpoex.vue';
 import rgpddpoexmu from '../views/rgpd/rgpddpoexmu.vue';
 import rgpdaccomp from '../views/rgpd/rgpdaccomp.vue';
 import rgpdpia from '../views/rgpd/rgpdpia.vue';
+
 
 const routes = [
   {
@@ -64,14 +66,19 @@ const routes = [
     component:Expertise
   },
   {
-    path:'/cybersecurity',
-    name:'CyberSecurity',
-    component:CyberSecurity
+    path:'/AuditOrganisationnel',
+    name:'AuditOrganisationnel',
+    component:AuditOrganisationnel
   },
   {
-    path:'/Audit',
-    name:'Audit',
-    component:Audit
+    path:'/AnalyseRisque',
+    name:'AnalyseRisque',
+    component:AnalyseRisque
+  },
+  {
+    path:'/GestionRisque',
+    name:'GestionRisque',
+    component:GestionRisque
   },
   {
     path:'/rgpd-audit',
