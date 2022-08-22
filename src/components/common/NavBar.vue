@@ -44,6 +44,7 @@
                                 <li><router-link :to="{name: 'AuditOrganisationnel'}">Audit organisationnel et physique </router-link></li>
                                 <li><router-link :to="{name: 'AnalyseRisque'}">Analyse de risques cybersécurité</router-link></li>
                                 <li><router-link :to="{name: 'GestionRisque'}"> Gestion des risques prestataires</router-link></li>
+                                <li><router-link :to="{name: 'RepriseActivity'}">Continuité et reprise d’activité</router-link></li>
                         
                             
                             </ul>

@@ -7,6 +7,7 @@ import Blog from '../views/blog/blog.vue';
 import Formation from '../views/formation/formation.vue';
 import Logiciel from '../views/logiciel/logiciel';
 import AuditOrganisationnel from '../views/cybersecurity/AuditOrganisationnel';
+import RepriseActivity from '../views/cybersecurity/RepriseActivity';
 import AnalyseRisque from '../views/cybersecurity/AnalyseRisque';
 import GestionRisque from '../views/cybersecurity/GestionRisque';
 import Expertise from '../views/expertise/expertise.vue';
@@ -69,6 +70,11 @@ const routes = [
     path:'/AuditOrganisationnel',
     name:'AuditOrganisationnel',
     component:AuditOrganisationnel
+  },
+  {
+    path:'/RepriseActivity',
+    name:'RepriseActivity',
+    component:RepriseActivity
   },
   {
     path:'/AnalyseRisque',
