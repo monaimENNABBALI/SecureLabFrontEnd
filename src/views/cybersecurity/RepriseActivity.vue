@@ -1,6 +1,6 @@
 <template lang="">
 
-    <Intro bgUrl="background-image: url('images/cyber.jpg');">
+    <Intro bgUrl="background-image: url('images/cyber/repriseActivity.jpg');">
              <!-- we will get this using -->
             <div class="title">
                 <h3>By Securelabs</h3>
@@ -33,7 +33,7 @@
                                             <div class="col-lg-12 p-0">
                                                 <!-- activity Image, Name & Subtitle (everyone) -->
                                                 <div class="activity-box-icon-container">
-                                                    <img class="activity-box-icon" :src="methodologie.image">
+                                                    <img class="activity-box-icon" style="width:20%;" :src="methodologie.image">
                                                 </div>
                                                 <div class="activity-item-title" role="heading" aria-level="2">
                                                     {{methodologie.title}}

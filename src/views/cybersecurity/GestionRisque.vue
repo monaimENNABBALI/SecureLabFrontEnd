@@ -1,12 +1,12 @@
 <template lang="">
 
-    <Intro bgUrl="background-image: url('images/cyber.jpg');">
+    <Intro bgUrl="background-image: url('images/cyber/gestionRisque.jpg');">
              <!-- we will get this using -->
             <div class="title">
                 <h3>By Securelabs</h3>
             </div>
             <div class="content">
-                <h4>Audit organisationnel et physique </h4>
+                <h4>Gestion des risques prestataires </h4>
             </div>
         
     </Intro>

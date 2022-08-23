@@ -8,7 +8,7 @@
                 <h3>SECURELABS vous accompagne dans la sécurisation de votre système d’information contre les cybermenaces et vous garanti une consolidation de vos référentiels de conformité (RGPD, CCPA, Sapin 2, LPM, NIS, PCI-DSS, ISO 27001, Solvency, Bâle…). </h3>
             </div>
             <div class="action">
-                <a href="#choiceUs">discover now</a>
+                <a href="#choiceUs">découvrez maintenant</a>
             </div>
     </Intro>
 
@@ -119,7 +119,7 @@ export default {
                 {
                     id:6,
                     title:'Transport public/Aéroportuaire',
-                    image:'images/activity/transport.jpg'
+                    image:'images/activity/transport.png'
                 }
             ],
             methodologies:[
