@@ -45,6 +45,8 @@
                                 <li><router-link :to="{name: 'AnalyseRisque'}">Analyse de risques cybersécurité</router-link></li>
                                 <li><router-link :to="{name: 'GestionRisque'}"> Gestion des risques prestataires</router-link></li>
                                 <li><router-link :to="{name: 'RepriseActivity'}">Continuité et reprise d’activité</router-link></li>
+                                <li><router-link :to="{name: 'PolitiqueSecurity'}">Politique de sécurité</router-link></li>
+                                
                         
                             
                             </ul>
@@ -62,10 +64,10 @@
                             </ul>
                         </li>
                             <!-- Formation -->
-                        <li class="megamenu-container">
+                        <!-- <li class="megamenu-container">
                                 <router-link :to="{name: 'Formation'}">Formation</router-link>
                             
-                        </li>
+                        </li> -->
                         
                         <!-- Formation -->
                         <li>

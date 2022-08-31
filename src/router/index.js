@@ -10,6 +10,8 @@ import AuditOrganisationnel from '../views/cybersecurity/AuditOrganisationnel';
 import RepriseActivity from '../views/cybersecurity/RepriseActivity';
 import AnalyseRisque from '../views/cybersecurity/AnalyseRisque';
 import GestionRisque from '../views/cybersecurity/GestionRisque';
+import PolitiqueSecurity from '../views/cybersecurity/PolitiqueSecurity';
+
 import Expertise from '../views/expertise/expertise.vue';
 import Services from '../views/services/services.vue';
 import rgpdaudit from '../views/rgpd/rgpdaudit.vue';
@@ -85,6 +87,11 @@ const routes = [
     path:'/GestionRisque',
     name:'GestionRisque',
     component:GestionRisque
+  },
+  {
+    path:'/PolitiqueSecurity',
+    name:'PolitiqueSecurity',
+    component:PolitiqueSecurity
   },
   {
     path:'/rgpd-audit',

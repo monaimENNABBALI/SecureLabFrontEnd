@@ -16,7 +16,7 @@
      <main id="main" style="background-color: #f5f5f5;">
                 <div id="choiceUs" class="pb-4" style="min-height: 90vh; background-image: url('images/methodologie.jpg');">
                     <div class="heading pt-4 pb-2 mt-0">
-            			<h3 class="heading-title" >NOTRE METHODOLOGIE </h3>
+            			<h3 class="heading-title title-color-primary" >NOTRE METHODOLOGIE </h3>
             			<!-- <p class="heading-cat" style="color:#fff;" >La société Securelabs est reconnue comme experte dans le domaine de la protection des données à caractère personnel.
                             Depuis son origine, elle conseille les responsables de traitement et les DPO dans leur stratégie de mise en conformité RGPD.</p>
             		-->
@@ -48,7 +48,7 @@
             <div class="row">
                     <div class="heading">
 	            		<!-- <p class="heading-cat">favourite from every category</p> -->
-	            		<h3 class="heading-title pt-4">SECURELABS intervient dans de nombreux secteurs d’activité : </h3>
+	            		<h3 class="heading-title title-color-primary pt-4">SECURELABS intervient dans de nombreux secteurs d’activité : </h3>
 	            	</div>
                     <div class="container">
                         <div class="row">
@@ -56,7 +56,7 @@
                                 <div class="activity-item">
                                                         
                                     <div class="row">
-                                        <a href="#" data-role="activity-box-link">
+                                        <a href= "#" class="cursor-default" data-role="activity-box-link">
                                             <div class="col-lg-12 p-0">
                                                 <!-- activity Image, Name & Subtitle (everyone) -->
                                                 <div class="activity-box-image-container">

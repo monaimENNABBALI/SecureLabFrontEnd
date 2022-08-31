@@ -303,3 +303,14 @@ body {
 .activity-item-enrolled {
     padding-bottom: 3.25rem;
 }
+.title-color-primary{
+    color: #04ADBF !important;
+}
+.cursor-default{
+    cursor: default !important;
+}
+.text-big{
+    color: #000;
+    font-size: medium;
+    font-weight: 500;
+}

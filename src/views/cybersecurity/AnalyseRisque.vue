@@ -8,17 +8,19 @@
             <div class="content">
                 <h4>Analyse de risques cybersécurité</h4>
             </div>
-            
+            <div class="action">
+                <a href="#main-page">découvrez maintenant</a>
+            </div>
     </Intro>
     <main>
-        <div class="page-content pb-0">
+        <div id="main-page" class="page-content py-3">
                     <div id="first" class="container text-left mt-6" >
                         <div class="heading pt-4">
-                            <h3 class="heading-title text-left">Analyse de risques cybersécurité reposant sur la méthodologie EBIOS RM de l’ANSSI</h3>
+                            <h3 class="heading-title text-left title-color-primary">Analyse de risques cybersécurité reposant sur la méthodologie EBIOS RM de l’ANSSI</h3>
                             <div class="activity-listing-subtitle">
                                 La méthodologie utilisée par SECURELABS pour la réalisation d’analyse de risques cybersécurité s’appuie sur la méthodologie EBIOS-RISK MANAGER (2018) éditée par l’ANSSI et sur la norme ISO 27005.
                                 EBIOS RM permet d’apprécier les risques numériques et d’identifier les mesures de sécurité à mettre en œuvre pour les maîtriser. Elle permet aussi de valider le niveau de risque acceptable et de s’inscrire à plus long terme dans une démarche d’amélioration continue. Enfin, cette méthode permet de faire émerger les ressources et arguments utiles à la communication et à la prise de décision au sein de l’organisation et vis-à-vis de ses partenaires.
-                                <div class="heading-title text-left mt-4">
+                                <div class="heading-title text-left mt-4 title-color-primary">
                                     La méthode EBIOS RM peut être utilisée à plusieurs fins :
                                 </div>
                                 <ul class="list-box">
@@ -32,7 +34,7 @@
                     </div>
                     <div class="pb-4 container" style="background-image: url('images/methodologie.jpg');width: 100%;">
                         <div class="heading pt-4 pb-2 mt-0 col-10 mx-auto">
-            			    <h3 class="heading-title" >SECURELABS s’inspire donc de cette méthodologie pour analyser les risques cyber<u> via deux grandes étapes :</u>   </h3>
+            			    <h3 class="heading-title title-color-primary" >SECURELABS s’inspire donc de cette méthodologie pour analyser les risques cyber<u> via deux grandes étapes :</u>   </h3>
                             
                             <div class="activity-listing-subtitle">
                                 <div class="heading-title text-left mt-4" style="color: #003679;">

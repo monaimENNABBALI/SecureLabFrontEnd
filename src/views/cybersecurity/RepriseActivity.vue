@@ -8,14 +8,17 @@
             <div class="content">
                 <h4>Continuité et reprise d’activité </h4>
             </div>
+            <div class="action">
+                <a href="#main-page">découvrez maintenant</a>
+            </div>
         
     </Intro>
     <main>
-        <div class="page-content" style="min-height: 90vh; background-image: url('images/methodologie.jpg');">
+        <div id="main-page" class="page-content pt-3" style="min-height: 90vh; background-image: url('images/methodologie.jpg');">
 
                     <div  class="col-10 mx-auto" >
                         <div id="first" class="heading pt-4 mt-0">
-                            <h1 class="mb-5" style="font-weight: 600;">Dans quelles mesures réaliser un plan de continuité d’activité (PCA) ou plan de reprise d’activité (PRA) ?  </h1>
+                            <h1 class="mb-5 title-color-primary" style="font-weight: 600;">Dans quelles mesures réaliser un plan de continuité d’activité (PCA) ou plan de reprise d’activité (PRA) ?  </h1>
                             <p class="activity-listing-subtitle">
                                 Une organisation peut connaître une panne ou un arrêt de son activité suite à un incident quelconque. L’organisation devra alors mettre en œuvre et déployer des mesures techniques et organisationnelles afin de reprendre ou de continuer l’activité là où elle s’est arrêtée.
                                 Il sera donc nécessaire d’anticiper ces situations probables, en amont, via la rédaction d’un plan de reprise d’activité (PRA)  ou d’un plan de continuité d’activité (PCA) afin de minimiser l’indisponibilité et les impacts y afférents.
