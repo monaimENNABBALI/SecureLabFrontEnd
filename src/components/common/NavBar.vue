@@ -46,9 +46,7 @@
                                 <li><router-link :to="{name: 'GestionRisque'}"> Gestion des risques prestataires</router-link></li>
                                 <li><router-link :to="{name: 'RepriseActivity'}">Continuité et reprise d’activité</router-link></li>
                                 <li><router-link :to="{name: 'PolitiqueSecurity'}">Politique de sécurité</router-link></li>
-                                
-                        
-                            
+                                <li><router-link :to="{name: 'Certification'}">Certification ISO27001</router-link></li>
                             </ul>
                         </li>
                         
@@ -64,31 +62,15 @@
                             </ul>
                         </li>
                             <!-- Formation -->
-                        <!-- <li class="megamenu-container">
-                                <router-link :to="{name: 'Formation'}">Formation</router-link>
-                            
-                        </li> -->
-                        
-                        <!-- Formation -->
-                        <li>
-                            <router-link :to="{name: 'Formation'}" class="sf-with-ul">Formation</router-link>
-                        </li>
-                        
-                        <!-- Logiciel -->
-                        <li class="megamenu-container">
-                             <router-link to="/logiciel">Logiciel</router-link>
-                        </li>
-                        
-                        <!-- Expertise -->
-                        <li>
-                             <router-link :to="{name: 'Expertise'}" class="sf-with-ul">Expertise</router-link>
+                        <li >
+                            <a href="#" class="sf-with-ul">Formation</a>
                             <ul>
-                                <li><a href="#">Expertise 1</a></li>
-                                <li><a href="#">Expertise 2</a></li>
-                                <li><a href="#">Expertise 3</a></li>
-                                <li><a href="#">Expertise 4</a></li>
+                                <li><router-link :to="{name: 'FormationCyberSecurity'}">Cybersécurité</router-link></li>
+                                <li><router-link :to="{name: 'Formationrgpd'}">RGPD</router-link></li>
                             </ul>
+                            
                         </li>
+                        
                         
                         <!-- about -->
                         <li>

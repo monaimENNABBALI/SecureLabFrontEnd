@@ -5,12 +5,14 @@ import Contact from '../views/home/Contact';
 import Faqs from '../views/home/Faqs';
 import Blog from '../views/blog/blog.vue';
 import Formation from '../views/formation/formation.vue';
+import FormationRgpd from '../views/formation/FormationRgpd.vue';
 import Logiciel from '../views/logiciel/logiciel';
 import AuditOrganisationnel from '../views/cybersecurity/AuditOrganisationnel';
 import RepriseActivity from '../views/cybersecurity/RepriseActivity';
 import AnalyseRisque from '../views/cybersecurity/AnalyseRisque';
 import GestionRisque from '../views/cybersecurity/GestionRisque';
 import PolitiqueSecurity from '../views/cybersecurity/PolitiqueSecurity';
+import Certification from '../views/cybersecurity/Certification';
 
 import Expertise from '../views/expertise/expertise.vue';
 import Services from '../views/services/services.vue';
@@ -54,11 +56,6 @@ const routes = [
     component:Blog
   },
   {
-    path:'/formation',
-    name:'Formation',
-    component:Formation
-  },
-  {
     path:'/logiciel',
     name:'Logiciel',
     component:Logiciel
@@ -94,6 +91,11 @@ const routes = [
     component:PolitiqueSecurity
   },
   {
+    path:'/Certification',
+    name:'Certification',
+    component:Certification
+  },
+  {
     path:'/rgpd-audit',
     name:'rgpdaudit',
     component: rgpdaudit
@@ -117,6 +119,16 @@ const routes = [
     path:'/rgpd-pia',
     name:'rgpdpia',
     component: rgpdpia
+  },
+  {
+    path:'/formation/cybersecurity',
+    name:'FormationCyberSecurity',
+    component:Formation
+  },
+  {
+    path:'/formation/rgpd',
+    name:'Formationrgpd',
+    component: FormationRgpd
   }
   
 ]
