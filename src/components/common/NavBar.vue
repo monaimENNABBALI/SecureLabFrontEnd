@@ -62,15 +62,15 @@
                             </ul>
                         </li>
                             <!-- Formation -->
-                        <li class="megamenu-container">
-                                <router-link :to="{name: 'Formation'}">Formation</router-link>
+                        <li >
+                            <a href="#" class="sf-with-ul">Formation</a>
+                            <ul>
+                                <li><router-link :to="{name: 'FormationCyberSecurity'}">Cybersécurité</router-link></li>
+                                <li><router-link :to="{name: 'Formationrgpd'}">RGPD</router-link></li>
+                            </ul>
                             
                         </li>
                         
-                        <!-- Formation -->
-                        <li>
-                            <router-link :to="{name: 'Formation'}" class="sf-with-ul">Formation</router-link>
-                        </li>
                         
                         <!-- Logiciel -->
                         <li class="megamenu-container">

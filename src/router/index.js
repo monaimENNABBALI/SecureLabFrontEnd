@@ -5,6 +5,7 @@ import Contact from '../views/home/Contact';
 import Faqs from '../views/home/Faqs';
 import Blog from '../views/blog/blog.vue';
 import Formation from '../views/formation/formation.vue';
+import FormationRgpd from '../views/formation/FormationRgpd.vue';
 import Logiciel from '../views/logiciel/logiciel';
 import AuditOrganisationnel from '../views/cybersecurity/AuditOrganisationnel';
 import RepriseActivity from '../views/cybersecurity/RepriseActivity';
@@ -50,11 +51,6 @@ const routes = [
     path:'/blog',
     name:'Blog',
     component:Blog
-  },
-  {
-    path:'/formation',
-    name:'Formation',
-    component:Formation
   },
   {
     path:'/logiciel',
@@ -110,6 +106,16 @@ const routes = [
     path:'/rgpd-pia',
     name:'rgpdpia',
     component: rgpdpia
+  },
+  {
+    path:'/formation/cybersecurity',
+    name:'FormationCyberSecurity',
+    component:Formation
+  },
+  {
+    path:'/formation/rgpd',
+    name:'Formationrgpd',
+    component: FormationRgpd
   }
   
 ]
