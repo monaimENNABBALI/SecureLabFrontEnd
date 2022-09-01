@@ -76,9 +76,10 @@
                         <li>
                             <router-link class="sf-with-ul" :to="{name:'About'}">Securelabs</router-link>
                             <ul>
-                                <li><a href="#">Qui sommes-nous ?</a></li>
-                                <li><a href="#">Références</a></li>
-                                <li><a href="#">Partenaires</a></li>
+                                
+                               <li><router-link :to="{name: 'qui'}">Qui sommes nous?</router-link></li>
+                               <li><router-link :to="{name: 'ref'}">Références</router-link></li>
+                               <li><router-link :to="{name: 'part'}">Partenaires</router-link></li>
                              
                             </ul>
                         </li>
