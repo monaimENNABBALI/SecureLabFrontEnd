@@ -1,5 +1,5 @@
 <template lang="">
-    <Intro bgUrl="background-image: url('images/intro-rgpdaccomp.jpg');">
+    <Intro bgUrl="background-image: url('images/part1.png');">
       <div class="title">
           <h3></h3>
       </div>
