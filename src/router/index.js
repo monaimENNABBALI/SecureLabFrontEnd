@@ -20,7 +20,7 @@ import rgpdaudit from '../views/rgpd/rgpdaudit.vue';
 import rgpddpoex from '../views/rgpd/rgpddpoex.vue';
 import rgpddpoexmu from '../views/rgpd/rgpddpoexmu.vue';
 import rgpdaccomp from '../views/rgpd/rgpdaccomp.vue';
-import rgpdpia from '../views/rgpd/rgpdpia.vue';
+
 
 
 const routes = [
@@ -115,11 +115,7 @@ const routes = [
     name:'rgpdaccomp',
     component: rgpdaccomp
   },
-  {
-    path:'/rgpd-pia',
-    name:'rgpdpia',
-    component: rgpdpia
-  },
+ 
   {
     path:'/formation/cybersecurity',
     name:'FormationCyberSecurity',
