@@ -7,7 +7,7 @@
           <h4>Les audits de conformité RGPD</h4>
       </div>
       <div class="action">
-          <a href="#choiceUs">découvrez maintenant</a>
+          <a href="#choiceUs">Découvrez maintenant</a>
           
       </div>
     </Intro>
