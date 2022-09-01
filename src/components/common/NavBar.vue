@@ -25,7 +25,7 @@
                 </button>
 
                 <router-link :to="{name: 'Home'}" class="logo">
-                    <img src="images/sl-new-logo-horizontal.png" alt="Molla Logo">
+                    <img src="images/logo2.png" alt="Molla Logo">
                 </router-link>
             </div><!-- End .header-left -->
 
@@ -76,10 +76,10 @@
                         <li>
                             <router-link class="sf-with-ul" :to="{name:'About'}">Securelabs</router-link>
                             <ul>
-                                <li><a href="#">Securelabs</a></li>
-                                <li><a href="#">Securelabs 2</a></li>
-                                <li><a href="#">Securelabs 3</a></li>
-                                <li><a href="#">Securelabs 4</a></li>
+                                <li><a href="#">Qui sommes-nous ?</a></li>
+                                <li><a href="#">Références</a></li>
+                                <li><a href="#">Partenaires</a></li>
+                             
                             </ul>
                         </li>
                         

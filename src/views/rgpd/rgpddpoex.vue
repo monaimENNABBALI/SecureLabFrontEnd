@@ -16,7 +16,8 @@
                 <div class="container">
                     <div id="first" class="container mt-6" style="height: 60vh;">
                         <div class="heading pt-4">
-                            <h3 class="heading-title">Cartographie des traitements de données</h3>
+                        
+                            <h3 class="mb-5 title-color-primary" style="font-weight: 600;">Cartographie des traitements de données</h3>
            
                          
                                
