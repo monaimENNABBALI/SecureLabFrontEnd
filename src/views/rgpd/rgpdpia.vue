@@ -17,7 +17,7 @@
                     <div id="first" class="container mt-6" style="height: 100vh;">
                         <div class="heading pt-4">
                             <h3 class="heading-title">PIA/AIPD: Une méthodologie d’analyse d’impact consacrée par la CNIL</h3>
-                            <p class="heading-cat">
+                            <p>
                                  L’étude d’impact sur la vie privée (EIVP) est consacré par l’article 35 du RGPD qui consacre l’obligation de mener une étude d’impact sur la vie privée lorsque le traitement de données personnelles engendre ou est susceptible d’engendrer un risque élevé pour les droits et libertés des personnes concernées.
                                  La Commission nationale de l’informatique et des libertés (CNIL) a publié une liste référentielle recensant l’ensemble des traitements de données pour lesquels une analyse d’impact est obligatoire.
                                  A ce titre, SECURELABS mettra à disposition son expertise conjointe en protection des données et en SSI pour vous accompagner dans cette démarche. Cette démarche reposera sur une analyse documentaire du traitement qui nous va nous permettre d’étudier les 4 étapes composant une analyse d’impact : 
