@@ -17,7 +17,7 @@
                     <div id="first" class="container mt-6" style="height: 100vh;">
                         <div class="heading pt-4">
                             <h3 class="heading-title">Nos références </h3>
-                            <p class="heading-cat">
+                            <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra imperdiet sem. Donec ligula metus, pharetra et dictum non, fermentum ac lacus. Integer ac magna vitae mauris placerat iaculis vel a risus. Maecenas feugiat eget lorem facilisis venenatis. Nullam sodales tortor in magna ultricies, quis sagittis ante eleifend. Praesent quis.
                             </p>
 
