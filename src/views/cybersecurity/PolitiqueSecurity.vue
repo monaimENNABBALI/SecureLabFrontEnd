@@ -1,6 +1,6 @@
 <template lang="">
 
-    <Intro bgUrl="background-image: url('images/cyber/auditOrganisationnel.jpg');">
+    <Intro bgUrl="background-image: url('images/cyber/politiqueSecurity.jpg');">
              <!-- we will get this using -->
             <div class="title">
                 <h3>Par Securelabs</h3>

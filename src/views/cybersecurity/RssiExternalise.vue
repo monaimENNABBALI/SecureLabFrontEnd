@@ -1,5 +1,5 @@
 <template lang="">
-    <Intro bgUrl="background-image: url('images/homeIntro.jpg');">
+    <Intro bgUrl="background-image: url('images/cyber/RssiExternalise.jpg');">
              <!-- we will get this using -->
             <div class="content mb-2 col-10 mx-auto">
                 <h4>Par Securelabs</h4>
@@ -16,7 +16,7 @@
      <main style="background-color: #f5f5f5;">
                 <div id="first" class="heading pt-4 pb-2 mt-0 col-10 mx-auto">
                     <div class="activity-box-icon-container mx-auto">
-                        <img class="activity-box-icon" style="width:15%" src="images/icon-test.png">
+                        <img class="activity-box-icon" style="width:15%" src="images/cyber/rssi/fonction.png">
                     </div>
                     <div class="heading-title" style="color: #ff0505;">
                         Fonction du RSSI externe
@@ -27,7 +27,7 @@
                 </div>
                 <div class="heading pt-4 pb-2 mt-0 col-10 mx-auto">
                     <div class="activity-box-icon-container mx-auto">
-                        <img class="activity-box-icon" style="width:15%" src="images/icon-test.png">
+                        <img class="activity-box-icon" style="width:15%" src="images/cyber/rssi/mission.png">
                     </div>
                     <div class="heading-title" style="color: #ff0505;">
                         Mission du RSSI externe
@@ -129,64 +129,64 @@ export default {
                 {
                     id:1,
                     title:'Définition de la stratégie de maîtrise des risques et pilotage des plans d’actions sécurité ',
-                    image:"images/cyber/icons/physique.png"
+                    image:"images/cyber/rssi/1-strategy.png"
                 },
                 {
                     id:2,
                     title:'Actions de sensibilisation et de formation ',
-                    image:"images/cyber/icons/physique.png"
+                    image:"images/cyber/rssi/2-formation.png"
                 },
                 {
                     id:3,
                     title:'Lanceur d’alerte en interne ',
-                    image:"images/cyber/icons/physique.png"
+                    image:"images/cyber/rssi/3-alerte.png"
                 },
                 {
                     id:4,
                     title:'Actions de contrôle et reporting auprès de la direction ',
-                    image:"images/cyber/icons/physique.png"
+                    image:"images/cyber/rssi/4-reporting.png"
                 },
                 {
                     id:5,
                     title:'Elaboration et pilotage des tableaux de bord',
-                    image:"images/cyber/icons/physique.png"
+                    image:"images/cyber/rssi/5-tableau.png"
                 },
                 {
                     id:6,
                     title:'Rédaction de la documentation sécurité ',
-                    image:"images/cyber/icons/physique.png"
+                    image:"images/cyber/rssi/6-documentaion.png"
                 },
                 {
                     id:7,
                     title:'Mise en oeuvre des comités de pilotage sécurité ',
-                    image:"images/cyber/icons/physique.png"
+                    image:"images/cyber/rssi/7-comity.png"
                 },
             ],
             accompagnements:[
                 {
                     id:1,
                     content:"D’assurer des échanges et des entretiens avec votre RSSI mais également un suivi personnalisé des projets en cours ;",
-                    image:"images/icon-test.png"
+                    image:"images/cyber/rssi/1-echange.png"
                 },
                 {
                     id:2,
                     content:"De soutenir la rédaction de la documentation sécurité ;",
-                    image:"images/icon-test.png"
+                    image:"images/cyber/rssi/2-documentation.png"
                 },
                 {
                     id:3,
                     content:"De soutenir la mise en oeuvre d’un comité de pilotage sécurité ;",
-                    image:"images/icon-test.png"
+                    image:"images/cyber/rssi/3-pilotage.png"
                 },
                 {
                     id:4,
                     content:"De conseiller, assister, sensibiliser et former le RSSI dans le cadre de ses missions ; ",
-                    image:"images/icon-test.png"
+                    image:"images/cyber/rssi/4-assiste.png"
                 },
                 {
                     id:5,
                     content:"D’assurer un suivi de projet avec la Haute Direction ; ",
-                    image:"images/icon-test.png"
+                    image:"images/cyber/rssi/5-hauteDirection.png"
                 },
             ]
         }

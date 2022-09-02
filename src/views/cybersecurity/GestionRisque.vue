@@ -68,17 +68,17 @@ export default {
                 {
                     id:1,
                     content:"Identification de la nature et de la criticité du prestataire et des risques",
-                    image:"images/icon-test.png"
+                    image:"images/cyber/gestionRisque/1.png"
                 },
                 {
                     id:2,
                     content:"Elaboration d’un plan d’assurance sécurité",
-                    image:"images/icon-test.png"
+                    image:"images/cyber/gestionRisque/2.png"
                 },
                 {
                     id:3,
                     content:"Elaboration d’un plan de traitement des risques liés aux prestataires",
-                    image:"images/icon-test.png"
+                    image:"images/cyber/gestionRisque/3.png"
                 },
             ]
         }
