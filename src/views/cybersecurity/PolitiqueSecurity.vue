@@ -3,7 +3,7 @@
     <Intro bgUrl="background-image: url('images/cyber/auditOrganisationnel.jpg');">
              <!-- we will get this using -->
             <div class="title">
-                <h3>By Securelabs</h3>
+                <h3>Par Securelabs</h3>
             </div>
             <div class="content">
                 <h4> Politique de sécurité </h4>

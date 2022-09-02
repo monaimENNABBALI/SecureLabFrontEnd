@@ -3,7 +3,7 @@
     <Intro bgUrl="background-image: url('images/cyber/repriseActivity.jpg');">
              <!-- we will get this using -->
             <div class="title">
-                <h3>By Securelabs</h3>
+                <h3>Par Securelabs</h3>
             </div>
             <div class="content">
                 <h4>Continuité et reprise d’activité </h4>

@@ -46,6 +46,7 @@
                                 <li><router-link :to="{name: 'GestionRisque'}"> Gestion des risques prestataires</router-link></li>
                                 <li><router-link :to="{name: 'RepriseActivity'}">Continuité et reprise d’activité</router-link></li>
                                 <li><router-link :to="{name: 'PolitiqueSecurity'}">Politique de sécurité</router-link></li>
+                                <li><router-link :to="{name: 'RssiExternalise'}">RSSI externalisé et assistance RSSI</router-link></li>
                                 <li><router-link :to="{name: 'Certification'}">Certification ISO27001</router-link></li>
                             </ul>
                         </li>

@@ -12,6 +12,7 @@ import RepriseActivity from '../views/cybersecurity/RepriseActivity';
 import AnalyseRisque from '../views/cybersecurity/AnalyseRisque';
 import GestionRisque from '../views/cybersecurity/GestionRisque';
 import PolitiqueSecurity from '../views/cybersecurity/PolitiqueSecurity';
+import RssiExternalise from '../views/cybersecurity/RssiExternalise';
 import Certification from '../views/cybersecurity/Certification';
 
 import Expertise from '../views/expertise/expertise.vue';
@@ -94,6 +95,11 @@ const routes = [
     path:'/PolitiqueSecurity',
     name:'PolitiqueSecurity',
     component:PolitiqueSecurity
+  },
+  {
+    path:'/RssiExternalise',
+    name:'RssiExternalise',
+    component:RssiExternalise
   },
   {
     path:'/Certification',
