@@ -1,19 +1,23 @@
 <template lang="">
-  <Intro bgUrl="background-image: url('images/homeIntro.jpg');">
-               <!-- we will get this using -->
-              <div class="title">
-                  <h3>Faites appel à des spécialistes</h3>
-              </div>
-              <div class="content">
-                  <h4>Pour votre conformité RGPD</h4>
-              </div>
-              <div class="action">
-                  <a href="#contenu">Découvrez maintenant</a>
-              </div>
-      </Intro>
+  <div class="background" style="min-height:81vh;background-image: url('../../../public/images/Formation/Formargpd.jpg');" >
+    
+    <div class="slider"  style="min-height:81vh;">
+        <div class="intro col-8 mx-auto">
+          <div class="title">
+                <h3>Faites appel à des spécialistes</h3>
+            </div>
+            <div class="content">
+                <h4>Pour votre conformité RGPD</h4>
+            </div>
+            <div class="action">
+                <a href="#contenu">Découvrez maintenant</a>
+            </div>
+        </div>
+    </div>
+</div>
       <div class="container mt-5 mb-5" id="contenu">
         <div >
-          <span class="badge bg-primary h3 font-weight-bold">Formation aux bonnes pratiques de protection des données personnelles</span>
+          <span class="heading-title title-color-primary h3 font-weight-bold">Formation aux bonnes pratiques de protection des données personnelles</span>
           <img class="mx-auto rounded my-5" src="../../../public/images/Objectif2.png" height="70" width="70" alt="">
         
         <ul>A l'issue de cette formation, le participant sera en capacité de :
@@ -73,7 +77,7 @@
     <div class="d-inline "><img  height="90" width="90" src="../../../public/images/NonCertifiante.png" alt=""></div>
   </div> -->
       <div class="mt-5">
-        <span class="badge bg-primary h1">Formation Délégué à la protection des données</span>
+        <span class="heading-title title-color-primary h1">Formation Délégué à la protection des données</span>
       </div>
       <div class="mt-5">
         <img class="mx-auto rounded my-5" src="../../../public/images/Objectif2.png" height="70" width="70" alt="">
@@ -251,8 +255,7 @@
   export default {
     components:{
           Intro
-      }
-      
+      }  
   }
   </script>
   <style lang="">

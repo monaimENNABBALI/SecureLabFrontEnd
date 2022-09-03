@@ -1,7 +1,6 @@
 <template lang="">
 
-<Intro bgUrl="background-image: url('images/intro-rgpdaccomp.jpg');">
-             <!-- we will get this using -->
+<!-- <Intro bgUrl="background-image: url('../../../public/images/formation/FormatCyberSec.jpg);">
             <div class="title">
                 <h3>Faites appel à des spécialistes</h3>
             </div>
@@ -11,10 +10,26 @@
             <div class="action">
                 <a href="#contenu">Découvrez maintenant</a>
             </div>
-</Intro>
+</Intro> -->
+
+<div class="background" style="min-height:81vh;background-image: url('../../../public/images/Formation/FormatCyberSec.jpg');" >
+    
+    <div class="slider"  style="min-height:81vh;">
+        <div class="intro col-8 mx-auto">
+            <div class="content">
+                <h4>Cyber sécurité</h4>
+            </div>
+            <div class="action">
+                <a href="#contenu">Découvrez maintenant</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
     <div class="container mt-5 mb-5" id="contenu">
       <div >
-        <span class="badge bg-primary h3 font-weight-bold">Formation gestion des risques IT et Système de Management de la Sécurité de l’Information</span>
+        <span class="badge heading-title title-color-primary h3 font-weight-bold">Formation gestion des risques IT et Système de Management de la Sécurité de l’Information</span>
         <img class="mx-auto rounded my-5" src="../../../public/images/Objectif2.png" height="70" width="70" alt="">
       
       <ul>A l'issue de cette formation, le participant sera en capacité de :
@@ -131,7 +146,7 @@
 </div>
 </div>
     <div class="mt-5">
-      <span class="badge bg-primary h1">Sensibilisation à la sécurité de l’information</span>
+      <span class="heading-title title-color-primary h1">Sensibilisation à la sécurité de l’information</span>
     <h5 class="mt-1">La sensibilisation à la cybersécurité consiste à changer les habitudes de vos collaborateurs quant aux bonnes pratiques a adopté dans le cadre leurs missions. Il est important de construire et de maintenir une culture de la sécurité de l’information au sein de votre organisation.
       C’est pourquoi, SECURELABS vous propose des sessions de sensibilisation ciblées sur des thématiques bien précises et conformes à vos besoins.</h5>
     </div>
