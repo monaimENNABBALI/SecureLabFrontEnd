@@ -127,19 +127,19 @@ export default {
                     id:1,
                     title:"Apprécier la réalité opérationnelle",
                     content:"et l’écosystème de chaque client pour déployer les meilleures stratégies et anticiper les besoins.",
-                    image:"images/icon-test.png"
+                    image:"images/home/reality.png"
                 },
                 {
                     id:2,
                     title:"Être réaliste et pragmatique",
                     content:"dans notre approche pour proposer des solutions opérationnelles adaptées aux clients via la combinaison de nos expertises juridiques, techniques et de notre expérience opérationnelle.",
-                    image:"images/icon-test.png"
+                    image:"images/home/pragmatique.png"
                 },
                 {
                     id:3,
                     title:"S’engager",
                     content:"à sécuriser votre organisation en endossant pleinement notre rôle de conseil et d’interlocuteur tout en construisant une relation durable avec vous.",
-                    image:"images/icon-test.png"
+                    image:"images/home/sengager.png"
                 },
             ]
         }

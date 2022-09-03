@@ -12,6 +12,7 @@ import RepriseActivity from '../views/cybersecurity/RepriseActivity';
 import AnalyseRisque from '../views/cybersecurity/AnalyseRisque';
 import GestionRisque from '../views/cybersecurity/GestionRisque';
 import PolitiqueSecurity from '../views/cybersecurity/PolitiqueSecurity';
+import RssiExternalise from '../views/cybersecurity/RssiExternalise';
 import Certification from '../views/cybersecurity/Certification';
 
 import Expertise from '../views/expertise/expertise.vue';
@@ -20,7 +21,12 @@ import rgpdaudit from '../views/rgpd/rgpdaudit.vue';
 import rgpddpoex from '../views/rgpd/rgpddpoex.vue';
 import rgpddpoexmu from '../views/rgpd/rgpddpoexmu.vue';
 import rgpdaccomp from '../views/rgpd/rgpdaccomp.vue';
-import rgpdpia from '../views/rgpd/rgpdpia.vue';
+import qui from '../views/securelabs/qui.vue';
+import ref from '../views/securelabs/ref.vue';
+import part from '../views/securelabs/part.vue';
+
+
+
 
 
 const routes = [
@@ -91,6 +97,11 @@ const routes = [
     component:PolitiqueSecurity
   },
   {
+    path:'/RssiExternalise',
+    name:'RssiExternalise',
+    component:RssiExternalise
+  },
+  {
     path:'/Certification',
     name:'Certification',
     component:Certification
@@ -116,10 +127,21 @@ const routes = [
     component: rgpdaccomp
   },
   {
-    path:'/rgpd-pia',
-    name:'rgpdpia',
-    component: rgpdpia
+    path:'/securelabs-qui',
+    name:'qui',
+    component: qui
   },
+  {
+    path:'/securelabs-part',
+    name:'part',
+    component: part
+  },
+  {
+    path:'/securelabs-ref',
+    name:'ref',
+    component: ref
+  },
+
   {
     path:'/formation/cybersecurity',
     name:'FormationCyberSecurity',

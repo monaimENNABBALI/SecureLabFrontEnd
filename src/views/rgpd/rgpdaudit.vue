@@ -1,138 +1,59 @@
 <template lang="">
-    <Intro bgUrl="background-image: url('images/intro-rgpdaudit.jpg');">
-      <div class="title">
-          <h3>By SecureLabs</h3>
-      </div>
-      <div class="content">
-          <h4>Les audits de conformité RGPD</h4>
-      </div>
-      <div class="action">
-          <a href="#choiceUs">discover now</a>
-      </div>
+
+     <Intro bgUrl="background-image: url('images/intro-rgpdaudit.jpg');">
+             <!-- we will get this using -->
+            <div class="title">
+                <h3>By Securelabs</h3>
+            </div>
+            <div class="content">
+                <h4>Les audits de conformité RGPD </h4>
+            </div>
+            <div class="action">
+                <a href="#main-page">Découvrez maintenant</a>
+            </div>
+        
     </Intro>
     <main>
-        <div class="page-content">
+        <div id="main-page" class="page-content pt-3" style="min-height: 90vh; background-image: url('images/methodologie.jpg');">
 
-                <div class="container">
-                    <div id="first" class="container mt-6" style="height: 100vh;">
-                        <div class="heading pt-4">
-                            <h3 class="heading-title">Les audits de conformité RGPD</h3>
-                            <p class="heading-cat">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra imperdiet sem. Donec ligula metus, pharetra et dictum non, fermentum ac lacus. Integer ac magna vitae mauris placerat iaculis vel a risus. Maecenas feugiat eget lorem facilisis venenatis. Nullam sodales tortor in magna ultricies, quis sagittis ante eleifend. Praesent quis.
+                    <div  class="col-10 mx-auto" >
+                        <div id="first" class="heading pt-4 mt-0">
+                            <h1 class="mb-5 title-color-primary" style="font-weight: 600;">Dans quel cadre mettre en œuvre un audit de conformité RGPD ? </h1>
+                            <p class="activity-listing-subtitle">
+                                 Un organisme souhaitant mettre en œuvre une stratégie de gouvernance des données personnelles va rencontrer la nécessité d'auditer l’ensemble des traitements de données présents dans sa structure.
+                               La réglementation et les bonnes pratiques étant particulièrement strictes, l’audit de conformité vous permettra de mesurer votre niveau de conformité tout en maintenant une cartographie des traitements de données claire et limpide.
                             </p>
 
                         </div>
-                        <div class="row justify-content-center">
-                            <div class="col-lg-3 col-sm-4">
-                                <div class="icon-box icon-box-sm text-center p-5" style="background-color: #fff;">
-                                    <span class="icon-box-icon ">
-                                        <i class="icon-puzzle-piece" style="font-size: 10rem;"></i>
-                                    </span>
-                                    <div class="icon-box-content">
-                                        <h3 class="icon-box-title" >element 1</h3><!-- End .icon-box-title -->
-                                    </div><!-- End .icon-box-content -->
-                                </div><!-- End .icon-box -->
-                            </div><!-- End .col-lg-4 col-sm-6 -->
-                            <div class="col-lg-3 col-sm-4">
-                                <div class="icon-box icon-box-sm text-center p-5" style="background-color: #fff;">
-                                    <span class="icon-box-icon ">
-                                        <i class="icon-puzzle-piece" style="font-size: 10rem;"></i>
-                                    </span>
-                                    <div class="icon-box-content">
-                                        <h3 class="icon-box-title" >element 2</h3><!-- End .icon-box-title -->
-                                    </div><!-- End .icon-box-content -->
-                                </div><!-- End .icon-box -->
-                            </div><!-- End .col-lg-4 col-sm-6 -->
-                            <div class="col-lg-3 col-sm-4">
-                                <div class="icon-box icon-box-sm text-center p-5" style="background-color: #fff;">
-                                    <span class="icon-box-icon ">
-                                        <i class="icon-puzzle-piece" style="font-size: 10rem;"></i>
-                                    </span>
-                                    <div class="icon-box-content">
-                                        <h3 class="icon-box-title" >element 3</h3><!-- End .icon-box-title -->
-                                    </div><!-- End .icon-box-content -->
-                                </div><!-- End .icon-box -->
-                            </div><!-- End .col-lg-4 col-sm-6 -->
-                            <div class="col-lg-3 col-sm-4">
-                                <div class="icon-box icon-box-sm text-center p-5" style="background-color: #fff;">
-                                    <span class="icon-box-icon ">
-                                        <i class="icon-puzzle-piece" style="font-size: 10rem;"></i>
-                                    </span>
-                                    <div class="icon-box-content">
-                                        <h3 class="icon-box-title" >element 4</h3><!-- End .icon-box-title -->
-                                    </div><!-- End .icon-box-content -->
-                                </div><!-- End .icon-box -->
-                            </div><!-- End .col-lg-4 col-sm-6 -->
-
+                        
+                    </div>
+                <div class="pb-4">
+                    <div class="heading pt-4 pb-2 mt-0">
+            			<h3 class="heading-title title-color-primary">Découvrez nos services audit</h3>
+                    </div>
+                    <div class="container mt-4 pt-4">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6 col-lg-4" v-for="methodologie in methodologies">
+                                <div class="activity-item">
+                                    <div class="row">
+                                        <a href="#" data-role="activity-box-link">
+                                            <div class="col-lg-12 p-0">
+                                                <!-- activity Image, Name & Subtitle (everyone) -->
+                                                <div class="activity-box-icon-container">
+                                                    <img class="activity-box-icon" :src="methodologie.image">
+                                                </div>
+                                                <div class="activity-item-title" role="heading" aria-level="2">
+                                                    {{methodologie.title}}
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="activity-listing-subtitle">{{methodologie.content}}</div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    <!-- first -->
-                    </div>
-                    <div style="height:100vh;" class="py-5 my-5">
-                        <h2 class="text-center heading-title my-5 ">La méthodologie de nos auditeurs</h2><!-- End .title -->
-                        <div class="accordion accordion-rounded" id="accordion-1">
-                            <div class="card card-box card-sm bg-light">
-                                <div class="card-header" id="heading-1">
-                                    <h2 class="card-title">
-                                        <a role="button" data-toggle="collapse" href="#collapse-1" aria-expanded="true" aria-controls="collapse-1">
-                                            method 1
-                                        </a>
-                                    </h2>
-                                </div><!-- End .card-header -->
-                                <div id="collapse-1" class="collapse show" aria-labelledby="heading-1" data-parent="#accordion-1">
-                                    <div class="card-body">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra imperdiet sem. Donec ligula metus, pharetra et dictum non, fermentum ac lacus. Integer ac magna vitae mauris placerat iaculis vel a risus. Maecenas feugiat eget lorem facilisis venenatis. Nullam sodales tortor in magna ultricies, quis sagittis ante eleifend. Praesent quis.
-                                    </div><!-- End .card-body -->
-                                </div><!-- End .collapse -->
-                            </div><!-- End .card -->
-
-                            <div class="card card-box card-sm bg-light">
-                                <div class="card-header" id="heading-2">
-                                    <h2 class="card-title">
-                                        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
-                                            method 2
-                                        </a>
-                                    </h2>
-                                </div><!-- End .card-header -->
-                                <div id="collapse-2" class="collapse" aria-labelledby="heading-2" data-parent="#accordion-1">
-                                    <div class="card-body">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra imperdiet sem. Donec ligula metus, pharetra et dictum non, fermentum ac lacus. Integer ac magna vitae mauris placerat iaculis vel a risus. Maecenas feugiat eget lorem facilisis venenatis. Nullam sodales tortor in magna ultricies, quis sagittis ante eleifend. Praesent quis.
-                                    </div><!-- End .card-body -->
-                                </div><!-- End .collapse -->
-                            </div><!-- End .card -->
-
-                            <div class="card card-box card-sm bg-light">
-                                <div class="card-header" id="heading-3">
-                                    <h2 class="card-title">
-                                        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-3" aria-expanded="false" aria-controls="collapse-3">
-                                            method 3
-                                        </a>
-                                    </h2>
-                                </div><!-- End .card-header -->
-                                <div id="collapse-3" class="collapse" aria-labelledby="heading-3" data-parent="#accordion-1">
-                                    <div class="card-body">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra imperdiet sem. Donec ligula metus, pharetra et dictum non, fermentum ac lacus. Integer ac magna vitae mauris placerat iaculis vel a risus. Maecenas feugiat eget lorem facilisis venenatis. Nullam sodales tortor in magna ultricies, quis sagittis ante eleifend. Praesent quis.
-                                    </div><!-- End .card-body -->
-                                </div><!-- End .collapse -->
-                            </div><!-- End .card -->
-                            <div class="card card-box card-sm bg-light">
-                                <div class="card-header" id="heading-3">
-                                    <h2 class="card-title">
-                                        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-4" aria-expanded="false" aria-controls="collapse-3">
-                                            method 4
-                                        </a>
-                                    </h2>
-                                </div><!-- End .card-header -->
-                                <div id="collapse-4" class="collapse" aria-labelledby="heading-4" data-parent="#accordion-1">
-                                    <div class="card-body">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra imperdiet sem. Donec ligula metus, pharetra et dictum non, fermentum ac lacus. Integer ac magna vitae mauris placerat iaculis vel a risus. Maecenas feugiat eget lorem facilisis venenatis. Nullam sodales tortor in magna ultricies, quis sagittis ante eleifend. Praesent quis.
-                                    </div><!-- End .card-body -->
-                                </div><!-- End .collapse -->
-                            </div><!-- End .card -->
-
-                            
-                        </div><!-- End .accordion -->
-                    </div>
-                </div><!-- End .container -->
+                    </div> 
+                </div>                     
             </div><!-- End .page-content -->
     </main>
 </template>
@@ -141,7 +62,33 @@ import Intro from '@/components/Intro'
 export default {
     components:{
         Intro
-    }
+    },
+    data() {
+        return {
+            
+            methodologies:[
+                {
+                    id:1,
+                    title:"Audit de maturité RGPD",
+                    content:"Dans cette section, il s’agira d’analyser et de mesurer le niveau de maturité des contrôles et des process de sécurité en place dans votre organisation. L’idée étant d’élaborer un rapport sur les écarts de maturité de votre organisation ainsi que les mesures à déployer pour les réduire.",
+                    image:"images/avion.png"
+                },
+                {
+                    id:2,
+                    title:"Audit de Site Web",
+                    content:"Analyse des vulnérabilités- Gestion des cookies et du consentement -Analyse des CGV/CGU -Analyse de conformité eu égard aux préconisations de la CNIL",
+                    image:"images/globe.png"
+                },
+                {
+                    id:3,
+                    title:"Audit des sous-traitants",
+                    content:"Dans le cadre du RGPD, un responsable de traitement doit se prémunir contre les risques et la conformité liés à ses sous-traitants. SECURELABS audit vos sous-traitant en analysant un certain nombre de paramètres dont : Contrôle des risques liés aux fuites de données - Contrôle de sa réputation - Contrôle des risques liés aux fuites de données  - Contrôle des déclarations et des autorisations ",
+                    image:"images/settings.png"
+                },
+            ]
+        }
+    },
+    
 }
 </script>
 <style lang="">

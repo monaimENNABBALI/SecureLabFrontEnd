@@ -25,7 +25,7 @@
                 </button>
 
                 <router-link :to="{name: 'Home'}" class="logo">
-                    <img src="images/sl-new-logo-horizontal.png" alt="Molla Logo">
+                    <img src="images/logo2.png" alt="Molla Logo">
                 </router-link>
             </div><!-- End .header-left -->
 
@@ -46,6 +46,7 @@
                                 <li><router-link :to="{name: 'GestionRisque'}"> Gestion des risques prestataires</router-link></li>
                                 <li><router-link :to="{name: 'RepriseActivity'}">Continuité et reprise d’activité</router-link></li>
                                 <li><router-link :to="{name: 'PolitiqueSecurity'}">Politique de sécurité</router-link></li>
+                                <li><router-link :to="{name: 'RssiExternalise'}">RSSI externalisé et assistance RSSI</router-link></li>
                                 <li><router-link :to="{name: 'Certification'}">Certification ISO27001</router-link></li>
                             </ul>
                         </li>
@@ -55,10 +56,10 @@
                             <a href="#" class="sf-with-ul">Rgpd</a>
                             <ul>
                                 <li><router-link :to="{name: 'rgpdaudit'}">Audits de conformité RGPD</router-link></li>
-                                <li><router-link :to="{name: 'rgpddpoex'}">DPO / DPD externe</router-link></li>
-                                <li><router-link :to="{name: 'rgpddpoexmu'}">DPO / DPD externe et mutualisé</router-link></li>
-                                <li><router-link :to="{name: 'rgpdaccomp'}">Accompagnement RGPD</router-link></li>
-                                <li><router-link :to="{name: 'rgpdpia'}">PIA / AIPD</router-link></li>
+                                <li><router-link :to="{name: 'rgpddpoex'}">Cartographie des traitements de données</router-link></li>
+                                <li><router-link :to="{name: 'rgpddpoexmu'}">Réalisation d’Analyse d’Impact</router-link></li>
+                                <li><router-link :to="{name: 'rgpdaccomp'}">Délégué à la protection des données externalisé</router-link></li>
+                                
                             </ul>
                         </li>
                             <!-- Formation -->
@@ -76,10 +77,11 @@
                         <li>
                             <router-link class="sf-with-ul" :to="{name:'About'}">Securelabs</router-link>
                             <ul>
-                                <li><a href="#">Securelabs</a></li>
-                                <li><a href="#">Securelabs 2</a></li>
-                                <li><a href="#">Securelabs 3</a></li>
-                                <li><a href="#">Securelabs 4</a></li>
+                                
+                               <li><router-link :to="{name: 'qui'}">Qui sommes nous?</router-link></li>
+                               <li><router-link :to="{name: 'ref'}">Références</router-link></li>
+                               <li><router-link :to="{name: 'part'}">Partenaires</router-link></li>
+                             
                             </ul>
                         </li>
                         

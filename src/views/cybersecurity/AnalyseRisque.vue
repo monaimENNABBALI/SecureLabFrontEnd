@@ -3,7 +3,7 @@
     <Intro bgUrl="background-image: url('images/cyber/analyseRisques.jpg');">
              <!-- we will get this using -->
             <div class="title">
-                <h3>By Securelabs</h3>
+                <h3>Par Securelabs</h3>
             </div>
             <div class="content">
                 <h4>Analyse de risques cybersécurité</h4>
@@ -41,7 +41,7 @@
                                     1-Identifier et définir le niveau de sécurité à atteindre
                                 </div>
                                 <div class="activity-box-icon-container">
-                                    <img class="activity-box-icon" style="width:15%" src="images/icon-test.png">
+                                    <img class="activity-box-icon" style="width:15%" src="images/cyber/analyseRisque/1.png">
                                 </div>
                                 <div class="fs-1 heading-title text-left mt-4">
                                     L’analyse des risques cyber est utilisée pour plusieurs objectifs et permet notamment : 
@@ -67,7 +67,7 @@
                                 2-Définir une stratégie de traitement du risque
                             </div>
                             <div class="activity-box-icon-container">
-                                <img class="activity-box-icon" style="width:15%" src="images/icon-test.png">
+                                <img class="activity-box-icon" style="width:15%" src="images/cyber/analyseRisque/2.png">
                             </div>
                             <div class="activity-listing-subtitle  text-left">
                                 Après toute la démarche de caractérisation et d’identification des risques liés à l’activité, il s’agira d’établir une synthèse des risques étudiés afin d’établir une stratégie de traitement des risques. Un plan de traitement des risques sera élaboré afin de décrire les mesures de sécurité d’amélioration continue ainsi que les risques résiduels existants. 

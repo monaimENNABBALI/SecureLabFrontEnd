@@ -3,7 +3,7 @@
     <Intro bgUrl="background-image: url('images/cyber/repriseActivity.jpg');">
              <!-- we will get this using -->
             <div class="title">
-                <h3>By Securelabs</h3>
+                <h3>Par Securelabs</h3>
             </div>
             <div class="content">
                 <h4>Continuité et reprise d’activité </h4>
@@ -67,13 +67,13 @@ export default {
                     id:1,
                     title:"Le Plan de Reprise d’Activité (PRA)",
                     content:"Un PRA est défini dans le but de prévoir, en urgence,  la restauration des systèmes, des applications et données y afférentes et de limiter la perte de données. Il convient dans cet exercice de déterminer le bon équilibre entre le coût des pertes potentielles et celui des solutions mises en place.",
-                    image:"images/icon-test.png"
+                    image:"images/cyber/repriseActivity/1.png"
                 },
                 {
                     id:2,
                     title:"le Plan de Continuité d’Activité (PCA)",
                     content:"Un PCA est défini dans le but de basculer l’exploitation de systèmes, applications et données y afférentes  dans un autre environnement sans perte de données et avec une indisponibilité des services très courte. Il vise à garantir la continuité de l’activité pendant ou après un sinistre et d’éviter toute perte de données.SECURELABS vous accompagne dans l’élaboration d’une stratégie visant à la détermination d’une solution adaptée à vos besoins eu égard à votre budget et à votre réalité opérationnelle ! ",
-                    image:"images/icon-test.png"
+                    image:"images/cyber/repriseActivity/2.png"
                 },
             ]
         }
