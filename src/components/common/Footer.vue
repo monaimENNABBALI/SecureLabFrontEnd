@@ -3,15 +3,11 @@
         	<div class="footer-middle border-0">
 	            <div class="container">
 	            	<div class="row">
+					
 	            		<div class="col-sm-6 col-lg-3">
 	            			<div class="widget widget-about">
-<<<<<<< HEAD
-	            				<img src="images/sl-new-logo-vertical.png" style="width: 10rem;" class="footer-logo mx-auto" alt="Footer Logo">
+								<img src="images/sl-new-logo-vertical.png" style="width: 10rem;" class="footer-logo mx-auto" alt="Footer Logo">
 	            				<p>Faites appels à des spécialistes pour vous accompagner dans vos stratégies cybersécurité et conformité. </p>
-=======
-	            				<img src="images/logo2.png" style="width: 10rem;" class="footer-logo mx-auto" alt="Footer Logo">
-	            				<p>Praesent dapibus, neque id cursus ucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. </p>
->>>>>>> 50f709de27b9536a4a99f147c8cbcd15e4a83490
 								<div class="social-icons">
 									<a href="#" class="social-icon" target="_blank" title="Facebook"><i class="icon-facebook-f"></i></a>
 									<a href="#" class="social-icon" target="_blank" title="Twitter"><i class="icon-twitter"></i></a>
@@ -44,7 +40,7 @@
 	            					<li><router-link :to="{name: 'rgpddpoex'}">DPO / DPD externe</router-link></li>
 	            					<li><router-link :to="{name: 'rgpddpoexmu'}">DPO / DPD externe et mutualisé</router-link></li>
                                 	<li><router-link :to="{name: 'rgpdaccomp'}">Accompagnement RGPD</router-link></li>
-                                	<li><router-link :to="{name: 'rgpdpia'}">PIA / AIPD</router-link></li>
+                                	<!-- <li><router-link :to="{name: 'rgpdpia'}">PIA / AIPD</router-link></li> -->
 	            				</ul><!-- End .widget-list -->
 	            			</div><!-- End .widget -->
 	            		</div><!-- End .col-sm-6 col-lg-3 -->
