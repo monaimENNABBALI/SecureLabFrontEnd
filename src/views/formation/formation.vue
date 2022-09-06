@@ -1,38 +1,5 @@
 <template lang="">
 
-<<<<<<< HEAD
-<!-- <Intro bgUrl="background-image: url('../../../public/images/formation/FormatCyberSec.jpg);">
-            <div class="title">
-                <h3>Faites appel à des spécialistes</h3>
-            </div>
-            <div class="content">
-                <h4>Pour votre conformité RGPD</h4>
-            </div>
-            <div class="action">
-                <a href="#contenu">Découvrez maintenant</a>
-            </div>
-</Intro> -->
-
-<div class="background" style="min-height:81vh;background-image: url('../../../public/images/Formation/FormatCyberSec.jpg');" >
-    
-    <div class="slider"  style="min-height:81vh;">
-        <div class="intro col-8 mx-auto">
-            <div class="content">
-                <h4>Cyber sécurité</h4>
-            </div>
-            <div class="action">
-                <a href="#contenu">Découvrez maintenant</a>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-    <div class="container mt-5 mb-5" id="contenu">
-      <div >
-        <span class="badge heading-title title-color-primary h3 font-weight-bold">Formation gestion des risques IT et Système de Management de la Sécurité de l’Information</span>
-        <img class="mx-auto rounded my-5" src="../../../public/images/Objectif2.png" height="70" width="70" alt="">
-=======
   <Intro bgUrl="background-image: url('images/intro-rgpdaccomp.jpg');">
                <!-- we will get this using -->
               <div class="title">
