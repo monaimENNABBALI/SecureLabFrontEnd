@@ -53,7 +53,7 @@
                         
                         <!-- Services -->
                         <li>
-                            <a href="#" class="sf-with-ul">Rgpd</a>
+                            <router-link :to="{name: 'rgpdaudit'}" class="sf-with-ul">Rgpd</router-link>
                             <ul>
                                 <li><router-link :to="{name: 'rgpdaudit'}">Audits de conformité RGPD</router-link></li>
                                 <li><router-link :to="{name: 'rgpddpoex'}">Cartographie des traitements de données</router-link></li>
@@ -64,7 +64,7 @@
                         </li>
                             <!-- Formation -->
                         <li >
-                            <a href="#" class="sf-with-ul">Formation</a>
+                            <router-link :to="{name: 'FormationCyberSecurity'}" class="sf-with-ul">Formation</router-link>
                             <ul>
                                 <li><router-link :to="{name: 'FormationCyberSecurity'}">Cybersécurité</router-link></li>
                                 <li><router-link :to="{name: 'Formationrgpd'}">RGPD</router-link></li>

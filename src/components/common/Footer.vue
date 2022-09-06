@@ -6,7 +6,7 @@
 					
 	            		<div class="col-sm-6 col-lg-3">
 	            			<div class="widget widget-about">
-								<img src="images/sl-new-logo-vertical.png" style="width: 10rem;" class="footer-logo mx-auto" alt="Footer Logo">
+								<img src="images/logo2.png" style="width: 10rem;" class="footer-logo mx-auto" alt="Footer Logo">
 	            				<p>Faites appels à des spécialistes pour vous accompagner dans vos stratégies cybersécurité et conformité. </p>
 								<div class="social-icons">
 									<a href="#" class="social-icon" target="_blank" title="Facebook"><i class="icon-facebook-f"></i></a>

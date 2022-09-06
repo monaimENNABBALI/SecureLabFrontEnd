@@ -12,65 +12,52 @@
                         </li>
                             <!-- Cybersécurité -->
                         <li>
-                            <a href="#" >Cybersécurité</a>
+                            <router-link :to="{name: 'AuditOrganisationnel'}" class="sf-with-ul">Cybersécurité</router-link>
+
                             <ul>
-                                <li><a href="#">Cybersécurité 1</a></li>
-                                <li><a href="#">Cybersécurité 2</a></li>
-                                <li><a href="#">Cybersécurité 3</a></li>
-                                <li><a href="#">Cybersécurité 4</a></li>
+                                <li><router-link :to="{name: 'AuditOrganisationnel'}">Audit organisationnel et physique </router-link></li>
+                                <li><router-link :to="{name: 'AnalyseRisque'}">Analyse de risques cybersécurité</router-link></li>
+                                <li><router-link :to="{name: 'GestionRisque'}"> Gestion des risques prestataires</router-link></li>
+                                <li><router-link :to="{name: 'RepriseActivity'}">Continuité et reprise d’activité</router-link></li>
+                                <li><router-link :to="{name: 'PolitiqueSecurity'}">Politique de sécurité</router-link></li>
+                                <li><router-link :to="{name: 'RssiExternalise'}">RSSI externalisé et assistance RSSI</router-link></li>
+                                <li><router-link :to="{name: 'Certification'}">Certification ISO27001</router-link></li>
                             </ul>
                         </li>
                         <!-- Services -->
                         <li>
-                            <a href="#" >Rgpd</a>
+                            <router-link :to="{name: 'rgpdaudit'}">Rgpd</router-link>
                             <ul>
-                                <li><a href="#">Audits de conformité RGPD</a></li>
-                                <li><a href="#">DPO / DPD externe</a></li>
-                                <li><a href="#">DPO / DPD externe et mutualisé</a></li>
-                                <li><a href="#">Accompagnement RGPD</a></li>
+                                <li><router-link :to="{name: 'rgpdaudit'}">Audits de conformité RGPD</router-link></li>
+                                <li><router-link :to="{name: 'rgpddpoex'}">Cartographie des traitements de données</router-link></li>
+                                <li><router-link :to="{name: 'rgpddpoexmu'}">Réalisation d’Analyse d’Impact</router-link></li>
+                                <li><router-link :to="{name: 'rgpdaccomp'}">Délégué à la protection des données externalisé</router-link></li>
+                            
                             </ul>
                         </li>
                             <!-- Formation -->
                         <li>
-                            <a href="#" >Formation</a>
+                            <router-link :to="{name: 'FormationCyberSecurity'}">Formation</router-link>
                             <ul>
-                                <li><a href="#">Formation 1</a></li>
-                                <li><a href="#">Formation 2</a></li>
-                                <li><a href="#">Formation 3</a></li>
-                                <li><a href="#">Formation 4</a></li>
-                            </ul>
-                        </li>
-                        <!-- Expertise -->
-                        <li>
-                            <a href="#" >Expertise</a>
-                            <ul>
-                                <li><a href="#">Expertise 1</a></li>
-                                <li><a href="#">Expertise 2</a></li>
-                                <li><a href="#">Expertise 3</a></li>
-                                <li><a href="#">Expertise 4</a></li>
+                                <li><router-link :to="{name: 'FormationCyberSecurity'}">Cybersécurité</router-link></li>
+                                <li><router-link :to="{name: 'Formationrgpd'}">RGPD</router-link></li>
                             </ul>
                         </li>
                         <!-- about -->
                         <li >
                             <router-link :to="{name:'About'}">Securelabs</router-link>
                             <ul>
-                                <li><a href="#">Securelabs 1</a></li>
-                                <li><a href="#">Securelabs 2</a></li>
-                                <li><a href="#">Securelabs 3</a></li>
-                                <li><a href="#">Securelabs 4</a></li>
+                                
+                               <li><router-link :to="{name: 'qui'}">Qui sommes nous?</router-link></li>
+                               <li><router-link :to="{name: 'ref'}">Références</router-link></li>
+                               <li><router-link :to="{name: 'part'}">Partenaires</router-link></li>
+                             
                             </ul>
                         </li>
                         <!-- Blog -->
                         <li  >
-                            <a href="#">actualitié</a>
-                           
+                            <router-link :to="{name:'Blog'}">Blog</router-link>                           
                         </li>
-                        <!-- Faq -->
-                        <li  >
-                            <router-link :to="{name:'Faqs'}">Faqs</router-link>
-                        </li>
-                    
-                    
                 </ul>
             </nav><!-- End .mobile-nav -->
 

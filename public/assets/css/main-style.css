@@ -54,7 +54,7 @@ body {
 
 #page-nav .header-left .logo img {
     width: auto;
-    height: 60%;
+    height: 95%;
 }
 
 #page-nav .header-center {
@@ -164,7 +164,7 @@ body {
 }
 
 #page-nav .header-middle.fixed {
-    height: 60px;
+    height: 100px;
     background-color: var(--color-primary-1);
     box-shadow: 0 -20px 50px 0 var(--color-primary-2);
 }
