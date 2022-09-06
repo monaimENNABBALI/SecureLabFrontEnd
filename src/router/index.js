@@ -4,8 +4,8 @@ import About from '../views/securelabs/About';
 import Contact from '../views/home/Contact';
 import Faqs from '../views/home/Faqs';
 import Blog from '../views/blog/blog.vue';
-import Formation from '../views/formation/formation.vue';
-import FormationRgpd from '../views/formation/FormationRgpd.vue';
+import FormCyber from '../views/formation/FormCyber';
+import FormRgpd from '../views/formation/FormRgpd';
 import Logiciel from '../views/logiciel/logiciel';
 import AuditOrganisationnel from '../views/cybersecurity/AuditOrganisationnel';
 import RepriseActivity from '../views/cybersecurity/RepriseActivity';
@@ -141,16 +141,15 @@ const routes = [
     name:'ref',
     component: ref
   },
-
   {
-    path:'/formation/cybersecurity',
-    name:'FormationCyberSecurity',
-    component:Formation
+    path:'/FormationCybersecurity',
+    name:'FormationCyber',
+    component: FormCyber
   },
   {
-    path:'/formation/rgpd',
-    name:'Formationrgpd',
-    component: FormationRgpd
+    path:'/FormationRgpd',
+    name:'FormationRgpd',
+    component: FormRgpd
   }
   
 ]

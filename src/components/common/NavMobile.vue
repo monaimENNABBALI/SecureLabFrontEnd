@@ -37,10 +37,10 @@
                         </li>
                             <!-- Formation -->
                         <li>
-                            <router-link :to="{name: 'FormationCyberSecurity'}">Formation</router-link>
+                            <router-link :to="{name: 'FormationCyber'}">Formation</router-link>
                             <ul>
-                                <li><router-link :to="{name: 'FormationCyberSecurity'}">Cybersécurité</router-link></li>
-                                <li><router-link :to="{name: 'Formationrgpd'}">RGPD</router-link></li>
+                                <li><router-link :to="{name: 'FormationCyber'}">Cybersécurité</router-link></li>
+                                <li><router-link :to="{name: 'FormationRgpd'}">RGPD</router-link></li>
                             </ul>
                         </li>
                         <!-- about -->

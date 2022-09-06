@@ -50,8 +50,8 @@
 	            			<div class="widget">
 	            				<h4 class="widget-title">FORMATION</h4><!-- End .widget-title -->
 	            				<ul class="widget-list">
-	            					<li><router-link :to="{name: 'FormationCyberSecurity'}">Cybersécurité</router-link></li>
-                                	<li><router-link :to="{name: 'Formationrgpd'}">RGPD</router-link></li>
+	            					<li><router-link :to="{name: 'FormationCyber'}">Cybersécurité</router-link></li>
+                                	<li><router-link :to="{name: 'FormationRgpd'}">RGPD</router-link></li>
 	            				</ul><!-- End .widget-list -->
 	            			</div><!-- End .widget -->
 	            		</div><!-- End .col-sm-6 col-lg-3 -->
