@@ -27,6 +27,7 @@
 	            					<li><router-link :to="{name: 'GestionRisque'}"> Gestion des risques prestataires</router-link></li>
 	            					<li><router-link :to="{name: 'RepriseActivity'}">Continuité et reprise d’activité</router-link></li>
 									<li><router-link :to="{name: 'PolitiqueSecurity'}">Politique de sécurité</router-link></li>
+									<li><router-link :to="{name: 'RssiExternalise'}">RSSI externalisé et assistance RSSI</router-link></li>
 									<li><router-link :to="{name: 'Certification'}">Certification ISO27001</router-link></li>
 	            				</ul><!-- End .widget-list -->
 	            			</div><!-- End .widget -->
@@ -36,10 +37,10 @@
 	            			<div class="widget">
 	            				<h4 class="widget-title">RGPD</h4><!-- End .widget-title -->
 	            				<ul class="widget-list">
-	            					<li><router-link :to="{name: 'rgpdaudit'}">Audits de conformité RGPD</router-link></li>
-	            					<li><router-link :to="{name: 'rgpddpoex'}">DPO / DPD externe</router-link></li>
-	            					<li><router-link :to="{name: 'rgpddpoexmu'}">DPO / DPD externe et mutualisé</router-link></li>
-                                	<li><router-link :to="{name: 'rgpdaccomp'}">Accompagnement RGPD</router-link></li>
+                                <li><router-link :to="{name: 'rgpdaudit'}">Audits de conformité RGPD</router-link></li>
+                                <li><router-link :to="{name: 'rgpddpoex'}">Cartographie des traitements de données</router-link></li>
+                                <li><router-link :to="{name: 'rgpddpoexmu'}">Réalisation d’Analyse d’Impact</router-link></li>
+                                <li><router-link :to="{name: 'rgpdaccomp'}">Délégué à la protection des données externalisé</router-link></li>
                                 	<!-- <li><router-link :to="{name: 'rgpdpia'}">PIA / AIPD</router-link></li> -->
 	            				</ul><!-- End .widget-list -->
 	            			</div><!-- End .widget -->
