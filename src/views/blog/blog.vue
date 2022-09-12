@@ -12,215 +12,120 @@
             </div>
     </Intro>
    <main class="main">
-        	<div class="page-header text-center" style="background-image: url('assets/images/page-header-bg.jpg')">
-        		<div class="container">
-        			<h1 class="page-title">Découvrez toute l'actualité de Secure Labs</h1>
-        		</div><!-- End .container -->
-        	</div><!-- End .page-header -->
-            
-
-            <div class="page-content">
-                <div class="container">
-                    <div class="entry-container max-col-2">
-                        <div class="entry-item lifestyle shopping col-sm-6">
-                            <article class="entry entry-grid text-center">
-                                <figure class="entry-media">
-                                    <a href="single.html">
-                                        <img src="assets/images/blog/masonry/2cols/post-1.jpg" alt="image desc">
-                                    </a>
-                                </figure><!-- End .entry-media -->
-
-                                <div class="entry-body">
-                                    <div class="entry-meta">
-                                        <span class="entry-author">
-                                            by <a href="#">John Doe</a>
-                                        </span>
-                                        <span class="meta-separator">|</span>
-                                        <a href="#">Nov 22, 2018</a>
-                                        <span class="meta-separator">|</span>
-                                        <a href="#">2 Comments</a>
-                                    </div><!-- End .entry-meta -->
-
-                                    <h2 class="entry-title">
-                                        <a href="single.html">Cras ornare tristique elit.</a>
-                                    </h2><!-- End .entry-title -->
-
-                                    <div class="entry-cats">
-                                        in <a href="#">Lifestyle</a>,
-                                        <a href="#">Shopping</a>
-                                    </div><!-- End .entry-cats -->
-                                </div><!-- End .entry-body -->
-                            </article><!-- End .entry -->
-                        </div><!-- End .entry-item -->
-
-                        <div class="entry-item lifestyle col-sm-6">
-                            <article class="entry entry-grid text-center">
-                                <figure class="entry-media">
-                                    <a href="single.html">
-                                        <img src="assets/images/blog/masonry/2cols/post-2.jpg" alt="image desc">
-                                    </a>
-                                </figure><!-- End .entry-media -->
-
-                                <div class="entry-body">
-                                    <div class="entry-meta">
-                                        <span class="entry-author">
-                                            by <a href="#">John Doe</a>
-                                        </span>
-                                        <span class="meta-separator">|</span>
-                                        <a href="#">Nov 21, 2018</a>
-                                        <span class="meta-separator">|</span>
-                                        <a href="#">0 Comments</a>
-                                    </div><!-- End .entry-meta -->
-
-                                    <h2 class="entry-title">
-                                        <a href="single.html">Aenean dignissim pellente squefelis.</a>
-                                    </h2><!-- End .entry-title -->
-
-                                    <div class="entry-cats">
-                                        in <a href="#">Lifestyle</a>
-                                    </div><!-- End .entry-cats -->
-                                </div><!-- End .entry-body -->
-                            </article><!-- End .entry -->
-                        </div><!-- End .entry-item -->
-
-                        <div class="entry-item lifestyle fashion col-sm-6">
-                            <article class="entry entry-grid text-center">
-                                <figure class="entry-media">
-                                    <a href="single.html">
-                                        <img src="assets/images/blog/masonry/2cols/post-3.jpg" alt="image desc">
-                                    </a>
-                                </figure><!-- End .entry-media -->
-
-                                <div class="entry-body">
-                                    <div class="entry-meta">
-                                        <span class="entry-author">
-                                            by <a href="#">John Doe</a>
-                                        </span>
-                                        <span class="meta-separator">|</span>
-                                        <a href="#">Nov 18, 2018</a>
-                                        <span class="meta-separator">|</span>
-                                        <a href="#">3 Comments</a>
-                                    </div><!-- End .entry-meta -->
-
-                                    <h2 class="entry-title">
-                                        <a href="single.html">Aenean dignissim pellente.</a>
-                                    </h2><!-- End .entry-title -->
-
-                                    <div class="entry-cats">
-                                        in <a href="#">Fashion</a>,
-                                        <a href="#">Lifestyle</a>
-                                    </div><!-- End .entry-cats -->
-                                </div><!-- End .entry-body -->
-                            </article><!-- End .entry -->
-                        </div><!-- End .entry-item -->
-
-                        <div class="entry-item travel col-sm-6">
-                            <article class="entry entry-grid text-center">
-                                <figure class="entry-media">
-                                    <div class="owl-carousel owl-simple owl-light owl-nav-inside" data-toggle="owl">
-                                        <a href="single.html">
-                                            <img src="assets/images/blog/masonry/2cols/post-4.jpg" alt="image desc">
+    <div class="container mt-4 pt-4">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6 col-lg-4" v-for="methodologie in methodologies">
+                                <div class="activity-item">
+                                    <div class="row">
+                                        <a href="#" data-role="activity-box-link">
+                                            <div class="col-lg-12 p-0">
+                                                <!-- activity Image, Name & Subtitle (everyone) -->
+                                                <div class="activity-box-icon-container">
+                                                    <img class="activity-box-icon" :src="methodologie.image">
+                                                </div>
+                                                <div class="activity-item-title" role="heading" aria-level="2">
+                                                    {{methodologie.title}}
+                                                </div>
+                                            </div>
                                         </a>
-                                        <a href="single.html">
-                                            <img src="assets/images/blog/masonry/2cols/post-4-2.jpg" alt="image desc">
-                                        </a>
-                                    </div><!-- End .owl-carousel -->
-                                </figure><!-- End .entry-media -->
+                                        <div class="activity-listing-subtitle">{{methodologie.content}}</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
 
-                                <div class="entry-body">
-                                    <div class="entry-meta">
-                                        <span class="entry-author">
-                                            by <a href="#">Jane Doe</a>
-                                        </span>
-                                        <span class="meta-separator">|</span>
-                                        <a href="#">Nov 15, 2018</a>
-                                        <span class="meta-separator">|</span>
-                                        <a href="#">4 Comments</a>
-                                    </div><!-- End .entry-meta -->
 
-                                    <h2 class="entry-title">
-                                        <a href="single.html">Utaliquam sollicitudin leo.</a>
-                                    </h2><!-- End .entry-title -->
 
-                                    <div class="entry-cats">
-                                        in <a href="#">Travel</a>
-                                    </div><!-- End .entry-cats -->
-                                </div><!-- End .entry-body -->
-                            </article><!-- End .entry -->
-                        </div><!-- End .entry-item -->
 
-                        <div class="entry-item travel hobbies col-sm-6">
-                            <article class="entry entry-grid text-center">
-                                <figure class="entry-media">
-                                    <a href="single.html">
-                                        <img src="assets/images/blog/masonry/2cols/post-5.jpg" alt="image desc">
-                                    </a>
-                                </figure><!-- End .entry-media -->
 
-                                <div class="entry-body">
-                                    <div class="entry-meta">
-                                        <span class="entry-author">
-                                            by <a href="#">John Doe</a>
-                                        </span>
-                                        <span class="meta-separator">|</span>
-                                        <a href="#">Nov 11, 2018</a>
-                                        <span class="meta-separator">|</span>
-                                        <a href="#">2 Comments</a>
-                                    </div><!-- End .entry-meta -->
 
-                                    <h2 class="entry-title">
-                                        <a href="single.html">Quisque volutpat mattiseros.</a>
-                                    </h2><!-- End .entry-title -->
-
-                                    <div class="entry-cats">
-                                        in <a href="#">Travel</a>,
-                                        <a href="#">Hobbies</a>
-                                    </div><!-- End .entry-cats -->
-                                </div><!-- End .entry-body -->
-                            </article><!-- End .entry -->
-                        </div><!-- End .entry-item -->
-
-                        <div class="entry-item hobbies col-sm-6">
-                            <article class="entry entry-grid text-center">
-                                <figure class="entry-media">
-                                    <a href="single.html">
-                                        <img src="assets/images/blog/masonry/2cols/post-6.jpg" alt="image desc">
-                                    </a>
-                                </figure><!-- End .entry-media -->
-
-                                <div class="entry-body">
-                                    <div class="entry-meta">
-                                        <span class="entry-author">
-                                            by <a href="#">John Doe</a>
-                                        </span>
-                                        <span class="meta-separator">|</span>
-                                        <a href="#">Nov 10, 2018</a>
-                                        <span class="meta-separator">|</span>
-                                        <a href="#">4 Comments</a>
-                                    </div><!-- End .entry-meta -->
-
-                                    <h2 class="entry-title">
-                                        <a href="single.html">Vivamus vestibulum ntulla necante.</a>
-                                    </h2><!-- End .entry-title -->
-
-                                    <div class="entry-cats">
-                                        in <a href="#">Hobbies</a>
-                                    </div><!-- End .entry-cats -->
-                                </div><!-- End .entry-body -->
-                            </article><!-- End .entry -->
-                        </div><!-- End .entry-item -->
-                    </div><!-- End .entry-container -->
-
-                    
-                </div><!-- End .container -->
-            </div><!-- End .page-content -->
+        	
         </main><!-- End .main -->
 </template>
 <script>
 import Intro from '@/components/Intro'
 export default {
-  components:{
+    components:{
         Intro
+    },
+    data(){
+        return{
+            methodologies:[
+                {
+                    id:1,
+                    title:"Apprécier la réalité opérationnelle",
+                    content:"et l’écosystème de chaque client pour déployer les meilleures stratégies et anticiper les besoins.",
+                    image:"assets/images/blog/masonry/4cols/post-1.jpg"
+                },
+                {
+                    id:2,
+                    title:"Être réaliste et pragmatique",
+                    content:"dans notre approche pour proposer des solutions opérationnelles adaptées aux clients via la combinaison de nos expertises juridiques, techniques et de notre expérience opérationnelle.",
+                    image:"assets/images/blog/masonry/4cols/post-2.jpg"
+                },
+                {
+                    id:3,
+                    title:"S’engager",
+                    content:"à sécuriser votre organisation en endossant pleinement notre rôle de conseil et d’interlocuteur tout en construisant une relation durable avec vous.",
+                    image:"assets/images/blog/masonry/4cols/post-3.jpg"
+                },
+                {
+                    id:4,
+                    title:"S’engager",
+                    content:"à sécuriser votre organisation en endossant pleinement notre rôle de conseil et d’interlocuteur tout en construisant une relation durable avec vous.",
+                    image:"assets/images/blog/masonry/4cols/post-4.jpg"
+                },
+                {
+                    id:5,
+                    title:"S’engager",
+                    content:"à sécuriser votre organisation en endossant pleinement notre rôle de conseil et d’interlocuteur tout en construisant une relation durable avec vous.",
+                    image:"assets/images/blog/masonry/4cols/post-5.jpg"
+                },
+                {
+                    id:6,
+                    title:"S’engager",
+                    content:"à sécuriser votre organisation en endossant pleinement notre rôle de conseil et d’interlocuteur tout en construisant une relation durable avec vous.",
+                    image:"assets/images/blog/masonry/4cols/post-6.jpg"
+                },
+                {
+                    id:7,
+                    title:"S’engager",
+                    content:"à sécuriser votre organisation en endossant pleinement notre rôle de conseil et d’interlocuteur tout en construisant une relation durable avec vous.",
+                    image:"assets/images/blog/masonry/4cols/post-7.jpg"
+                },
+                {
+                    id:8,
+                    title:"S’engager",
+                    content:"à sécuriser votre organisation en endossant pleinement notre rôle de conseil et d’interlocuteur tout en construisant une relation durable avec vous.",
+                    image:"assets/images/blog/masonry/4cols/post-8.jpg"
+                },
+                {
+                    id:9,
+                    title:"S’engager",
+                    content:"à sécuriser votre organisation en endossant pleinement notre rôle de conseil et d’interlocuteur tout en construisant une relation durable avec vous.",
+                    image:"assets/images/blog/masonry/4cols/post-9.jpg"
+                },
+                {
+                    id:10,
+                    title:"S’engager",
+                    content:"à sécuriser votre organisation en endossant pleinement notre rôle de conseil et d’interlocuteur tout en construisant une relation durable avec vous.",
+                    image:"assets/images/blog/masonry/4cols/post-10.jpg"
+                },
+                {
+                    id:11,
+                    title:"S’engager",
+                    content:"à sécuriser votre organisation en endossant pleinement notre rôle de conseil et d’interlocuteur tout en construisant une relation durable avec vous.",
+                    image:"assets/images/blog/masonry/4cols/post-11.jpg"
+                },
+                {
+                    id:12,
+                    title:"S’engager",
+                    content:"à sécuriser votre organisation en endossant pleinement notre rôle de conseil et d’interlocuteur tout en construisant une relation durable avec vous.",
+                    image:"assets/images/blog/masonry/4cols/post-12.jpg"
+                }
+            ]
+        }
     }
     
 }

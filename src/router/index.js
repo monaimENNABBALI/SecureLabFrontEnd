@@ -144,7 +144,7 @@ const routes = [
   {
     path:'/FormationCybersecurity',
     name:'FormationCyber',
-    component: FormCyber
+    component: FormCyber,
   },
   {
     path:'/FormationRgpd',
