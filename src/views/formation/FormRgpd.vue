@@ -4,10 +4,10 @@
       <div class="slider"  style="min-height:81vh;">
           <div class="intro col-8 mx-auto">
             <div class="title">
-                  <h3>Faites appel à des spécialistes</h3>
+                  <h3>By Securelabs</h3>
               </div>
               <div class="content">
-                  <h4>Pour votre conformité RGPD</h4>
+                  <h4>Formation RGPD</h4>
               </div>
               <div class="action">
                   <a href="#contenu">Découvrez maintenant</a>
