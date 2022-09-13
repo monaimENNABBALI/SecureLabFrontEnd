@@ -251,9 +251,14 @@ body {
     height: auto;
     margin-bottom: 2rem;
 }
+.activity-box-blog-container {
+    overflow: hidden;
+    height: auto;
+    margin-bottom: 2rem;
+}
 .activity-box-image {
     display: block;
-    border-bottom: 1px solid #ededed;
+    /* border-bottom: 1px solid #ededed; */
     width: 65%;
     height: 100%;
     min-height: 17rem;
@@ -269,10 +274,19 @@ body {
 }
 .activity-box-icon {
     display: block;
-    border-bottom: 1px solid #ededed;
+    /* border-bottom: 1px solid #ededed; */
     width: 40%;
     height: auto;
     /* min-height: 17rem; */
+    border-radius: 9px;
+    margin: auto;
+}
+.activity-box-blog {
+    display: block;
+    /* border-bottom: 1px solid #ededed; */
+    width: 100%;
+    height: auto;
+    height: 27rem;
     border-radius: 9px;
     margin: auto;
 }
@@ -292,8 +306,8 @@ body {
 .activity-listing-subtitle{
     color: #000;
     padding: 5px 16px;
-    font-weight: 500;
-    font-size: 14px;
+    font-weight: 600;
+    font-size: medium;
    /* overflow: hidden;*/
     /* display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -312,5 +326,11 @@ body {
 .text-big{
     color: #000;
     font-size: medium;
-    font-weight: 500;
+    font-weight: 600;
+}
+
+p,li{
+    /* color: #000; */
+    font-size: medium;
+    font-weight: 600;
 }

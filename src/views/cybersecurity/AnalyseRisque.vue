@@ -13,7 +13,7 @@
             </div>
     </Intro>
     <main>
-        <div id="main-page" class="page-content py-3">
+        <div id="main-page" class="page-content py-0 mb-0">
                     <div id="first" class="container text-left mt-6" >
                         <div class="heading pt-4">
                             <h3 class="heading-title text-left title-color-primary">Analyse de risques cybersécurité reposant sur la méthodologie EBIOS RM de l’ANSSI</h3>
@@ -32,7 +32,7 @@
 
                         </div>
                     </div>
-                    <div class="pb-4 container" style="background-image: url('images/methodologie.jpg');width: 100%;">
+                    <div class="pb-4 mb-0 container" style="background-image: url('images/methodologie.jpg');width: 100%;">
                         <div class="heading pt-4 pb-2 mt-0 col-10 mx-auto">
             			    <h3 class="heading-title title-color-primary" >SECURELABS s’inspire donc de cette méthodologie pour analyser les risques cyber<u> via deux grandes étapes :</u>   </h3>
                             

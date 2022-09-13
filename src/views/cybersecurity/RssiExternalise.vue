@@ -18,7 +18,7 @@
                     <div class="activity-box-icon-container mx-auto">
                         <img class="activity-box-icon" style="width:15%" src="images/cyber/rssi/fonction.png">
                     </div>
-                    <div class="heading-title" style="color: #ff0505;">
+                    <div class="heading-title" style="color: #04ADBF;">
                         Fonction du RSSI externe
                     </div>
                     <div class="activity-listing-subtitle  col-6 text-center mx-auto">
@@ -29,7 +29,7 @@
                     <div class="activity-box-icon-container mx-auto">
                         <img class="activity-box-icon" style="width:15%" src="images/cyber/rssi/mission.png">
                     </div>
-                    <div class="heading-title" style="color: #ff0505;">
+                    <div class="heading-title" style="color: #04ADBF;">
                         Mission du RSSI externe
                     </div>
                     <div class="activity-listing-subtitle  col-6 text-center mx-auto">
