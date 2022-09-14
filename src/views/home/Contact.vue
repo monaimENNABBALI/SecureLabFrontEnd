@@ -1,32 +1,32 @@
 <template lang="">
-	<Intro bgUrl="background-image: url('images/homeIntro.jpg');">
+	<Intro bgUrl="background-image: url('images/contactUs.jpg');">
              <!-- we will get this using -->
             <div class="title">
-                <h3>Faites appel à des spécialistes</h3>
+                <h3>Avez vous des questions </h3>
             </div>
             <div class="content">
-                <h4>Pour votre conformité RGPD</h4>
+                <h4>Contactez Nous</h4>
             </div>
             <div class="action">
-                <a href="category.html">discover now</a>
+                <a href="#contact-form">Envoyez Un Message</a>
             </div>
     </Intro>
    <main class="main mt-6">
 	<div class="container mb-5">
         <form ref="form" @submit="sendEmail">
-          <label>Name</label>
+          <label>Nom</label>
           <input 
             type="text" 
             name="name"
 			required
-            placeholder="Your Name"
+            placeholder="Ton Nom"
           >
           <label>Email</label>
           <input 
             type="email" 
             name="email"
 			required
-            placeholder="Your Email"
+            placeholder="Ton Email"
             >
           <label>Message</label>
           <textarea 
@@ -58,9 +58,9 @@ export default {
   },
   methods: {
     sendEmail(e) {
-		
       try {
-        emailjs.sendForm('service_f6cy6q9', 'template_6gsamld',this.$refs.form,'vPAiznZO5lFv-5O0z')
+        emailjs.sendForm('service_0k66n5x', 'template_1b47i2i',this.$refs.form,'vPAiznZO5lFv-5O0z')
+        console.log(this.$refs.form);
       } catch(error) {
           console.log({error})
       }
