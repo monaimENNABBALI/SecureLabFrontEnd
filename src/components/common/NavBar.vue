@@ -10,7 +10,6 @@
                             <li><a href="tel:+33(0)650729813"><i class="icon-phone"></i>Appelez: +33(0)650729813</a></li>
                             <li><router-link :to="{name:'About'}">À propos de nous</router-link></li>
                             <li><router-link :to="{name:'Contact'}">Contactez nous</router-link></li>
-                            <li><router-link :to="{name:'Faqs'}" >Faqs</router-link></li>
                         </ul>
                     </li>
                 </ul><!-- End .top-menu -->
