@@ -12,31 +12,30 @@
             </div>
     </Intro>
    <main class="main mt-6">
-	<div class="container mb-5">
+	<div class="container mb-5" id="contact-form">
         <form ref="form" @submit="sendEmail">
           <label>Nom</label>
           <input 
             type="text" 
             name="name"
 			required
-            placeholder="Ton Nom"
+            placeholder="Votre Nom"
           >
           <label>Email</label>
           <input 
             type="email" 
             name="email"
 			required
-            placeholder="Ton Email"
+            placeholder="Votre Email"
             >
           <label>Message</label>
           <textarea 
             name="message"
             cols="30" rows="5"
 			required
-            placeholder="Message">
-          </textarea>
+            placeholder="Message"></textarea>
           
-          <input type="submit" value="Send">
+          <input type="submit" value="Envoyer">
         </form>
     </div>
             
@@ -88,6 +87,11 @@ export default {
 	
 	label {
 	  float: left;
+	    margin-bottom: 0.5rem;
+    	font-size: 1.75rem;
+    	font-weight: 700;
+    	color: #566a7f;
+
 	}
 	
 	input[type=text], [type=email], textarea {
