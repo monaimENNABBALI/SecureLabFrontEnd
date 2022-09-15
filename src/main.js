@@ -1,26 +1,6 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
-// import './assets/css/bootstrap.min.css'
- //   import './assets/css/plugins/owl-carousel/owl.carousel.css'
-    // import './assets/css/plugins/jquery.countdown.css'
-    // import './assets/css/plugins/magnific-popup/magnific-popup.css'
-    // import './assets/css/style.css'
-    // import './assets/css/skins/skin-demo-24.css'
-    // import './assets/css/demos/demo-24.css'
-
-//     import './assets/js/jquery.min.js'
-//   //  import './assets/js/bootstrap.bundle.min.js'
-//     //import './assets/js/jquery.hoverIntent.min.js'
-//     // import './assets/js/jquery.waypoints.min.js'
-//     // import './assets/js/superfish.min.js'
-//     // import './assets/js/owl.carousel.min.js'
-//     // import './assets/js/bootstrap-input-spinner.js'
-//     // import './assets/js/jquery.plugin.min.js'
-//     // import './assets/js/jquery.countdown.min.js'
-//     //import './assets/js/jquery.magnific-popup.min.js'
-//     import './assets/js/main.js'
-//     import './assets/js/demos/demo-24.js'
 
 
 createApp(App).use(router).mount('#app')
