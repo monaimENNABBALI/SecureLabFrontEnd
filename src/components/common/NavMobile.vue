@@ -46,13 +46,7 @@
                         <!-- about -->
                         <li >
                             <router-link :to="{name:'About'}">Securelabs</router-link>
-                            <ul>
-                                
-                               <li><router-link :to="{name: 'qui'}">Qui sommes nous?</router-link></li>
-                               <li><router-link :to="{name: 'ref'}">Références</router-link></li>
-                               <li><router-link :to="{name: 'part'}">Partenaires</router-link></li>
-                             
-                            </ul>
+                    
                         </li>
                         <!-- Blog -->
                         <li  >

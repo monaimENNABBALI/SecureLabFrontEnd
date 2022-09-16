@@ -20,9 +20,6 @@ import rgpdaudit from '../views/rgpd/rgpdaudit.vue';
 import rgpddpoex from '../views/rgpd/rgpddpoex.vue';
 import rgpddpoexmu from '../views/rgpd/rgpddpoexmu.vue';
 import rgpdaccomp from '../views/rgpd/rgpdaccomp.vue';
-import qui from '../views/securelabs/qui.vue';
-import ref from '../views/securelabs/ref.vue';
-import part from '../views/securelabs/part.vue';
 
 
 
@@ -118,21 +115,6 @@ const routes = [
     path:'/rgpd-accomp',
     name:'rgpdaccomp',
     component: rgpdaccomp
-  },
-  {
-    path:'/securelabs-qui',
-    name:'qui',
-    component: qui
-  },
-  {
-    path:'/securelabs-part',
-    name:'part',
-    component: part
-  },
-  {
-    path:'/securelabs-ref',
-    name:'ref',
-    component: ref
   },
   {
     path:'/FormationCybersecurity',

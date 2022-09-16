@@ -1,0 +1,84 @@
+{
+    "brands": [
+        {
+            "id":1,
+            "title":"Decayeux",
+            "image":"images/Securelabs/1.jfif"
+        },
+        {
+            "id":2,
+            "title":"Groupe HOLDER",
+            "image":"images/Securelabs/2.png"
+        },{
+            "id":3,
+            "title":"VISAUDIO",
+            "image":"images/Securelabs/3.jfif"
+        },{
+            "id":4,
+            "title":"Union des mutuelles d’Ile-de-France",
+            "image":"images/Securelabs/4.jpg"
+        },{
+            "id":5,
+            "title":"Port Autonome de Liège",
+            "image":"images/Securelabs/5.jpeg"
+        },{
+            "id":6,
+            "title":"BEP",
+            "image":"images/Securelabs/6.png"
+        },{
+            "id":7,
+            "title":"Ville de Seraing ",
+            "image":"images/Securelabs/7.png"
+        },
+        {
+            "id":8,
+            "title":"Intradel",
+            "image":"images/Securelabs/8.jpg"
+        },{
+            "id":9,
+            "title":"La Sambrienne",
+            "image":"images/Securelabs/9.png"
+        },{
+            "id":10,
+            "title":"La ruche Chapelloise",
+            "image":"images/Securelabs/10.png"
+        },{
+            "id":11,
+            "title":"Diappymed ",
+            "image":"images/Securelabs/11.png"
+        },{
+            "id":12,
+            "title":"Iteration X",
+            "image":"images/Securelabs/12.png"
+        },{
+            "id":13,
+            "title":"Commune de Nanterre",
+            "image":"images/Securelabs/13.gif"
+        },{
+            "id":14,
+            "title":"Oney Bank",
+            "image":"images/Securelabs/14.jpg"
+        }
+        
+    ],
+    "partenaires":[
+        {
+            "id":1,
+            "url":"https://web.facebook.com/HannibalCyberdefense",
+            "title":"Hannibal Cyberdéfense",
+            "image":"images/Securelabs/partenaire/1.jfif"
+        },
+        {
+            "id":2,
+            "title":"AERISS ",
+            "url":"https://aeriss.fr/",
+            "image":"images/Securelabs/partenaire/2.svg"
+        },
+        {
+            "id":3,
+            "title":"DONNETIK ",
+            "url":"https://www.donnetik.fr/",
+            "image":"images/Securelabs/partenaire/3.svg"
+        }
+    ]
+}

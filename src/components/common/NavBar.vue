@@ -73,20 +73,14 @@
                         
                         
                         <!-- about -->
-                        <li>
-                            <router-link class="sf-with-ul" :to="{name:'About'}">Securelabs</router-link>
-                            <ul>
-                                
-                               <li><router-link :to="{name: 'qui'}">Qui sommes nous?</router-link></li>
-                               <li><router-link :to="{name: 'ref'}">Références</router-link></li>
-                               <li><router-link :to="{name: 'part'}">Partenaires</router-link></li>
-                             
-                            </ul>
+                        <li class="megamenu-container">
+                            <router-link :to="{name:'About'}">Securelabs</router-link>
+                            
                         </li>
                         
                         <!-- Blog -->
                         <li  class="megamenu-container">
-                            <router-link :to="{name:'Blog'}">Blog</router-link>
+                            <router-link :to="{name:'Blog'}">Actu</router-link>
                         </li>
 
                     </ul><!-- End .menu -->
