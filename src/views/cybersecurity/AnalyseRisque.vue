@@ -18,8 +18,11 @@
                         <div class="heading pt-4">
                             <h3 class="heading-title text-left title-color-primary">Analyse de risques cybersécurité reposant sur la méthodologie EBIOS RM de l’ANSSI</h3>
                             <div class="activity-listing-subtitle">
-                                La méthodologie utilisée par SECURELABS pour la réalisation d’analyse de risques cybersécurité s’appuie sur la méthodologie EBIOS-RISK MANAGER (2018) éditée par l’ANSSI et sur la norme ISO 27005.
-                                EBIOS RM permet d’apprécier les risques numériques et d’identifier les mesures de sécurité à mettre en œuvre pour les maîtriser. Elle permet aussi de valider le niveau de risque acceptable et de s’inscrire à plus long terme dans une démarche d’amélioration continue. Enfin, cette méthode permet de faire émerger les ressources et arguments utiles à la communication et à la prise de décision au sein de l’organisation et vis-à-vis de ses partenaires.
+                                <div style="text-align: left;">
+                                    La méthodologie utilisée par SECURELABS pour la réalisation d’analyse de risques cybersécurité s’appuie sur la méthodologie EBIOS-RISK MANAGER (2018) éditée par l’ANSSI et sur la norme ISO 27005.
+                                    EBIOS RM permet d’apprécier les risques numériques et d’identifier les mesures de sécurité à mettre en œuvre pour les maîtriser. Elle permet aussi de valider le niveau de risque acceptable et de s’inscrire à plus long terme dans une démarche d’amélioration continue. Enfin, cette méthode permet de faire émerger les ressources et arguments utiles à la communication et à la prise de décision au sein de l’organisation et vis-à-vis de ses partenaires.
+                                
+                                </div>
                                 <div class="heading-title text-left mt-4 title-color-primary">
                                     La méthode EBIOS RM peut être utilisée à plusieurs fins :
                                 </div>
@@ -37,22 +40,26 @@
             			    <h3 class="heading-title title-color-primary" >SECURELABS s’inspire donc de cette méthodologie pour analyser les risques cyber<u> via deux grandes étapes :</u>   </h3>
                             
                             <div class="activity-listing-subtitle">
-                                <div class="heading-title text-left mt-4" style="color: #003679;">
-                                    1-Identifier et définir le niveau de sécurité à atteindre
+                                <div class="heading-title text-left mt-4" style="color: #003679;text-align: left;">
+                                    Identifier et définir le niveau de sécurité à atteindre
                                 </div>
                                 <div class="activity-box-icon-container">
-                                    <img class="activity-box-icon" style="width:15%" src="images/cyber/analyseRisque/1.png">
+                                    <img class="activity-box-icon" src="images/cyber/analyseRisque/1.png">
                                 </div>
-                                <div class="fs-1 heading-title text-left mt-4">
-                                    L’analyse des risques cyber est utilisée pour plusieurs objectifs et permet notamment : 
+                                <div class="mt-4" style="text-align: left;">
+                                    <strong>
+                                        L’analyse des risques cyber est utilisée pour plusieurs objectifs et permet notamment : 
+                                    </strong>
                                 </div>
                                 <ul class="list-box">
                                     <li>De créer de la valeur ajoutée et de renforcer la gestion des risques .</li>
                                     <li>De traiter l’incertitude et de se prémunir contre les menaces toujours plus innovantes .</li>
                                     <li>De faciliter l’amélioration continue de l’organisme . </li>
                                 </ul>
-                                <div class="fs-1 heading-title text-left mt-4">
-                                    Il conviendra ensuite, via la méthode EBIOS RM, de définir le niveau de sécurité à atteindre notamment : 
+                                <div class="mt-4" style="text-align: left;">
+                                    <strong>
+                                        Il conviendra ensuite, via la méthode EBIOS RM, de définir le niveau de sécurité à atteindre notamment : 
+                                    </strong>
                                 </div>
                                 <ul class="list-box">
                                     <li>Par les exigences de sécurité et de conformité issus des référentiels de sécurité, des lois et des règlements .</li>
@@ -63,11 +70,11 @@
                             </div>
                         </div>
                         <div class="heading pt-4 pb-2 mt-0 col-10 mx-auto">
-                            <div class="heading-title text-left mt-4" style="color: #003679;">
-                                2-Définir une stratégie de traitement du risque
+                            <div class="heading-title text-left mt-4" style="color: #003679;text-align: left;">
+                                Définir une stratégie de traitement du risque
                             </div>
                             <div class="activity-box-icon-container">
-                                <img class="activity-box-icon" style="width:15%" src="images/cyber/analyseRisque/2.png">
+                                <img class="activity-box-icon" src="images/cyber/analyseRisque/2.png">
                             </div>
                             <div class="activity-listing-subtitle  text-left">
                                 Après toute la démarche de caractérisation et d’identification des risques liés à l’activité, il s’agira d’établir une synthèse des risques étudiés afin d’établir une stratégie de traitement des risques. Un plan de traitement des risques sera élaboré afin de décrire les mesures de sécurité d’amélioration continue ainsi que les risques résiduels existants. 

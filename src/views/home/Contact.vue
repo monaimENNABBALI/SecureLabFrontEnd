@@ -28,6 +28,27 @@
 			required
             placeholder="Votre Email"
             >
+            <label for="secteur">Choisissez votre secteur d'activité</label>
+            <select name="secteur" id="secteur">
+            <option value="Agroalimentaire">Agroalimentaire</option>
+            <option value="Automobile">Automobile</option>
+            <option value="Avocats / comptabilité / notaires">Avocats / comptabilité / notaires</option>
+            <option value="Banque / assurance">Banque / assurance</option>
+            <option value="BTP">BTP</option>
+            <option value="Collectivité / association">Collectivité / association</option>
+            <option value="Communication / marketing / médias">Communication / marketing / médias</option>
+            <option value="Distribution / retail">Distribution / retail</option>
+            <option value="Energie / environnement">Energie / environnement</option>
+            <option value="E-santé">E-santé</option>
+            <option value="Immobilier">Immobilier</option>
+            <option value="Industrie">Industrie</option>
+            <option value="Informatique / technologique / ESN">Informatique / technologique / ESN</option>
+            <option value="Médico-social">Médico-social</option>
+            <option value="Santé">Santé</option>
+            <option value="Tourisme / loisirs">Tourisme / loisirs</option>
+            <option value="Transport">Transport</option>
+            <option value="Autre">Autre</option>
+            </select>
           <label>Message</label>
           <textarea 
             name="message"
@@ -37,7 +58,21 @@
           
           <input type="submit" value="Envoyer">
         </form>
+        
     </div>
+    <p class="w-75 mx-auto my-5">
+          Les informations recueillies par Securelabs en tant que responsable de traitement font l’objet 
+          d’un traitement informatisé destiné à traiter votre demande. Les destinataires de vos données sont 
+          les personnels habilités à répondre à votre demande. Vos données personnelles sont conservées pour 
+          une durée de deux ans à compter du dernier contact avec vous. Vos données sont susceptibles d’être 
+          soumises à une durée de conservation plus longue en vue de respecter les dispositions légales applicables.
+           A défaut, elles font l’objet d’une suppression. Conformément à la loi « Informatique et Libertés » du 6
+            janvier 1978 modifiée et du Règlement Général sur la Protection des Données (RGPD) du 27 avril 2016, 
+            vous bénéficiez d’un droit d’accès, de rectification, de suppression, de limitation, de portabilité 
+            (lorsqu’il s’applique) et d’opposition aux informations qui vous concernent. Vous pouvez exercer ces
+             droits en vous adressant au service DPO du siège aux coordonnées suivantes : 9 rue Léon Salembien, 
+             59200, Tourcoing ou à l’adresse dpo(at)lexagone.fr. Pour plus d’informations, vous pouvez consulter notre politique de confidentialité
+        </p>
             
         </main><!-- End .main -->
             
@@ -58,7 +93,7 @@ export default {
   methods: {
     sendEmail(e) {
       try {
-        emailjs.sendForm('service_0k66n5x', 'template_1b47i2i',this.$refs.form,'vPAiznZO5lFv-5O0z')
+        emailjs.sendForm('service_vuy2m6t', 'template_45lix98',this.$refs.form,'0LvKiTtqUMnIULILI')
         console.log(this.$refs.form);
       } catch(error) {
           console.log({error})
@@ -94,7 +129,7 @@ export default {
 
 	}
 	
-	input[type=text], [type=email], textarea {
+	input[type=text], [type=email], textarea ,select{
 	  width: 100%;
 	  padding: 12px;
 	  border: 1px solid #ccc;

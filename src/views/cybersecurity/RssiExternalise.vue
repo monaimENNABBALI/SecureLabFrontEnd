@@ -16,7 +16,7 @@
      <main style="background-color: #f5f5f5;">
                 <div id="first" class="heading pt-4 pb-2 mt-0 col-10 mx-auto">
                     <div class="activity-box-icon-container mx-auto">
-                        <img class="activity-box-icon" style="width:15%" src="images/cyber/rssi/fonction.png">
+                        <img class="activity-box-icon" src="images/cyber/rssi/fonction.png">
                     </div>
                     <div class="heading-title" style="color: #04ADBF;">
                         Fonction du RSSI externe
@@ -27,7 +27,7 @@
                 </div>
                 <div class="heading pt-4 pb-2 mt-0 col-10 mx-auto">
                     <div class="activity-box-icon-container mx-auto">
-                        <img class="activity-box-icon" style="width:15%" src="images/cyber/rssi/mission.png">
+                        <img class="activity-box-icon" src="images/cyber/rssi/mission.png">
                     </div>
                     <div class="heading-title" style="color: #04ADBF;">
                         Mission du RSSI externe
@@ -64,8 +64,8 @@
             
                     </div>
                     <div class="d-flex align-items-center p-4" style=" background-image: url('images/methodologie.jpg');">
-                        <div  class="col-10 p-4 m-4" >
-                            <div class="text-big text-left">
+                        <div  class="col-10 col-lg-9 p-4 m-4 mx-auto" style="text-align: left;" >
+                            <div class="text-big">
                                 SECURELABS vous accompagne en tant que “référent sécurité”. L’objectif est d’assurer la fonction de RSSI, pour votre compte, à temps partiel ou à temps complet ! 
                                 <br><br>
                                 <b>
@@ -92,27 +92,28 @@
                                     L’accompagnement du RSSI se compose d’une présence physique dans le but : 
                                 </b>
 
-                                <div class="row mt-4 ml-5 pl-5 text-center">
-                                    <div class="col-sm-12 col-md-6 col-lg-2" v-for="accompagnement in accompagnements">
-                                        <div class="activity-item">
-                                            <div class="row">
-                                                <a href="#" data-role="activity-box-link">
-                                                    <div class="col-lg-12 p-0">
-                                                        <!-- activity Image, Name & Subtitle (everyone) -->
-                                                        <div class="activity-box-icon-container">
-                                                            <img class="activity-box-icon" :src="accompagnement.image">
-                                                        </div>
-                                                        <!-- <div class="activity-item-title" role="heading" aria-level="2">
-                                                            {{accompagnement.title}}
-                                                        </div> -->
+                            </div>                        
+
+                            <div class="row mt-4 ml-5 pl-5 text-center">
+                                <div class="col-sm-12 col-md-6 col-lg-4" v-for="accompagnement in accompagnements">
+                                    <div class="activity-item">
+                                        <div class="row">
+                                            <a href="#" data-role="activity-box-link">
+                                                <div class="col-lg-12 p-0">
+                                                    <!-- activity Image, Name & Subtitle (everyone) -->
+                                                    <div class="activity-box-icon-container">
+                                                        <img class="activity-box-icon" :src="accompagnement.image">
                                                     </div>
-                                                </a>
-                                                <div class="activity-listing-subtitle">{{accompagnement.content}}</div>
-                                            </div>
+                                                    <!-- <div class="activity-item-title" role="heading" aria-level="2">
+                                                        {{accompagnement.title}}
+                                                    </div> -->
+                                                </div>
+                                            </a>
+                                            <div class="activity-listing-subtitle">{{accompagnement.content}}</div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>                        
+                            </div>
                         </div>
                     </div>
         </main>

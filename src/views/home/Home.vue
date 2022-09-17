@@ -30,7 +30,8 @@
                                             <div class="col-lg-12 p-0">
                                                 <!-- activity Image, Name & Subtitle (everyone) -->
                                                 <div class="activity-box-icon-container">
-                                                    <img class="activity-box-icon" :src="methodologie.image">
+                                                    <img  class="activity-box-icon"
+                                                        :src="methodologie.image">
                                                 </div>
                                                 <div class="activity-item-title" role="heading" aria-level="2">
                                                     {{methodologie.title}}
@@ -78,6 +79,13 @@
                         
                         </div>
                     </div>
+            </div>
+            <div class="row">
+                <h3 class="heading-title title-color-primary pt-4">Pour tout renseignement sur nos audits RGPD...</h3>
+                <div class="activity-box-icon-container">
+                <img class="activity-box-icon mt-3" style="width:15%" src="images/AvezVousQuestion.jpg">
+                <a class="btn btn-secondary mt-3 mb-5" href="#" role="button">Contactez nos experts</a>
+                </div>
             </div>
         </main>
 </template>
@@ -148,5 +156,4 @@ export default {
 }
 </script>
 <style lang="" scoped>
-    
 </style>

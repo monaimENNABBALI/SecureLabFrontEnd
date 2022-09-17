@@ -1,5 +1,5 @@
 <template lang="">
-    <header class="header" id="page-nav">
+    <header class="header" id="page-nav" >
         <div class="header-top">
 
             <div class="header-right my-2">
@@ -8,7 +8,6 @@
                         <a href="#">Links</a>
                         <ul>
                             <li><a href="tel:+33(0)650729813"><i class="icon-phone"></i>Appelez: +33(0)650729813</a></li>
-                            <li><router-link :to="{name:'About'}">À propos de nous</router-link></li>
                             <li><router-link :to="{name:'Contact'}">Contactez nous</router-link></li>
                         </ul>
                     </li>
@@ -16,7 +15,7 @@
             </div><!-- End .header-right -->
         </div><!-- End .header-top -->
 
-        <div class="header-middle sticky-header">
+        <div class="header-middle sticky-header"  >
             <div class="header-left">
                 <button class="mobile-menu-toggler">
                     <span class="sr-only">Toggle mobile menu</span>

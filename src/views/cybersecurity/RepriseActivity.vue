@@ -36,7 +36,7 @@
                                             <div class="col-lg-12 p-0">
                                                 <!-- activity Image, Name & Subtitle (everyone) -->
                                                 <div class="activity-box-icon-container">
-                                                    <img class="activity-box-icon" style="width:20%;" :src="methodologie.image">
+                                                    <img class="activity-box-icon" :src="methodologie.image">
                                                 </div>
                                                 <div class="activity-item-title" role="heading" aria-level="2">
                                                     {{methodologie.title}}
