@@ -66,6 +66,7 @@
                             <ul>
                                 <li><router-link :to="{name: 'FormationCyber'}">Cybersécurité</router-link></li>
                                 <li><router-link :to="{name: 'FormationRgpd'}">RGPD</router-link></li>
+                                <li><router-link :to="{name: 'FormationReference'}">Reference</router-link></li>
                             </ul>
                             
                         </li>

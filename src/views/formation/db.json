@@ -1,0 +1,30 @@
+{
+    "brands": [
+        {
+            "id":1,
+            "title":"",
+            "image":"images/Formation/M2i Tech.png"
+        },
+        {
+            "id":2,
+            "title":"",
+            "image":"images/Formation/Enigma School.png"
+        },{
+            "id":3,
+            "title":"",
+            "image":"images/Formation/Université Technologique de Troyes.png"
+        },{
+            "id":4,
+            "title":"",
+            "image":"images/Formation/Polytech'lille.png"
+        },{
+            "id":5,
+            "title":"e-Catalyst",
+            "image":"images/Formation/e-Catalyst.png"
+        },{
+            "id":6,
+            "title":"",
+            "image":"images/Formation/Campus Sciences-U Lille.png"
+        }
+    ]
+}

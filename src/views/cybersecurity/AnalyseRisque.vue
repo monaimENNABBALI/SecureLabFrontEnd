@@ -40,10 +40,10 @@
             			    <h3 class="heading-title title-color-primary" >SECURELABS s’inspire donc de cette méthodologie pour analyser les risques cyber<u> via deux grandes étapes :</u>   </h3>
                             
                             <div class="activity-listing-subtitle">
-                                <div class="heading-title text-left mt-4" style="color: #003679;text-align: left;">
+                                <li class="heading-title text-left mt-4" style="color: #003679;text-align: left;">
                                     Identifier et définir le niveau de sécurité à atteindre
-                                </div>
-                                <div class="activity-box-icon-container">
+                                </li>
+                                <div class="activity-box-icon-container mt-5 mb-5">
                                     <img class="activity-box-icon" src="images/cyber/analyseRisque/1.png">
                                 </div>
                                 <div class="mt-4" style="text-align: left;">
@@ -69,11 +69,11 @@
 
                             </div>
                         </div>
-                        <div class="heading pt-4 pb-2 mt-0 col-10 mx-auto">
-                            <div class="heading-title text-left mt-4" style="color: #003679;text-align: left;">
+                        <div class="heading pt-2 pb-2 mt-0 col-10 mx-auto">
+                            <li class="heading-title text-left mt-2" style="color: #003679;text-align: left;">
                                 Définir une stratégie de traitement du risque
-                            </div>
-                            <div class="activity-box-icon-container">
+                            </li>
+                            <div class="activity-box-icon-container mt-5 mb-5">
                                 <img class="activity-box-icon" src="images/cyber/analyseRisque/2.png">
                             </div>
                             <div class="activity-listing-subtitle  text-left">
