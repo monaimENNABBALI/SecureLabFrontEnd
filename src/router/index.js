@@ -5,6 +5,7 @@ import Contact from '../views/home/Contact';
 import Blog from '../views/blog/blog.vue';
 import FormCyber from '../views/formation/FormCyber';
 import FormRgpd from '../views/formation/FormRgpd';
+import Reference from '../views/formation/Reference';
 import Logiciel from '../views/logiciel/logiciel';
 import AuditOrganisationnel from '../views/cybersecurity/AuditOrganisationnel';
 import RepriseActivity from '../views/cybersecurity/RepriseActivity';
@@ -125,6 +126,11 @@ const routes = [
     path:'/FormationRgpd',
     name:'FormationRgpd',
     component: FormRgpd
+  },
+  {
+    path:'/FormationReference',
+    name:'FormationReference',
+    component:Reference
   }
   
 ]

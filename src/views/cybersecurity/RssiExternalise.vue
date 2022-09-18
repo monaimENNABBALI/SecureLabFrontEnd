@@ -63,8 +63,8 @@
                         </div>
             
                     </div>
-                    <div class="d-flex align-items-center p-4" style=" background-image: url('images/methodologie.jpg');">
-                        <div  class="col-10 col-lg-10 p-4 m-4 mx-auto" style="text-align: left;" >
+                    <div class="d-flex align-items-center p-4 " style=" background-image: url('images/methodologie.jpg');">
+                        <div  class="col-10 col-lg-10 p-4 m-4 mx-auto " style="text-align: left;" >
                             <div class="text-big">
                                 SECURELABS vous accompagne en tant que “référent sécurité”. L’objectif est d’assurer la fonction de RSSI, pour votre compte, à temps partiel ou à temps complet ! 
                                 <br><br>
@@ -94,7 +94,7 @@
 
                             </div>                        
 
-                            <div class="row mt-4 ml-5 pl-5 text-center">
+                            <div class="row mt-5 ml-5 pl-5 text-center">
                                 <div class="col-sm-12 col-md-6 col-lg-4" v-for="accompagnement in accompagnements">
                                     <div class="activity-item">
                                         <div class="row">
