@@ -65,7 +65,7 @@
                                     <li>Par les exigences de sécurité et de conformité issus des référentiels de sécurité, des lois et des règlements .</li>
                                     <li>Par la construction de scénarios de risques et par l’étude de l’impact et de la vraisemblance liés à ces scénarios .</li>
                                 </ul>
-                                <img class="mt-4 pt-4" src="images/AnalyseDesRisquesSchema.jpg">
+                                <img class="mt-4 pt-4" alt="Icon made by Phatplus from www.flaticon.com" src="images/AnalyseDesRisquesSchema.jpg">
 
                             </div>
                         </div>
@@ -74,7 +74,7 @@
                                 Définir une stratégie de traitement du risque
                             </li>
                             <div class="activity-box-icon-container mt-5 mb-5">
-                                <img class="activity-box-icon" src="images/cyber/analyseRisque/2.png">
+                                <img class="activity-box-icon" alt="Icon made by Freepik from www.flaticon.com" src="images/cyber/analyseRisque/2.png">
                             </div>
                             <div class="activity-listing-subtitle  text-left">
                                 Après toute la démarche de caractérisation et d’identification des risques liés à l’activité, il s’agira d’établir une synthèse des risques étudiés afin d’établir une stratégie de traitement des risques. Un plan de traitement des risques sera élaboré afin de décrire les mesures de sécurité d’amélioration continue ainsi que les risques résiduels existants. 

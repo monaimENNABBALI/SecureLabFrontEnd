@@ -26,18 +26,16 @@
                             <div class="col-sm-12 col-md-6 col-lg-4" v-for="methodologie in methodologies">
                                 <div class="activity-item">
                                     <div class="row">
-                                        <a href="#" data-role="activity-box-link">
                                             <div class="col-lg-12 p-0">
                                                 <!-- activity Image, Name & Subtitle (everyone) -->
                                                 <div class="activity-box-icon-container">
-                                                    <img  class="activity-box-icon"
+                                                    <img  class="activity-box-icon"  :alt="methodologie.alt"
                                                         :src="methodologie.image">
                                                 </div>
                                                 <div class="activity-item-title" role="heading" aria-level="2">
                                                     {{methodologie.title}}
                                                 </div>
                                             </div>
-                                        </a>
                                         <div class="activity-listing-subtitle">{{methodologie.content}}</div>
                                     </div>
                                 </div>
@@ -57,7 +55,6 @@
                                 <div class="activity-item">
                                                         
                                     <div class="row">
-                                        <a href= "#" class="cursor-default" data-role="activity-box-link">
                                             <div class="col-lg-12 p-0">
                                                 <!-- activity Image, Name & Subtitle (everyone) -->
                                                 <div class="activity-box-image-container">
@@ -70,7 +67,6 @@
 
 
                                             </div>
-                                        </a>
                                     </div>
                                 
                             
@@ -135,19 +131,24 @@ export default {
                     id:1,
                     title:"Apprécier la réalité opérationnelle",
                     content:"et l’écosystème de chaque client pour déployer les meilleures stratégies et anticiper les besoins.",
-                    image:"images/home/reality.png"
+                    image:"images/home/reality.png",
+                    alt:"Icon made by Freepik from www.flaticon.com"
                 },
                 {
                     id:2,
                     title:"Être réaliste et pragmatique",
                     content:"dans notre approche pour proposer des solutions opérationnelles adaptées aux clients via la combinaison de nos expertises juridiques, techniques et de notre expérience opérationnelle.",
-                    image:"images/home/pragmatique.png"
+                    image:"images/home/pragmatique.png",
+                    alt:"Icon made by Freepik from www.flaticon.com"
+
                 },
                 {
                     id:3,
                     title:"S’engager",
                     content:"à sécuriser votre organisation en endossant pleinement notre rôle de conseil et d’interlocuteur tout en construisant une relation durable avec vous.",
-                    image:"images/home/sengager.png"
+                    image:"images/home/sengager.png",
+                    alt:"Icon made by Muhammad_Usman from www.flaticon.com"
+
                 },
             ]
         }
