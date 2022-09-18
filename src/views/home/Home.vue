@@ -83,7 +83,7 @@
             <div class="row">
                 <h3 class="heading-title title-color-primary pt-4">Pour tout renseignement sur nos audits RGPD...</h3>
                 <div class="activity-box-icon-container">
-                <img class="activity-box-icon mt-3" style="width:15%" src="images/AvezVousQuestion.jpg">
+                <img class="activity-box-icon mt-3" style="width:15%" src="images/AvezVousQuestion2.jpeg">
                 <router-link class="btn btn-secondary mt-3 mb-5" :to="{name:'Contact'}">Contactez nos experts</router-link>
                 </div>
             </div>

@@ -83,7 +83,7 @@ export default {
                     id:3,
                     title:"Une section physique",
                     content:"Dans cette section, il s’agira d’analyser et de mesurer le niveau de protection physique de votre site par des visites physiques, permettant de découvrir les vulnérabilités existantes et d’élaborer un plan stratégique de résolution de celles-ci.",
-                    image:"images/cyber/auditOrganisationel/physique.png"
+                    image:"images/cyber/auditOrganisationel/physique.jpeg"
                 },
             ]
         }
