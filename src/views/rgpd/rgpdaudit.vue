@@ -18,7 +18,7 @@
 
                     <div  class="col-10 mx-auto" >
                         <div id="first" class="heading pt-4 mt-0">
-                            <h1 class="mb-5 title-color-primary" style="font-weight: 600;">Dans quel cadre mettre en œuvre un audit de conformité RGPD ? </h1>
+                            <h1 class="mb-5 title-color-primary" style="font-weight: 200;">Dans quel cadre mettre en œuvre un audit de conformité RGPD ? </h1>
                             <p class="activity-listing-subtitle">
                                  Un organisme souhaitant mettre en œuvre une stratégie de gouvernance des données personnelles va rencontrer la nécessité d'auditer l’ensemble des traitements de données présents dans sa structure.
                                La réglementation et les bonnes pratiques étant particulièrement strictes, l’audit de conformité vous permettra de mesurer votre niveau de conformité tout en maintenant une cartographie des traitements de données claire et limpide.

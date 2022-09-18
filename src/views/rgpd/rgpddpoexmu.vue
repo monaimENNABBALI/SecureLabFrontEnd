@@ -18,7 +18,7 @@
 
                     <div  class="col-10 mx-auto" >
                         <div id="first" class="heading pt-4 mt-0">
-                            <h1 class="mb-5 title-color-primary" style="font-weight: 600;">Une méthodologie d’analyse d’impact consacrée par la CNIL </h1>
+                            <h1 class="mb-5 title-color-primary" style="font-weight: 200;">Une méthodologie d’analyse d’impact consacrée par la CNIL </h1>
                             <p class="activity-listing-subtitle">
                                  L’étude d’impact sur la vie privée (EIVP) est consacré par l’article 35 du RGPD qui consacre l’obligation de mener une étude d’impact sur la vie privée lorsque le traitement de données personnelles engendre ou est susceptible d’engendrer un risque élevé pour les droits et libertés des personnes concernées.
                                  La Commission nationale de l’informatique et des libertés (CNIL) a publié une liste référentielle recensant l’ensemble des traitements de données pour lesquels une analyse d’impact est obligatoire.

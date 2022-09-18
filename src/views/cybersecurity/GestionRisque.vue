@@ -17,7 +17,7 @@
 
                     <div  class="col-10 mx-auto" >
                         <div id="first" class="heading pt-4 mt-0">
-                            <h1 class="mb-5 title-color-primary" style="font-weight: 600;">Évaluation du niveau de maturité des prestataires en matière de cybersécurité et de conformité </h1>
+                            <h1 class="mb-5 title-color-primary" style="font-weight: 200;">Évaluation du niveau de maturité des prestataires en matière de cybersécurité et de conformité </h1>
                             <p class="activity-listing-subtitle">
                                 Dans le cadre des relations contractuelles avec les prestataires sous-entendant souvent l’interconnexion des différents systèmes informatiques et le partage d’informations (parfois sensibles), il est important d’évaluer le niveau de maturité des prestataires ainsi que le respect des bonnes pratiques en matière de cybersécurité et de conformité pour éviter tout risque.
                             </p>

@@ -18,7 +18,7 @@
 
                     <div  class="col-10 mx-auto" >
                         <div id="first" class="heading pt-4 mt-0">
-                            <h1 class="mb-5 title-color-primary" style="font-weight: 600;">L’importance de réaliser un audit de sécurité organisationnel et physique : </h1>
+                            <h1 class="mb-5 title-color-primary" style="font-weight: 250;">L’importance de réaliser un audit de sécurité organisationnel et physique : </h1>
                             <p class="activity-listing-subtitle">
                                 La protection et la sécurisation physique d’un site constitue un élément fondamental dans la protection et la sécurisation de vos informations et se révèle être une des meilleures pratiques de sécurité de l’information.
                                 SECURELABS réalise un audit à la fois global et précis sur l’écosystème de l’organisme (organisation, ressources, documentation et dispositif en place). A fortiori, l’audit reposera sur une méthodologie que nous utilisons afin de mesurer les processus et les contrôles encadrant la gestion de la sécurité de l’information et la conformité aux lois, règlements, aux normes de sécurité mais également aux recommandations de l’ANSSI en la matière.

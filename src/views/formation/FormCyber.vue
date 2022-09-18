@@ -41,7 +41,7 @@
             </ul>
             <div class="tab-content mt-3">
               <div class="tab-pane fade active show text-left " id="Partie1Obj" role="tabpanel">
-                <p class="text-big">A l'issue de cette formation, le participant sera en capacité de :</p>
+                <p class="text-big text-start">A l'issue de cette formation, le participant sera en capacité de :</p>
                 <ul class="list-box">
                           <li>IDENTIFIER les risques associés aux TIC</li>
                           <li>ADOPTER les meilleures pratiques de gestion de la sécurité de l'information</li>
@@ -50,21 +50,21 @@
                 </ul>
               </div>
               <div class="tab-pane fade text-left" id="Partie1Prog" role="tabpanel">
-                <span class="bg-info  p-3 ">Gouvernance de la sécurité de l’information</span>
+                <h5 class="text-info text-start p-3 ">Gouvernance de la sécurité de l’information</h5>
           
                 <ul class="mt-1 list-box">
                   <li>Définition, périmètre, rôles et responsabilités.</li>
                   <li>Gestion des partenaires et fournisseurs tiers.</li>
                   <li>Gestion stratégique de la sécurité de l’information</li>
                 </ul>
-                <span class="bg-info  p-3 ">Gestion des risques et conformité</span>
+                <h5 class="text-info text-start p-3 ">Gestion des risques et conformité</h5>
                 
                 <ul class="mt-1 list-box">
                   <li>Introduction.</li>
                   <li>Présentation des principales normes et référentiels (ISO 27005,....).</li>
                   <li>Définition du contexte, méthodes de gestion des risques (identification, classification, analyse, réponse et plan de mitigation, revue post implémentation et risques résiduels).</li>
                 </ul>
-                <span class="bg-info  p-3  ">Introduction aux Systèmes de Management de la Sécurité de l’Information (SMSI) tel que définis par l’ISO 27001.</span>
+                <h5 class="text-info text-start p-3 ">Introduction aux Systèmes de Management de la Sécurité de l’Information (SMSI) tel que définis par l’ISO 27001.</h5>
                 
                 <ul class="mt-1 list-box">
                   <li>Introduction.</li>
@@ -74,18 +74,18 @@
                 </ul>
               </div>
               <div class="tab-pane fade text-left" id="Partie1Prati" role="tabpanel">
-                <span class="bg-info  p-3 ">Méthodes pédagogiques</span>
+                <h5 class="text-info text-start p-3 ">Méthodes pédagogiques</h5>
                 <ul class="mt-1 list-box">
                   <li>Apports théoriques.</li>
                   <li>Cas pratiques.</li>
                   <li>Exemples et retours d’expériences</li>
                 </ul>
-                <span class="bg-info  p-3 ">Moyens pédagogiques</span>
+                <h5 class="text-info text-start p-3 ">Moyens pédagogiques</h5>
                 
                 <ul class="mt-1 list-box">
                   <li>Disposer d'un ordinateur portable ou d'une tablette pour la transmission des supports de formation ainsi que des différents livrables nécessaires.</li>
                 </ul>
-                <span class="bg-info  p-3 ">Modalités d'évaluation.</span>
+                <h5 class="text-info text-start p-3 ">Modalités d'évaluation.</h5>
                 
                 <ul class="mt-1 list-box">
                   <li>Contrôle continu pendant la formation.</li>
@@ -180,7 +180,7 @@
           </ul>
         </div>
         <div class="tab-pane fade text-left" id="Partie2Prog" role="tabpanel">
-          <span class="bg-info  p-3">Gouvernance de la sécurité de l’information</span>
+          <h5 class="text-info text-start p-3 ">Gouvernance de la sécurité de l’information</h5>
         
         <ul class="mt-1 list-box">
           <li>Présentation en fonction des thématiques étudiées (mot de passe, divulgation, bureau propre, bonnes pratiques de sécurité,etc..).</li>

@@ -18,10 +18,10 @@
 
                     <div  class="col-10 mx-auto" >
                         <div id="first" class="heading pt-4 mt-0">
-                            <h2 class="mb-5 title-color-primary" style="font-weight: 600;">La fonction de DPO, un gain de temps considérable dans sa gouvernance RGPD </h2>
+                            <h2 class="mb-5 title-color-primary" style="font-weight: 200;">La fonction de DPO, un gain de temps considérable dans sa gouvernance RGPD </h2>
                             <p class="activity-listing-subtitle">
                                                             Le Délégué à la protection des données (DPO) est le chef d’orchestre de la mise en conformité au RGPD : 
-                            <ul class="list-box col-md-10 col-lg-8 mx-auto">
+                            <ul class="list-box col-md-10 col-lg-9 mx-auto">
                                 <li>Il accompagne le responsable du traitement dans la mise en oeuvre des différentes obligations imposées par le RGPD ; </li>
                                 <li>Permet de bénéficier d’une flexibilité dans la mise en place du RGPD ; </li>
                                 <li>Définit et assure le suivi du registre ainsi que de la cartographie des traitements de données ; </li>
@@ -32,7 +32,7 @@
                                 <li>Participe aux comités de direction ; </li>
                              </ul>
                                 <p class="text-big">La fonction de DPO est obligatoire pour les responsables et sous-traitants : </p>
-                            <ul class="list-box col-md-10 col-lg-8 mx-auto">
+                            <ul class="list-box col-md-10 col-lg-9 mx-auto">
                                 <li>du secteur public ; </li>
                                 <li>ayant mis en œuvre un traitement à grande échelle exigeant un suivi régulier et systématique des personnes concernées ;</li>
                                 <li>ayant mis en œuvre un traitement à grande échelle contenant des catégories particulières de données ; </li>

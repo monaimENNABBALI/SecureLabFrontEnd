@@ -14,7 +14,7 @@
     <main class="main mt-6" id="main">
         <div class="page-content pb-0">
             <div class="container">
-                <div class="col-lg-10 offset-lg-1 border-bottom pb-5">
+                <div class="col-lg-10 offset-lg-1  pb-5">
                     <div class="about-text text-center mt-3">
                         <h1 class="title-color-primary py-4">A propos de nous</h1><!-- End .title text-center mb-2 -->
                         <p class="text-big">
@@ -31,7 +31,7 @@
                         </p>
                     </div><!-- End .about-text -->
                 </div>
-                <div class="row mt-4 border-bottom">
+                <div class="row mt-4 pb-5">
                     <h1 class="title-color-primary py-4">Nos références : </h1><!-- End .title text-center mb-2 -->
                 
                     <div id="carouselExampleDark" class="carousel carousel-dark slide col-12 col-md-10 col-lg-8 mx-auto "  data-bs-ride="carousel">
@@ -52,7 +52,7 @@
                           </button>
                       </div>
                 </div>
-                <div class="row mt-4">
+                <div class="row mt-5">
                     <h1 class="title-color-primary py-4">Nos Partenaires: </h1><!-- End .title text-center mb-2 -->
                     <div class="col-12 col-md-4 col-lg-4 mx-auto mb-5 py-5" style="height:30vh;"  v-for="partenaire in partenaires">
                         <a :href="partenaire.url" target="_blank" >

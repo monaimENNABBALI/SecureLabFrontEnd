@@ -67,20 +67,20 @@
                   </ul>
               </div>
               <div class="tab-pane fade text-left" id="Partie1Prati" role="tabpanel">
-                <span class="bg-info  p-3 ">Méthodes pédagogiques</span>
+                <h5 class="text-info text-start p-3 ">Méthodes pédagogiques</h5>
                   <ul class="mt-1 list-box">
                     <li>Cas pratiques (registre des traitements, applications des principes, exercice des droits, transferts des données,etc...).</li>
                     <li>Exemples et retours d’expériences.</li>
                     <li>Actualité juridique</li>
                     <li>Mise en contexte des éléments théoriques.</li>
                   </ul>
-                  <span class="bg-info  p-3">Moyens pédagogiques</span>
+                  <h5 class="text-info text-start p-3 ">Moyens pédagogiques</h5>
                   
                   <ul class="mt-1 list-box">
                     <li>Support de formation.</li>
                     <li>Documentation juridique.</li>
                   </ul>
-                  <span class="bg-info  p-3 ">Modalités d'évaluation</span>
+                  <h5 class="text-info text-start p-3 ">Modalités d'évaluation</h5>
                   
                   <ul class="mt-1 list-box">
                     <li>Contrôle continu pendant la formation.</li>
@@ -127,7 +127,7 @@
       </ul>
       <div class="tab-content mt-3">
         <div class="tab-pane fade active show text-left" id="Partie2Obj" role="tabpanel">
-          <p class="text-big">A l'issue de cette formation, le participant sera en capacité de :</p>
+          <p class="text-big text-start">A l'issue de cette formation, le participant sera en capacité de :</p>
           <ul class="list-box">
             <li>CONNAÎTRE les missions du Data Protection Officer (DPO).</li>
             <li>ACQUERIR les connaissances juridiques, technique et organisationnelles nécessaires à l'exercice de ces fonctions.</li>
@@ -136,7 +136,7 @@
           </ul>
         </div>
         <div class="tab-pane fade text-left" id="Partie2Prog" role="tabpanel">
-          <span class="bg-info  p-3 ">Introduction au RGPD et initialisation de la conformité au RGPD </span>
+          <h5 class="text-info text-start p-3 ">Introduction au RGPD et initialisation de la conformité au RGPD </h5>
       
       <ul class="mt-1 list-box list-box">
         <li>Introduction au RGPD.</li>
@@ -145,14 +145,14 @@
         <li>Comprendre l'organisation et clarifier les objectifs de la protection des données.</li>
       </ul>
   
-      <span class="bg-info  p-3">Planifier la mise en oeuvre du RGPD</span>
+      <h5 class="text-info text-start p-3 ">Planifier la mise en oeuvre du RGPD</h5>
       
       <ul class="mt-1 list-box">
         <li>Leadership et approbation du projet de conformité RGPD.</li>
         <li>Politique de protection des données.</li>
         <li>Définition de la structure organisationnelle de la protection des données.</li>
       </ul>
-      <span class="bg-info  p-3 ">Déployer le RGPD </span>
+      <h5 class="text-info text-start p-3 ">Déployer le RGPD </h5>
       
       <ul class="mt-1 list-box">
         <li>Étude d’impact à la vie privée (EIVP).</li>
@@ -160,14 +160,14 @@
         <li>Plan de communication.</li>
         <li>Plan de formation et de sensibilisation.</li>
       </ul>
-      <span class="bg-info  p-3 ">Suivi et amélioration continue de la conformité au RGPD </span>
+      <h5 class="text-info text-start p-3 ">Suivi et amélioration continue de la conformité au RGPD </h5>
       
       <ul class="mt-1 list-box">
         <li>-Gestion des incidents et des violations de données.</li>
         <li>-Audit interne.</li>
         <li>-Actions correctives.</li>
           </ul>
-          <span class="bg-info  p-3">Passage de la certification</span>
+          <h5 class="text-info text-start p-3 ">Passage de la certification</h5>
       
       <ul class="mt-1  list-box">
         <li>Prix et passage de la certification inclus dans le tarif .</li>
@@ -175,22 +175,22 @@
       </ul>
         </div>
         <div class="tab-pane fade text-left" id="Partie2Prati" role="tabpanel">
-                    <span class="bg-info  p-3 ">Méthodes pédagogiques</span>
+                    <h5 class="text-info text-start p-3 ">Méthodes pédagogiques</h5>
             <ul class="mt-1  list-box">
               <li>Cas pratiques (registre des traitements, applications des principes, exercice des droits, transferts des données,etc...).</li>
               <li>Exemples et retours d’expériences.</li>
               <li>Actualité juridique</li>
               <li>Mise en contexte des éléments théoriques.</li>
             </ul>
-            <span class="bg-info  p-3 ">Moyens pédagogiques</span>
+            <h5 class="text-info text-start p-3 ">Moyens pédagogiques</h5>
             
             <ul class="mt-1  list-box">
               <li>Support de formation.</li>
               <li>Documentation juridique.</li>
             </ul>
-            <span class="bg-info  p-3 ">Modalités d'évaluation</span>
+            <h5 class="text-info text-start p-3 ">Modalités d'évaluation</h5>
             
-            <p class="text-big mt-3">L’évaluation des connaissances s’effectue via:</p>
+            <p class="text-big text-start">L’évaluation des connaissances s’effectue via:</p>
             <ul class="mt-1 list-box">
               <li>Contrôle continu pendant la formation.</li>
               <li>Questionnaires à Choix Multiples (QCM) validant les différents modules.</li>

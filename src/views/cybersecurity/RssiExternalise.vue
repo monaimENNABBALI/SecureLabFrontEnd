@@ -64,7 +64,7 @@
             
                     </div>
                     <div class="d-flex align-items-center p-4" style=" background-image: url('images/methodologie.jpg');">
-                        <div  class="col-10 col-lg-9 p-4 m-4 mx-auto" style="text-align: left;" >
+                        <div  class="col-10 col-lg-10 p-4 m-4 mx-auto" style="text-align: left;" >
                             <div class="text-big">
                                 SECURELABS vous accompagne en tant que “référent sécurité”. L’objectif est d’assurer la fonction de RSSI, pour votre compte, à temps partiel ou à temps complet ! 
                                 <br><br>
@@ -166,27 +166,27 @@ export default {
             accompagnements:[
                 {
                     id:1,
-                    content:"D’assurer des échanges et des entretiens avec votre RSSI mais également un suivi personnalisé des projets en cours ;",
+                    content:"D’assurer des échanges et des entretiens avec votre RSSI mais également un suivi personnalisé des projets en cours.",
                     image:"images/cyber/rssi/1-echange.png"
                 },
                 {
                     id:2,
-                    content:"De soutenir la rédaction de la documentation sécurité ;",
+                    content:"De soutenir la rédaction de la documentation sécurité.",
                     image:"images/cyber/rssi/2-documentation.png"
                 },
                 {
                     id:3,
-                    content:"De soutenir la mise en oeuvre d’un comité de pilotage sécurité ;",
+                    content:"De soutenir la mise en oeuvre d’un comité de pilotage sécurité.",
                     image:"images/cyber/rssi/3-pilotage.png"
                 },
                 {
                     id:4,
-                    content:"De conseiller, assister, sensibiliser et former le RSSI dans le cadre de ses missions ; ",
+                    content:"De conseiller, assister, sensibiliser et former le RSSI dans le cadre de ses missions.",
                     image:"images/cyber/rssi/4-assiste.png"
                 },
                 {
                     id:5,
-                    content:"D’assurer un suivi de projet avec la Haute Direction ; ",
+                    content:"D’assurer un suivi de projet avec la Haute Direction.",
                     image:"images/cyber/rssi/5-hauteDirection.png"
                 },
             ]
