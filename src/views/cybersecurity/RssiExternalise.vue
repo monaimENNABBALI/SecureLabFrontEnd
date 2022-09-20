@@ -16,7 +16,7 @@
      <main style="background-color: #f5f5f5;">
                 <div id="first" class="heading pt-4 pb-2 mt-0 col-10 mx-auto">
                     <div class="activity-box-icon-container mx-auto">
-                        <img class="activity-box-icon" src="images/cyber/rssi/fonction.png">
+                        <img class="activity-box-icon" src="images/cyber/rssi/guarantor.png">
                     </div>
                     <div class="heading-title" style="color: #04ADBF;">
                         Fonction du RSSI externe
@@ -130,64 +130,64 @@ export default {
                 {
                     id:1,
                     title:'Définition de la stratégie de maîtrise des risques et pilotage des plans d’actions sécurité ',
-                    image:"images/cyber/rssi/1-strategy.png"
+                    image:"images/cyber/rssi/strategy.png"
                 },
                 {
                     id:2,
                     title:'Actions de sensibilisation et de formation ',
-                    image:"images/cyber/rssi/2-formation.png"
+                    image:"images/cyber/rssi/online-learning.png"
                 },
                 {
                     id:3,
                     title:'Lanceur d’alerte en interne ',
-                    image:"images/cyber/rssi/3-alerte.png"
+                    image:"images/cyber/rssi/notification.png"
                 },
                 {
                     id:4,
                     title:'Actions de contrôle et reporting auprès de la direction ',
-                    image:"images/cyber/rssi/4-reporting.png"
+                    image:"images/cyber/rssi/report.png"
                 },
                 {
                     id:5,
                     title:'Elaboration et pilotage des tableaux de bord',
-                    image:"images/cyber/rssi/5-tableau.png"
+                    image:"images/cyber/rssi/dashboard.png"
                 },
                 {
                     id:6,
                     title:'Rédaction de la documentation sécurité ',
-                    image:"images/cyber/rssi/6-documentaion.png"
+                    image:"images/cyber/rssi/document.png"
                 },
                 {
                     id:7,
                     title:'Mise en oeuvre des comités de pilotage sécurité ',
-                    image:"images/cyber/rssi/7-comity.png"
+                    image:"images/cyber/rssi/planning.png"
                 },
             ],
             accompagnements:[
                 {
                     id:1,
                     content:"D’assurer des échanges et des entretiens avec votre RSSI mais également un suivi personnalisé des projets en cours.",
-                    image:"images/cyber/rssi/1-echange.png"
+                    image:"images/cyber/rssi/interaction.png"
                 },
                 {
                     id:2,
                     content:"De soutenir la rédaction de la documentation sécurité.",
-                    image:"images/cyber/rssi/2-documentation.png"
+                    image:"images/cyber/rssi/documents.png"
                 },
                 {
                     id:3,
                     content:"De soutenir la mise en oeuvre d’un comité de pilotage sécurité.",
-                    image:"images/cyber/rssi/3-pilotage.png"
+                    image:"images/cyber/rssi/implementation.png"
                 },
                 {
                     id:4,
                     content:"De conseiller, assister, sensibiliser et former le RSSI dans le cadre de ses missions.",
-                    image:"images/cyber/rssi/4-assiste.png"
+                    image:"images/cyber/rssi/interactions.png"
                 },
                 {
                     id:5,
                     content:"D’assurer un suivi de projet avec la Haute Direction.",
-                    image:"images/cyber/rssi/5-hauteDirection.png"
+                    image:"images/cyber/rssi/protocols.png"
                 },
             ]
         }
