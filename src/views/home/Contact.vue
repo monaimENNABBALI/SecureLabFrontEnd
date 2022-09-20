@@ -71,7 +71,7 @@
             vous bénéficiez d’un droit d’accès, de rectification, de suppression, de limitation, de portabilité 
             (lorsqu’il s’applique) et d’opposition aux informations qui vous concernent. Vous pouvez exercer ces
              droits en vous adressant au service DPO du siège aux coordonnées suivantes : 9 rue Léon Salembien, 
-             59200, Tourcoing ou à l’adresse dpo(at)lexagone.fr. Pour plus d’informations, vous pouvez consulter notre politique de confidentialité
+             59200, Tourcoing ou à l’adresse dpo(at)Securelabs.fr. Pour plus d’informations, vous pouvez consulter notre politique de confidentialité
         </p>
             
         </main><!-- End .main -->

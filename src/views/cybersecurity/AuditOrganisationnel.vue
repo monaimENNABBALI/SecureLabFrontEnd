@@ -72,21 +72,21 @@ export default {
                 {
                     id:1,
                     title:"Une section organisationnelle",
-                    content:"Dans cette section, il s’agira d’analyser et de mesurer le niveau de maturité des contrôles et des process de sécurité en place dans votre organisation. L’idée étant d’élaborer un rapport sur les écarts de maturité de votre organisation ainsi que les mesures à déployer pour les réduire.",
+                    content:"Il s’agira d’analyser et de mesurer le niveau de maturité des contrôles et des process de sécurité en place dans votre organisation. L’idée étant d’élaborer un rapport sur les écarts de maturité de votre organisation ainsi que les mesures à déployer pour les réduire.",
                     image:"images/cyber/auditOrganisationel/organisationnel.png",
                     alt:"Icon made by Muhammad_Usman from www.flaticon.com"
                 },
                 {
                     id:2,
                     title:"Une section technique",
-                    content:"Dans cette section, il s’agira d’analyser et de mesurer le niveau de sécurité des implémentations techniques face aux éventuelles tentatives d’intrusions informatiques externes.",
+                    content:"Il s’agira d’analyser et de mesurer le niveau de sécurité des implémentations techniques face aux éventuelles tentatives d’intrusions informatiques externes.",
                     image:"images/cyber/auditOrganisationel/technique.png",
                     alt:"Icon made by Freepik from www.flaticon.com"
                 },
                 {
                     id:3,
                     title:"Une section physique",
-                    content:"Dans cette section, il s’agira d’analyser et de mesurer le niveau de protection physique de votre site par des visites physiques, permettant de découvrir les vulnérabilités existantes et d’élaborer un plan stratégique de résolution de celles-ci.",
+                    content:"Il s’agira d’analyser et de mesurer le niveau de protection physique de votre site par des visites physiques, permettant de découvrir les vulnérabilités existantes et d’élaborer un plan stratégique de résolution de celles-ci.",
                     image:"images/cyber/auditOrganisationel/physique.png",
                     alt:"Icon made by Freepik from www.flaticon.com"
                 },

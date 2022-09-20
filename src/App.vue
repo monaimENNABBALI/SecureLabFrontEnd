@@ -1,5 +1,5 @@
 <template>
-  <VueCookieAcceptDecline
+  <!-- <VueCookieAcceptDecline
   :debug="false"
   :disableDecline="false"
   :showPostponeButton="false"
@@ -14,22 +14,18 @@
   transitionName="slideFromBottom"
   type="floating"
   >
-  <!-- Optional -->
   <template #postponeContent>&times;</template>
 
-  <!-- Optional -->
   <template #message>
     Nous utilisons des cookies pour vous garantir la meilleure expérience sur notre site Web.
     <a href="https://cookiesandyou.com/" target="_blank">Learn More...</a>
   </template>
 
-  <!-- Optional -->
   <template #declineContent class="btn btn-danger">Refuser</template>
 
-  <!-- Optional -->
   <template #acceptContent>Accepter!</template>
   
-</VueCookieAcceptDecline>
+</VueCookieAcceptDecline> -->
 
   <div  class="page-wrapper">
     <NavBar/>

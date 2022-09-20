@@ -9,8 +9,8 @@
 								<img src="images/logo2.png" style="width: 10rem;" class="footer-logo mx-auto" alt="Footer Logo">
 	            				<p>Faites appels à des spécialistes pour vous accompagner dans vos stratégies cybersécurité et conformité. </p>
 								<div class="social-icons">
-									<a href="#" class="social-icon" target="_blank" title="Linkedin"><i class="icon-linkedin"></i></a>
-									<a href="#" class="social-icon" target="_blank" title="Twitter"><i class="icon-twitter"></i></a>
+									<a href="https://www.linkedin.com/in/soufiane-zahid-a1baa0116/" class="social-icon" target="_blank" title="Linkedin"><i class="icon-linkedin"></i></a>
+									<a href="https://twitter.com/SECURELABS_" class="social-icon" target="_blank" title="Twitter"><i class="icon-twitter"></i></a>
                         		</div><!-- End .soial-icons -->
 	            			</div><!-- End .widget about-widget -->
 	            		</div><!-- End .col-sm-6 col-lg-3 -->
@@ -56,8 +56,9 @@
 	            			<div class="widget">
 	            				<h4 class="widget-title">Legal</h4><!-- End .widget-title -->
 	            				<ul class="widget-list">
-	            					<li><router-link :to="{name: 'FormationCyber'}">Cybersécurité</router-link></li>
-                                	<li><router-link :to="{name: 'FormationRgpd'}">RGPD</router-link></li>
+	            					<li><router-link :to="{name: 'FormationCyber'}">Mentions Légales</router-link></li>
+                                	<li><router-link :to="{name: 'FormationRgpd'}">Politique de Confidentialité</router-link></li>
+                                	<li><router-link :to="{name: 'FormationRgpd'}">Conditions d'utilisation du Site</router-link></li>
 	            				</ul><!-- End .widget-list -->
 	            			</div><!-- End .widget -->
 	            		</div><!-- End .col-sm-6 col-lg-3 -->
