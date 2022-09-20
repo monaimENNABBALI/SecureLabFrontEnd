@@ -34,17 +34,12 @@
                             <div class="col-sm-12 col-md-6 col-lg-4" v-for="methodologie in methodologies">
                                 <div class="activity-item">
                                     <div class="row">
-                                        <a href="#" data-role="activity-box-link">
                                             <div class="col-lg-12 p-0">
                                                 <!-- activity Image, Name & Subtitle (everyone) -->
                                                 <div class="activity-box-icon-container">
-                                                    <img class="activity-box-icon" :src="methodologie.image">
+                                                    <img class="activity-box-icon" :alt="methodologie.alt" :src="methodologie.image">
                                                 </div>
-                                                <!-- <div class="activity-item-title" role="heading" aria-level="2">
-                                                    {{methodologie.title}}
-                                                </div> -->
                                             </div>
-                                        </a>
                                         <div class="activity-listing-subtitle">{{methodologie.content}}</div>
                                     </div>
                                 </div>
@@ -68,17 +63,20 @@ export default {
                 {
                     id:1,
                     content:"Identification de la nature et de la criticité du prestataire et des risques",
-                    image:"images/cyber/gestionRisque/identify.png"
+                    image:"images/cyber/gestionRisque/identify.png",
+                    alt:"Icon made by www.flaticon.com"
                 },
                 {
                     id:2,
                     content:"Elaboration d’un plan d’assurance sécurité",
-                    image:"images/cyber/gestionRisque/presentation.png"
+                    image:"images/cyber/gestionRisque/presentation.png",
+                    alt:"Icon made by www.flaticon.com"
                 },
                 {
                     id:3,
                     content:"Elaboration d’un plan de traitement des risques liés aux prestataires",
-                    image:"images/cyber/gestionRisque/presentation 2.png"
+                    image:"images/cyber/gestionRisque/presentation 2.png",
+                    alt:"Icon made by www.flaticon.com"
                 },
             ]
         }

@@ -38,17 +38,15 @@
                             <div class="col-sm-12 col-md-6 col-lg-4" v-for="methodologie in methodologies">
                                 <div class="activity-item">
                                     <div class="row">
-                                        <a href="#" data-role="activity-box-link">
                                             <div class="col-lg-12 p-0">
                                                 <!-- activity Image, Name & Subtitle (everyone) -->
                                                 <div class="activity-box-icon-container">
-                                                    <img class="activity-box-icon" :src="methodologie.image">
+                                                    <img class="activity-box-icon" :alt="methodologie.alt" :src="methodologie.image">
                                                 </div>
                                                 <div class="activity-item-title" role="heading" aria-level="2">
                                                     {{methodologie.title}}
                                                 </div>
                                             </div>
-                                        </a>
                                         <div class="activity-listing-subtitle">{{methodologie.content}}</div>
                                     </div>
                                 </div>
@@ -73,19 +71,22 @@ export default {
                     id:1,
                     title:"Description",
                     content:"Description détaillée du traitement mis en œuvre sur les aspects techniques et organisationnel (contexte, finalités données traitées, supports, logiciels, matériels, etc…)",
-                    image:"images/Description.png"
+                    image:"images/rgpd/dpoexmu/1.png",
+                    alt:"Icon made by Freepik from www.flaticon.com"
                 },
                 {
                     id:2,
                     title:"Analyse juridique",
                     content:"Évaluation de la conformité juridique du traitement et du respect des principes fondamentaux de la protection de la vie privée. ",
-                    image:"images/juridique.png"
+                    image:"images/rgpd/dpoexmu/2.png",
+                    alt:"Icon made by Freepik from www.flaticon.com"
                 },
                 {
                     id:3,
                     title:" Analyse technique et organisationnelle",
                     content:"Évaluation des failles techniques et organisationnelles portant sur votre organisation. ",
-                    image:"images/analyse.png"
+                    image:"images/rgpd/dpoexmu/3.png",
+                    alt:"Icon made by noomtah from www.flaticon.com"
                 },
                 {
                     id:4,
@@ -97,7 +98,8 @@ export default {
                     id:5,
                     title:" Analyse des risques",
                     content:"Évaluation et appréciation des risques pesant sur la vie privée des personnes pour chaque type de risque (accès illégitime aux données, modification non-désirée et disparition des données).Un plan d’action corrective vous sera remis à l’issue des analyses recensant les mesures complémentaires à mettre en œuvre pour diminuer les risques.Suite à cela, il conviendra d’effectuer une validation finale pour évaluer l’acceptabilité des risques résiduels, des mesures choisies et du plan d’action.",
-                    image:"images/risques.png"
+                    image:"images/rgpd/dpoexmu/4.png",
+                    alt:"Icon made by Freepik from www.flaticon.com"
                 },
             ]
         }

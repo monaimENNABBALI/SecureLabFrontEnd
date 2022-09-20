@@ -21,7 +21,6 @@
                             <div class="col-sm-12 col-md-8 col-lg-6" v-for="methodologie in methodologies">
                                 <div class="activity-item">
                                     <div class="row">
-                                        <a href="#" data-role="activity-box-link">
                                             <div class="col-lg-12 p-0">
                                                 <!-- activity Image, Name & Subtitle (everyone) -->
                                                 <div class="activity-box-icon-container">
@@ -31,7 +30,6 @@
                                                     {{methodologie.title}}
                                                 </div>
                                             </div>
-                                        </a>
                                         <div class="activity-listing-subtitle col-10 mx-auto text-justify">{{methodologie.content}}</div>
                                     </div>
                                 </div>

@@ -56,7 +56,7 @@
                     <h1 class="title-color-primary py-4">Nos Partenaires: </h1><!-- End .title text-center mb-2 -->
                     <div class="col-12 col-md-4 col-lg-4 mx-auto mb-5 py-5" style="height:30vh;"  v-for="partenaire in partenaires">
                         <a :href="partenaire.url" target="_blank" >
-                            <img class="mx-auto" style="height:100%;"  :src="partenaire.image" alt="">
+                            <img class="mx-auto" style="height:10rem;"  :src="partenaire.image" alt="">
                             <p class="mx-auto text-big">{{partenaire.title}}</p>
                         </a>
                     </div>
