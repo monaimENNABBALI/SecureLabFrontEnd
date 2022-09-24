@@ -21,6 +21,9 @@ import rgpdaudit from '../views/rgpd/rgpdaudit.vue';
 import rgpddpoex from '../views/rgpd/rgpddpoex.vue';
 import rgpddpoexmu from '../views/rgpd/rgpddpoexmu.vue';
 import rgpdaccomp from '../views/rgpd/rgpdaccomp.vue';
+import mentionLegal from '../views/mentionLegal/mentionlegal.vue';
+import PolitiqueConfid from '../views/Politique de confidentialité/Politique.vue';
+import ConditionsUtili from '../views/Conditions utilisation/ConditionsUtili.vue';
 
 
 
@@ -131,6 +134,21 @@ const routes = [
     path:'/FormationReference',
     name:'FormationReference',
     component:Reference
+  },
+  {
+    path:'/MentionLegal',
+    name:'MentionLegal',
+    component:mentionLegal
+  },
+  {
+    path:'/PolitiqueConfid',
+    name:'PolitiqueConfid',
+    component:PolitiqueConfid
+  },
+  {
+    path:'/ConditionsUtili',
+    name:'ConditionsUtili',
+    component:ConditionsUtili
   }
   
 ]

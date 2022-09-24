@@ -56,9 +56,9 @@
 	            			<div class="widget">
 	            				<h4 class="widget-title">Legal</h4><!-- End .widget-title -->
 	            				<ul class="widget-list">
-	            					<li><router-link :to="{name: 'FormationCyber'}">Mentions Légales</router-link></li>
-                                	<li><router-link :to="{name: 'FormationRgpd'}">Politique de Confidentialité</router-link></li>
-                                	<li><router-link :to="{name: 'FormationRgpd'}">Conditions d'utilisation du Site</router-link></li>
+	            					<li><router-link :to="{name: 'MentionLegal'}">Mentions Légales</router-link></li>
+                                	<li><router-link :to="{name: 'PolitiqueConfid'}">Politique de Confidentialité</router-link></li>
+                                	<li><router-link :to="{name: 'ConditionsUtili'}">Conditions d'utilisation du Site</router-link></li>
 	            				</ul><!-- End .widget-list -->
 	            			</div><!-- End .widget -->
 	            		</div><!-- End .col-sm-6 col-lg-3 -->

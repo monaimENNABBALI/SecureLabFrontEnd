@@ -2,10 +2,10 @@
     <Intro bgUrl="background-image: url('images/about.jpg');">
              <!-- we will get this using -->
             <div class="title">
-                <h3>Découvrez SECURELABS</h3>
+                <h3>Découvrez Securelabs</h3>
             </div>
             <div class="content">
-                <h4>Pour votre conformité RGPD</h4>
+                <h4>un cabinet de conseil engagé</h4>
             </div>
             <div class="action">
                 <a href="#main">Découvrez Maintenant</a>
@@ -14,8 +14,8 @@
     <main class="main mt-6" id="main">
         <div class="page-content pb-0">
             <div class="container">
-                <div class="col-lg-10 offset-lg-1  pb-5">
-                    <div class="about-text text-center mt-3">
+                <div class="col-lg-10 offset-lg-1  pb-3">
+                    <div class="about-text text-center mt-0">
                         <h1 class="title-color-primary py-4">A propos de nous</h1><!-- End .title text-center mb-2 -->
                         <p class="text-big">
                             La sécurisation des systèmes d’information et la  protection des données personnelles, sont aujourd’hui des sujets sine qua non dans la stratégie de chaque organisation. C’est à ce titre qu’un corpus législatif, réglementaire et normatif ont été définis et qu’il est en perpétuelle évolution.

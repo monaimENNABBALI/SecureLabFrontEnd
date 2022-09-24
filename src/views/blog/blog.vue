@@ -2,10 +2,10 @@
 <Intro bgUrl="background-image: url('images/homeIntro.jpg');">
              <!-- we will get this using -->
             <div class="title">
-                <h3>Faites appel à des spécialistes</h3>
+                <h3>Découvrez toutes l’actualité </h3>
             </div>
             <div class="content">
-                <h4>Pour votre conformité RGPD</h4>
+                <h4>Cybersécurité et Data Protections</h4>
             </div>
             <div class="action">
                 <a href="category.html">discover now</a>
@@ -34,13 +34,6 @@
                             </div>
                         </div>
                     </div> 
-
-
-
-
-
-
-        	
         </main><!-- End .main -->
 </template>
 <script>

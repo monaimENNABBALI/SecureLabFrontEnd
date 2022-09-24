@@ -93,7 +93,7 @@ export default {
   methods: {
     sendEmail(e) {
       try {
-        emailjs.sendForm('service_vuy2m6t', 'template_45lix98',this.$refs.form,'0LvKiTtqUMnIULILI')
+        emailjs.sendForm('service_0k66n5x', 'template_1b47i2i',this.$refs.form,'vPAiznZO5lFv-5O0z')
         console.log(this.$refs.form);
       } catch(error) {
           console.log({error})
