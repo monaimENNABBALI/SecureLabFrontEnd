@@ -5,7 +5,7 @@
                 <h4>Faites appels à des spécialistes pour vous accompagner dans vos stratégies cybersécurité et conformité</h4>
             </div>
             <div class="title">
-                <h3>SECURELABS vous accompagne dans la sécurisation de votre système d’information contre les cybermenaces et vous garanti une consolidation de vos référentiels de conformité (RGPD, CCPA, Sapin 2, LPM, NIS, PCI-DSS, ISO 27001, Solvency, Bâle…). </h3>
+                <h3>SECURELABS vous accompagne dans la sécurisation de votre système d’information contre les cybermenaces et vous garanti une consolidation de vos référentiels de conformité (RGPD, CCPA, SAPIN 2, LPM, NIS, NIS 2, PCI-DSS, DORA, ISO 27001, SOLVENCY, BALE…). </h3>
             </div>
             <div class="action">
                 <a href="#choiceUs">découvrez maintenant</a>
