@@ -23,7 +23,7 @@ Les données personnelles collectées et traitées sur le Site sont protégées 
 L’Utilisateur du Site est informé qu’il dispose d’un droit d’accès, de rectification, de suppression, de limitation, de portabilité (lorsqu’il s’applique) et d’opposition sur les données le concernant. L’Utilisateur peut exercer ces droits en s’adressant au service DPO de SECURELABS à l’adresse dpo@securelabs-cybersecurite.com.
 L’Utilisateur dispose également du droit d’introduire une réclamation auprès de la CNIL.
         </p>
-        <div>© SECURELABS – tous droits réservés</div>
+        <div class="mt-3">© SECURELABS – tous droits réservés</div>
     </main>
 </template>
 <script>

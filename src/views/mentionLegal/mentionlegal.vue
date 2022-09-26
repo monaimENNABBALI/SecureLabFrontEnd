@@ -92,7 +92,7 @@ De plus, l’utilisateur du site s’engage à accéder au site en utilisant un 
 <p class="activity-listing-subtitle">
     Tout le contenu du présent site ……………, incluant, de façon non limitative, les graphismes, images, textes, vidéos, animations, sons, logos, gifs et icônes ainsi que leur mise en forme sont la propriété exclusive de la société à l’exception des marques, logos ou contenus appartenant à d’autres sociétés partenaires ou auteurs.
 Toute reproduction, distribution, modification, adaptation, retransmission ou publication, même partielle, de ces différents éléments est strictement interdite sans l’accord exprès par écrit de SECURELABS. Cette représentation ou reproduction, par quelque procédé que ce soit, constitue une contrefaçon sanctionnée par les articles L.335-2 et suivants du Code de la propriété intellectuelle. Le non-respect de cette interdiction constitue une contrefaçon pouvant engager la responsabilité civile et pénale du contrefacteur. En outre, les propriétaires des contenus copiés pourraient intenter une action en justice à votre encontre. <br>
-© Securelabs – tous droits réservés
+<div class="mt-3">© Securelabs – tous droits réservés</div>
 </p>
     </div>
     </main>

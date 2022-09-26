@@ -86,8 +86,9 @@ SECURELABS se réserve le droit de les corriger, dès que ces erreurs sont port�
     <strong class="text-primary h3">Loi applicable et juridiction compétente</strong>
 <p class="activity-listing-subtitle">
     Les présentes Conditions Générales d’Utilisation et le contenu du Site sont régis par la loi française. Les parties conviennent que les différends qui viendraient à se produire à la suite ou à l’occasion des présentes, faute de pouvoir être réglés à l’amiable, seront soumis aux juridictions françaises compétentes.
-    </p>
-    © SECURELABS – tous droits réservés
+    <div class="mt-3">© Securelabs – tous droits réservés</div>    
+</p>
+    
    </div>
     </main>
 

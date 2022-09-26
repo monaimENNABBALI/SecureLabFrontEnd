@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/home/Home';
 import About from '../views/securelabs/About';
 import Contact from '../views/home/Contact';
-import Blog from '../views/blog/blog.vue';
+// import Blog from '../views/blog/blog.vue';
 import FormCyber from '../views/formation/FormCyber';
 import FormRgpd from '../views/formation/FormRgpd';
 import Reference from '../views/formation/Reference';
@@ -50,11 +50,11 @@ const routes = [
     name:'Services',
     component:Services
   },
-  {
-    path:'/blog',
-    name:'Blog',
-    component:Blog
-  },
+  // {
+  //   path:'/blog',
+  //   name:'Blog',
+  //   component:Blog
+  // },
   {
     path:'/logiciel',
     name:'Logiciel',

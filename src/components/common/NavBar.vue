@@ -79,9 +79,9 @@
                         </li>
                         
                         <!-- Blog -->
-                        <li  class="megamenu-container">
+                        <!-- <li  class="megamenu-container">
                             <router-link :to="{name:'Blog'}">Actu</router-link>
-                        </li>
+                        </li> -->
 
                     </ul><!-- End .menu -->
                 </nav><!-- End .main-nav -->

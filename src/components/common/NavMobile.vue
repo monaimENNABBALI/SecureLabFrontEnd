@@ -49,9 +49,9 @@
                     
                         </li>
                         <!-- Blog -->
-                        <li  >
+                        <!-- <li  >
                             <router-link :to="{name:'Blog'}">Blog</router-link>                           
-                        </li>
+                        </li> -->
                 </ul>
             </nav><!-- End .mobile-nav -->
 
